@@ -1,0 +1,450 @@
+/* Auto-generated from data/unken.json - do not edit directly */
+window.UNKEN_DATA = {
+  "meta": {
+    "version": "1.0.0",
+    "title": "Unsere Heimat Unken",
+    "subtitle": "Die Geschichte unseres Dorfes und unserer Schule",
+    "targetAge": "6-10 Jahre",
+    "lastUpdated": "2026-04-11",
+    "language": "de-AT",
+    "location": {
+      "name": "Unken",
+      "state": "Salzburg",
+      "country": "Österreich",
+      "elevation_m": 564,
+      "population_approx": 2000,
+      "river": "Saalach",
+      "district": "Zell am See (Pinzgau)"
+    }
+  },
+  "sections": [
+    {
+      "id": "sec-geo",
+      "order": 1,
+      "icon": "🏔️",
+      "color": "#2E7D32",
+      "title": "Wo liegt Unken?",
+      "intro": "Unken ist ein kleines Dorf im Salzburger Land. Es liegt ganz im Norden vom Pinzgau, direkt an der Grenze zu Bayern. Rund um Unken siehst du hohe Berge, dichte Wälder und die Saalach, die durch das Tal fließt.",
+      "facts": [
+        "Unken liegt auf 564 Metern Höhe über dem Meer.",
+        "Durch Unken fließt die Saalach - ein Fluss, der früher sogar zum Transportieren von Holz und Salz benutzt wurde.",
+        "In Unken leben ungefähr 2000 Menschen.",
+        "Die höchsten Berge rund um Unken sind die Loferer Steinberge und die Reiter Alm."
+      ]
+    },
+    {
+      "id": "sec-name",
+      "order": 2,
+      "icon": "📜",
+      "color": "#6D4C41",
+      "title": "Woher kommt der Name Unken?",
+      "intro": "Wusstest du, dass der Name 'Unken' wahrscheinlich gar nichts mit den kleinen Fröschen zu tun hat, die wir Unken nennen? Forscher glauben, dass der Name sehr alt ist und aus einer Sprache kommt, die vor langer Zeit in unserer Gegend gesprochen wurde.",
+      "facts": [
+        "Der Name 'Unken' wurde zum ersten Mal im Jahr 1190 in einer alten Schrift erwähnt - da hieß der Ort 'Uncha'.",
+        "Manche denken, der Name kommt von einem alten Wort für 'Wasser' oder 'Fluss'.",
+        "Andere vermuten, er hat etwas mit den Kelten zu tun, die schon vor über 2000 Jahren hier gelebt haben."
+      ]
+    },
+    {
+      "id": "sec-history",
+      "order": 3,
+      "icon": "⏳",
+      "color": "#F57F17",
+      "title": "Die Zeitreise durch Unken",
+      "intro": "Menschen leben schon sehr, sehr lange in unserem Tal - viel länger als du denkst! Komm mit auf eine Reise durch die Zeit und entdecke, was hier alles passiert ist.",
+      "facts": []
+    }
+  ],
+  "timeline": [
+    {
+      "id": "unk-001",
+      "date": "Vor etwa 11.000 Jahren",
+      "dateNumeric": -9000,
+      "title": "Die ersten Menschen in Unken",
+      "short": "Jäger in der Steinzeit",
+      "description": "Schon ganz früher, als die Eiszeit gerade vorbei war, kamen die ersten Menschen in unser Tal. Im 'Abri von Unken' - das ist ein Platz unter einem großen Felsen - haben Forscher uralte Feuerstellen und Werkzeuge aus Stein gefunden. Das beweist, dass schon damals Jäger hier gelebt und gerastet haben!",
+      "funFact": "Der Abri von Unken ist einer der ältesten Fundorte in ganz Salzburg, an dem Menschen gelebt haben!",
+      "category": "urzeit",
+      "icon": "🏹",
+      "sources": [
+        {
+          "title": "Salzburgwiki: Unken",
+          "url": "https://www.sn.at/wiki/Unken"
+        }
+      ]
+    },
+    {
+      "id": "unk-002",
+      "date": "Vor etwa 2000 Jahren",
+      "dateNumeric": 0,
+      "title": "Römer und Kelten im Tal",
+      "short": "Eine alte Handelsstraße",
+      "description": "In der Zeit, als die Römer regierten, gab es schon eine wichtige Straße durch das Saalachtal. Kelten und später Römer benutzten sie, um Waren zu transportieren. Vor allem Salz war damals super wertvoll - fast wie Gold!",
+      "funFact": "Das Wort 'Salär' (Gehalt) kommt vom Wort 'Salz', weil römische Soldaten früher mit Salz bezahlt wurden!",
+      "category": "antike",
+      "icon": "🏛️",
+      "sources": [
+        {
+          "title": "Wikipedia: Unken",
+          "url": "https://de.wikipedia.org/wiki/Unken"
+        }
+      ]
+    },
+    {
+      "id": "unk-003",
+      "date": "1190 n. Chr.",
+      "dateNumeric": 1190,
+      "title": "Unken wird zum ersten Mal erwähnt",
+      "short": "Der Name steht auf Pergament",
+      "description": "Im Jahr 1190 taucht der Name 'Uncha' zum ersten Mal in einer alten Urkunde auf. Das war vor mehr als 800 Jahren! Damals gehörte Unken zum Erzbistum Salzburg - also zum Gebiet des Erzbischofs von Salzburg.",
+      "funFact": "Eine Urkunde ist ein ganz wichtiges Dokument aus der alten Zeit - es war wie ein offizieller Brief auf Tierhaut (Pergament).",
+      "category": "mittelalter",
+      "icon": "📜",
+      "sources": [
+        {
+          "title": "Wikipedia: Unken",
+          "url": "https://de.wikipedia.org/wiki/Unken"
+        }
+      ]
+    },
+    {
+      "id": "unk-004",
+      "date": "1350",
+      "dateNumeric": 1350,
+      "title": "Die Zollstation am Steinpass",
+      "short": "Händler müssen bezahlen",
+      "description": "Am Steinpass - das ist der Übergang zwischen Österreich und Bayern - gab es schon im Jahr 1350 eine Zollstation. Wer Waren über die Grenze brachte, musste dort bezahlen. So verdienten die Salzburger Erzbischöfe viel Geld mit Salz und anderen Handelsgütern.",
+      "funFact": "Ein Zoll ist wie Eintritt bezahlen, nur für Waren statt für Menschen.",
+      "category": "mittelalter",
+      "icon": "💰",
+      "sources": [
+        {
+          "title": "Salzburgwiki: Unken",
+          "url": "https://www.sn.at/wiki/Unken"
+        }
+      ]
+    },
+    {
+      "id": "unk-005",
+      "date": "1614",
+      "dateNumeric": 1614,
+      "title": "Die neue Straße durch Unken",
+      "short": "Erzbischof Marcus Sitticus baut",
+      "description": "Erzbischof Marcus Sitticus ließ 1614 eine richtige Straße durch das Saalachtal bauen. Vorher gab es nur schmale Pfade! Mit der neuen Straße konnten Wagen mit Waren viel leichter durchfahren - Unken wurde wichtiger für den Handel.",
+      "funFact": "Marcus Sitticus ließ auch das berühmte Schloss Hellbrunn mit den Wasserspielen in Salzburg bauen!",
+      "category": "neuzeit",
+      "icon": "🛤️",
+      "sources": [
+        {
+          "title": "Wikipedia: Unken",
+          "url": "https://de.wikipedia.org/wiki/Unken"
+        }
+      ]
+    },
+    {
+      "id": "unk-006",
+      "date": "1625",
+      "dateNumeric": 1625,
+      "title": "Der alte Kirchturm wird errichtet",
+      "short": "Ein Wahrzeichen entsteht",
+      "description": "1625 wurde in Unken ein Kirchturm gebaut. Türme waren damals sehr wichtig - man konnte von oben weit sehen, die Glocken riefen die Menschen zusammen, und sie waren oft das höchste Gebäude im ganzen Dorf.",
+      "funFact": "Früher hatten Kirchtürme keine Uhren mit Zahlen - die Menschen hörten einfach die Glocken läuten.",
+      "category": "neuzeit",
+      "icon": "🏰",
+      "sources": [
+        {
+          "title": "Salzburgwiki: Unken",
+          "url": "https://www.sn.at/wiki/Unken"
+        }
+      ]
+    },
+    {
+      "id": "unk-007",
+      "date": "1642 - 1648",
+      "dateNumeric": 1642,
+      "title": "Die Festung Kniepass wird gebaut",
+      "short": "Eine echte Festung in Unken",
+      "description": "Während des Dreißigjährigen Krieges bauten die Salzburger in Unken eine richtige Festung: den Kniepass. Sie sollte die Grenze zu Bayern verteidigen. Mit dicken Mauern, Wehrtürmen und Schießscharten war sie sehr stark!",
+      "funFact": "Der Kniepass ist heute eines der wenigen erhaltenen Festungsbauwerke dieser Art in Österreich - du kannst ihn sogar besuchen!",
+      "category": "neuzeit",
+      "icon": "🏯",
+      "sources": [
+        {
+          "title": "Wikipedia: Kniepass",
+          "url": "https://de.wikipedia.org/wiki/Kniepass"
+        }
+      ]
+    },
+    {
+      "id": "unk-008",
+      "date": "1756",
+      "dateNumeric": 1756,
+      "title": "Der große Brand von Unken",
+      "short": "Ein schweres Unglück",
+      "description": "Im Jahr 1756 brach in Unken ein großes Feuer aus. Viele Häuser und auch die alte Kirche brannten nieder. Das war ein schwerer Tag für die Menschen im Dorf - aber sie haben nicht aufgegeben und gemeinsam alles wieder aufgebaut.",
+      "funFact": "Früher waren viele Häuser aus Holz gebaut - deswegen breiteten sich Brände schnell von einem Haus zum nächsten aus.",
+      "category": "neuzeit",
+      "icon": "🔥",
+      "sources": [
+        {
+          "title": "Wikipedia: Unken",
+          "url": "https://de.wikipedia.org/wiki/Unken"
+        }
+      ]
+    },
+    {
+      "id": "unk-009",
+      "date": "1758 - 1760",
+      "dateNumeric": 1758,
+      "title": "Die neue Pfarrkirche St. Nikolaus",
+      "short": "Unkens schöne Kirche entsteht",
+      "description": "Nach dem großen Brand bauten die Unkener eine neue, schöne Kirche im Barock-Stil. Sie heißt St. Nikolaus und steht bis heute mitten im Dorf. Mit bunten Fresken, einem prächtigen Altar und Stuckverzierungen ist sie ein echtes Schmuckstück.",
+      "funFact": "Barock bedeutet 'prächtig und verspielt' - damals mochten die Menschen alles golden und mit vielen Verzierungen.",
+      "category": "neuzeit",
+      "icon": "⛪",
+      "sources": [
+        {
+          "title": "Wikipedia: Pfarrkirche Unken",
+          "url": "https://de.wikipedia.org/wiki/Pfarrkirche_Unken"
+        }
+      ]
+    },
+    {
+      "id": "unk-010",
+      "date": "1816",
+      "dateNumeric": 1816,
+      "title": "Unken wird österreichisch",
+      "short": "Salzburg kommt zu Österreich",
+      "description": "Lange Zeit gehörte Salzburg - und damit auch Unken - nicht zu Österreich, sondern war ein eigenes kleines Land vom Erzbischof. 1816 wurde Salzburg dann endgültig ein Teil von Österreich. Seitdem sind wir Österreicher!",
+      "funFact": "Vor 1816 hätte Mozart gesagt: 'Ich bin Salzburger' - und nicht: 'Ich bin Österreicher'.",
+      "category": "neuzeit",
+      "icon": "🇦🇹",
+      "sources": [
+        {
+          "title": "Wikipedia: Herzogtum Salzburg",
+          "url": "https://de.wikipedia.org/wiki/Herzogtum_Salzburg"
+        }
+      ]
+    },
+    {
+      "id": "unk-011",
+      "date": "1850",
+      "dateNumeric": 1850,
+      "title": "Unken wird eine eigene Gemeinde",
+      "short": "Das Dorf bekommt Selbstbestimmung",
+      "description": "Im Jahr 1850 wurde Unken eine eigene Gemeinde. Das bedeutet: Die Menschen durften ihre eigenen Vertreter wählen und selbst über viele Dinge entscheiden. Es gab ab jetzt einen Bürgermeister und einen Gemeinderat.",
+      "funFact": "Ein Bürgermeister ist wie ein 'Chef des Dorfes' - er wird von den Menschen gewählt und kümmert sich darum, dass alles gut läuft.",
+      "category": "19jh",
+      "icon": "🏛️",
+      "sources": [
+        {
+          "title": "Wikipedia: Unken",
+          "url": "https://de.wikipedia.org/wiki/Unken"
+        }
+      ]
+    },
+    {
+      "id": "unk-012",
+      "date": "1895",
+      "dateNumeric": 1895,
+      "title": "Die große Orgel in der Kirche",
+      "short": "Musik für die ganze Gemeinde",
+      "description": "1895 bekam die Pfarrkirche St. Nikolaus eine wunderschöne neue Orgel. Eine Orgel ist ein riesiges Musikinstrument mit vielen Pfeifen - manche sind so groß wie du, andere so klein wie dein Finger! Sie füllt die ganze Kirche mit Musik.",
+      "funFact": "Eine Kirchenorgel kann hunderte verschiedene Klänge machen - von sanft wie eine Flöte bis laut wie eine Trompete!",
+      "category": "19jh",
+      "icon": "🎹",
+      "sources": [
+        {
+          "title": "Wikipedia: Pfarrkirche Unken",
+          "url": "https://de.wikipedia.org/wiki/Pfarrkirche_Unken"
+        }
+      ]
+    },
+    {
+      "id": "unk-013",
+      "date": "1929",
+      "dateNumeric": 1929,
+      "title": "Die Autos werden zu schnell",
+      "short": "Verkehr im Wandel",
+      "description": "1929 wurde der alte Sperrbogen am Kniepass abgetragen. Die Autos waren damals immer mehr geworden und passten nicht mehr gut durch die schmalen Tore. Die Menschen mussten sich an den neuen schnellen Verkehr gewöhnen.",
+      "funFact": "Die ersten Autos in Österreich fuhren nur etwa 15 km/h schnell - du könntest sie fast mit dem Fahrrad einholen!",
+      "category": "20jh",
+      "icon": "🚗",
+      "sources": [
+        {
+          "title": "Salzburgwiki: Kniepass",
+          "url": "https://www.sn.at/wiki/Kniepass"
+        }
+      ]
+    },
+    {
+      "id": "unk-014",
+      "date": "1939 - 1945",
+      "dateNumeric": 1939,
+      "title": "Der Zweite Weltkrieg",
+      "short": "Schwere Jahre für alle",
+      "description": "Im Zweiten Weltkrieg war auch in Unken alles anders. Viele Männer mussten in den Krieg, es gab wenig Essen, und die Kinder hatten oft keinen richtigen Unterricht. Als der Krieg 1945 endlich vorbei war, waren die Menschen sehr erleichtert, aber auch sehr traurig über alle, die nicht mehr zurückkamen.",
+      "funFact": "Nach dem Krieg haben die Menschen in Unken, wie überall in Österreich, zusammengeholfen, um alles wieder aufzubauen.",
+      "category": "20jh",
+      "icon": "🕊️",
+      "sources": [
+        {
+          "title": "Wikipedia: Österreich im Zweiten Weltkrieg",
+          "url": "https://de.wikipedia.org/wiki/%C3%96sterreich_im_Zweiten_Weltkrieg"
+        }
+      ]
+    },
+    {
+      "id": "unk-015",
+      "date": "1981",
+      "dateNumeric": 1981,
+      "title": "Der Kniepass wird gerettet",
+      "short": "Ein Denkmal für die Zukunft",
+      "description": "1981 beschloss man, die alte Festung Kniepass zu renovieren und als Denkmal zu erhalten. So können auch wir und unsere Enkelkinder noch sehen, wie die Menschen früher ihre Heimat verteidigt haben. Heute ist der Kniepass ein beliebtes Ausflugsziel!",
+      "funFact": "In der Festung Kniepass gibt es heute ein Museum mit echten alten Waffen und Gegenständen zu sehen.",
+      "category": "20jh",
+      "icon": "🏯",
+      "sources": [
+        {
+          "title": "Wikipedia: Kniepass",
+          "url": "https://de.wikipedia.org/wiki/Kniepass"
+        }
+      ]
+    },
+    {
+      "id": "unk-016",
+      "date": "1992",
+      "dateNumeric": 1992,
+      "title": "Die Chronik von Unken",
+      "short": "Unsere Geschichte im Buch",
+      "description": "1992 wurde eine große Chronik über Unken veröffentlicht - ein Buch, in dem die ganze Geschichte des Dorfes aufgeschrieben ist. Dank dieser Chronik wissen wir heute so viel über unsere Heimat!",
+      "funFact": "Eine Chronik ist wie ein Tagebuch, nur für ein ganzes Dorf und über ganz lange Zeit.",
+      "category": "20jh",
+      "icon": "📚",
+      "sources": [
+        {
+          "title": "Gemeinde Unken",
+          "url": "https://www.unken.at"
+        }
+      ]
+    },
+    {
+      "id": "unk-017",
+      "date": "Heute",
+      "dateNumeric": 2026,
+      "title": "Unken - unser Zuhause",
+      "short": "Ein modernes Dorf mit Geschichte",
+      "description": "Heute ist Unken ein lebendiges Dorf mit ungefähr 2000 Einwohnern. Es gibt eine Volksschule, eine Kirche, Geschäfte, ein Feuerwehrhaus und viele Vereine. Die Menschen leben vom Tourismus, von der Landwirtschaft und vielen anderen Berufen. Und du bist ein Teil dieser Geschichte!",
+      "funFact": "Wusstest du, dass du selbst gerade Geschichte schreibst? Alles was heute passiert, ist morgen schon 'früher'!",
+      "category": "heute",
+      "icon": "🏡",
+      "sources": [
+        {
+          "title": "Gemeinde Unken",
+          "url": "https://www.unken.at"
+        }
+      ]
+    }
+  ],
+  "schule": {
+    "title": "Unsere Volksschule Unken",
+    "subtitle": "Die Geschichte unserer Schule",
+    "intro": "Schon vor langer, langer Zeit haben die Kinder in Unken etwas gelernt - aber die Schule war damals ganz anders als heute! Komm mit und entdecke, wie sich unsere Schule verändert hat.",
+    "events": [
+      {
+        "id": "sch-001",
+        "date": "Um 1730",
+        "dateNumeric": 1730,
+        "title": "Die ersten Schulstunden in Unken",
+        "description": "Schon im 18. Jahrhundert gab es in Unken einen ersten Unterricht für Kinder. Der fand aber nicht in einer richtigen Schule statt, sondern meistens beim Pfarrer oder in einem kleinen Raum. Die Kinder lernten vor allem Lesen, Schreiben, Rechnen und Beten.",
+        "funFact": "Früher mussten Kinder im Winter ihr eigenes Brennholz in die Schule mitbringen, damit es im Klassenzimmer warm wurde!",
+        "icon": "✏️"
+      },
+      {
+        "id": "sch-002",
+        "date": "1774",
+        "dateNumeric": 1774,
+        "title": "Maria Theresia führt die Schulpflicht ein",
+        "description": "Die Kaiserin Maria Theresia hat bestimmt, dass alle Kinder in Österreich ab 6 Jahren zur Schule gehen müssen. Das galt auch für die Kinder in Unken! So wurde Bildung für alle wichtig - nicht nur für reiche Familien.",
+        "funFact": "Maria Theresia hatte selbst 16 Kinder - sie wusste also ganz genau, wie wichtig Bildung ist!",
+        "icon": "👑"
+      },
+      {
+        "id": "sch-003",
+        "date": "19. Jahrhundert",
+        "dateNumeric": 1850,
+        "title": "Die erste richtige Volksschule",
+        "description": "Im Laufe des 19. Jahrhunderts bekam Unken ein eigenes Schulgebäude. Die Klassen waren oft sehr groß - manchmal saßen 50 oder mehr Kinder in einem Raum! Es gab strenge Lehrer, harte Holzbänke und Tafel mit Kreide.",
+        "funFact": "Die Kinder schrieben damals nicht in Hefte, sondern auf kleine Schiefertafeln - und wischten alles mit einem nassen Schwamm weg.",
+        "icon": "🏫"
+      },
+      {
+        "id": "sch-004",
+        "date": "1923",
+        "dateNumeric": 1923,
+        "title": "Ein neues Schulhaus",
+        "description": "In den 1920er Jahren wurde in Unken ein neues, größeres Schulhaus gebaut. So hatten die Kinder endlich genug Platz zum Lernen. Die Klassenzimmer waren hell, es gab Tafeln, Landkarten und sogar einen Schulgarten.",
+        "funFact": "Früher hatten Schulkinder auch 'Handarbeit' - da lernten die Mädchen stricken und die Buben tischlern.",
+        "icon": "🏗️"
+      },
+      {
+        "id": "sch-005",
+        "date": "1945 - 1950",
+        "dateNumeric": 1945,
+        "title": "Neuer Anfang nach dem Krieg",
+        "description": "Nach dem Zweiten Weltkrieg musste auch die Schule neu starten. Es fehlten Bücher, Stifte und manchmal sogar Lehrer. Aber die Kinder und Lehrer waren froh, dass der Unterricht wieder richtig losgehen konnte.",
+        "funFact": "In den ersten Jahren nach dem Krieg bekamen Schulkinder oft 'Schulmilch' - das war etwas ganz Besonderes!",
+        "icon": "📖"
+      },
+      {
+        "id": "sch-006",
+        "date": "Seit 1970",
+        "dateNumeric": 1970,
+        "title": "Moderne Volksschule",
+        "description": "Seit den 1970er Jahren wurde die Volksschule immer moderner. Es kamen bunte Bücher, Musikunterricht, Turnsaal, Zeichnen und viele neue Fächer. Kinder sollten Spaß am Lernen haben!",
+        "funFact": "In Österreich dauert die Volksschule 4 Jahre - danach geht es weiter in eine andere Schule.",
+        "icon": "🎨"
+      },
+      {
+        "id": "sch-007",
+        "date": "Heute",
+        "dateNumeric": 2026,
+        "title": "Unsere VS Unken heute",
+        "description": "Heute ist die Volksschule Unken ein heller, moderner Ort mit Computern, Smartboards und Tablets. Du lernst nicht nur Lesen und Rechnen, sondern auch Englisch, Musik, Werken und vieles mehr. Und jetzt sogar, wie man mit einer Lern-App in die Geschichte reist!",
+        "funFact": "Weißt du was? Du nutzt gerade diese App - damit gehörst du zur ersten Generation, die mit künstlicher Intelligenz lernt!",
+        "icon": "💻"
+      }
+    ]
+  },
+  "wappen": {
+    "title": "Das Wappen von Unken",
+    "description": "Jede Gemeinde in Österreich hat ein eigenes Wappen - das ist wie ein Erkennungszeichen. Das Unkener Wappen zeigt Symbole, die wichtig für unsere Geschichte sind.",
+    "elements": [
+      "Ein Wappen ist wie ein Fingerabdruck für ein Dorf - jedes ist einzigartig.",
+      "Farben und Symbole erzählen etwas über die Geschichte der Gemeinde.",
+      "In Wappen findet man oft Tiere, Pflanzen, Berge oder Werkzeuge."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Unken",
+      "url": "https://de.wikipedia.org/wiki/Unken"
+    },
+    {
+      "title": "Gemeinde Unken",
+      "url": "https://www.unken.at"
+    },
+    {
+      "title": "Salzburgwiki: Unken",
+      "url": "https://www.sn.at/wiki/Unken"
+    },
+    {
+      "title": "Wikipedia: Kniepass",
+      "url": "https://de.wikipedia.org/wiki/Kniepass"
+    },
+    {
+      "title": "Wikipedia: Pfarrkirche Unken",
+      "url": "https://de.wikipedia.org/wiki/Pfarrkirche_Unken"
+    }
+  ]
+};

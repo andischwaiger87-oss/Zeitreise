@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="Zeitreise durch die Geschichte - Eine Lernapp für die Volksschule Unken. Vom Urknall bis zur künstlichen Intelligenz.">
+    <meta name="theme-color" content="#F57C00">
+    <title>Zeitreise - VS Unken Lernapp</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⏳%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+    <!-- LOADING SCREEN -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">⏳</div>
+            <h1 class="loading-title">Zeitreise</h1>
+            <p class="loading-subtitle">Vom Urknall bis zur KI</p>
+            <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="app-header" role="banner">
+        <div class="header-inner">
+            <button class="logo-btn" data-view="home" aria-label="Startseite">
+                <span class="logo-icon">⏳</span>
+                <div class="logo-text">
+                    <span class="logo-title">Zeitreise</span>
+                    <span class="logo-subtitle">VS Unken</span>
+                </div>
+            </button>
+
+            <nav class="main-nav" role="navigation" aria-label="Hauptnavigation">
+                <button class="nav-btn active" data-view="home">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-label">Start</span>
+                </button>
+                <button class="nav-btn" data-view="timeline">
+                    <span class="nav-icon">⏳</span>
+                    <span class="nav-label">Zeitreise</span>
+                </button>
+                <button class="nav-btn" data-view="unken">
+                    <span class="nav-icon">🏔️</span>
+                    <span class="nav-label">Unken</span>
+                </button>
+                <button class="nav-btn" data-view="quiz">
+                    <span class="nav-icon">🎯</span>
+                    <span class="nav-label">Quiz</span>
+                </button>
+                <button class="nav-btn" data-view="info">
+                    <span class="nav-icon">ℹ️</span>
+                    <span class="nav-label">Info</span>
+                </button>
+            </nav>
+
+            <button id="audioToggle" class="audio-toggle" aria-label="Ton ein/aus" title="Vorlesen ein/aus">
+                <span class="audio-on">🔊</span>
+                <span class="audio-off">🔇</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main id="app" class="app-main" role="main">
+
+        <!-- HOME VIEW -->
+        <section id="view-home" class="view view-home active" aria-label="Startseite">
+            <div class="hero">
+                <div class="hero-bg"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="hero-emoji">⏳</span>
+                        Zeitreise durch die Geschichte
+                    </h1>
+                    <p class="hero-subtitle">Vom Urknall bis zur künstlichen Intelligenz</p>
+                    <p class="hero-welcome">Willkommen, Entdecker! 👋<br>Bist du bereit für eine Reise durch 13,8 Milliarden Jahre?</p>
+                    <div class="hero-actions">
+                        <button class="btn-primary btn-large" data-view="timeline">
+                            <span>🚀</span> Reise starten
+                        </button>
+                        <button class="btn-secondary btn-large" data-view="quiz">
+                            <span>🎯</span> Quiz spielen
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-cards">
+                <button class="home-card home-card-timeline" data-view="timeline">
+                    <div class="home-card-icon">⏳</div>
+                    <h2>Zeitreise</h2>
+                    <p>Entdecke 140 spannende Ereignisse - vom Urknall bis heute!</p>
+                    <div class="home-card-arrow">→</div>
+                </button>
+                <button class="home-card home-card-unken" data-view="unken">
+                    <div class="home-card-icon">🏔️</div>
+                    <h2>Unser Unken</h2>
+                    <p>Die Geschichte unseres Heimatdorfes und unserer Schule.</p>
+                    <div class="home-card-arrow">→</div>
+                </button>
+                <button class="home-card home-card-quiz" data-view="quiz">
+                    <div class="home-card-icon">🎯</div>
+                    <h2>Quiz</h2>
+                    <p>Teste dein Wissen in 8 spannenden Kategorien!</p>
+                    <div class="home-card-arrow">→</div>
+                </button>
+            </div>
+
+            <div class="home-stats">
+                <div class="stat-card">
+                    <div class="stat-number" id="statEvents">140</div>
+                    <div class="stat-label">Ereignisse</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="statEpochs">11</div>
+                    <div class="stat-label">Epochen</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="statQuiz">40+</div>
+                    <div class="stat-label">Quizfragen</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">13,8</div>
+                    <div class="stat-label">Mrd. Jahre</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TIMELINE VIEW -->
+        <section id="view-timeline" class="view view-timeline" aria-label="Zeitreise" hidden>
+            <div class="view-header">
+                <h1>⏳ Die große Zeitreise</h1>
+                <p>Wähle eine Epoche oder scrolle durch die ganze Geschichte!</p>
+            </div>
+
+            <div class="epoch-filter" id="epochFilter" role="tablist" aria-label="Epochen-Filter">
+                <!-- filled by JS -->
+            </div>
+
+            <!-- STICKY TIMELINE SLIDER -->
+            <div class="timeline-slider-bar" id="timelineSliderBar">
+                <div class="slider-inner">
+                    <div class="slider-label">
+                        <span class="slider-hint">&#x2692; Schiebe zu deinem Ereignis</span>
+                        <span class="slider-current">
+                            <span class="slider-current-date" id="sliderCurrent">Beginn der Zeit</span>
+                        </span>
+                    </div>
+                    <div class="slider-track">
+                        <div class="slider-rail"></div>
+                        <div class="slider-epochs" id="sliderEpochs"></div>
+                        <input
+                            type="range"
+                            id="timelineSlider"
+                            class="slider-range"
+                            min="0"
+                            max="100"
+                            value="0"
+                            step="0.1"
+                            aria-label="Zeitstrahl-Position">
+                        <div class="slider-thumb" id="sliderThumb"></div>
+                    </div>
+                    <div class="slider-epoch-labels">
+                        <span>Urknall</span>
+                        <span>Heute</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                <div id="timelineList" class="timeline-list">
+                    <!-- filled by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- UNKEN VIEW -->
+        <section id="view-unken" class="view view-unken" aria-label="Unken" hidden>
+            <div class="view-header unken-header">
+                <h1>🏔️ Unsere Heimat Unken</h1>
+                <p>Entdecke die Geschichte unseres Dorfes und unserer Schule.</p>
+            </div>
+            <div id="unkenContent" class="unken-content">
+                <!-- filled by JS -->
+            </div>
+        </section>
+
+        <!-- QUIZ VIEW -->
+        <section id="view-quiz" class="view view-quiz" aria-label="Quiz" hidden>
+            <div id="quizCategoryView">
+                <div class="view-header">
+                    <h1>🎯 Quiz - Zeig dein Wissen!</h1>
+                    <p>Wähle eine Kategorie und starte dein Quiz.</p>
+                </div>
+                <div id="quizCategories" class="quiz-categories">
+                    <!-- filled by JS -->
+                </div>
+            </div>
+
+            <div id="quizGameView" hidden>
+                <div class="quiz-game">
+                    <div class="quiz-game-header">
+                        <button id="quizBackBtn" class="btn-back" aria-label="Zurück zu Kategorien">← Zurück</button>
+                        <div class="quiz-progress">
+                            <div class="quiz-progress-text">
+                                Frage <span id="quizCurrent">1</span> von <span id="quizTotal">5</span>
+                            </div>
+                            <div class="quiz-progress-bar">
+                                <div id="quizProgressFill" class="quiz-progress-fill"></div>
+                            </div>
+                        </div>
+                        <div class="quiz-score">
+                            ⭐ <span id="quizScore">0</span>
+                        </div>
+                    </div>
+
+                    <div id="quizQuestion" class="quiz-question">
+                        <!-- filled by JS -->
+                    </div>
+
+                    <div id="quizAnswers" class="quiz-answers" role="radiogroup">
+                        <!-- filled by JS -->
+                    </div>
+
+                    <div id="quizFeedback" class="quiz-feedback" hidden>
+                        <!-- filled by JS -->
+                    </div>
+
+                    <button id="quizNextBtn" class="btn-primary btn-large" hidden>Weiter →</button>
+                </div>
+            </div>
+
+            <div id="quizResultView" class="quiz-result" hidden>
+                <!-- filled by JS -->
+            </div>
+        </section>
+
+        <!-- INFO VIEW -->
+        <section id="view-info" class="view view-info" aria-label="Info" hidden>
+            <div class="view-header">
+                <h1>ℹ️ Über diese App</h1>
+            </div>
+            <div class="info-content">
+                <div class="info-card">
+                    <h2>🎓 Was ist das?</h2>
+                    <p>Die <strong>Zeitreise</strong> ist eine Lern-App für die Volksschule Unken. Sie führt dich durch die ganze Geschichte - vom Urknall bis zur künstlichen Intelligenz - und erzählt dir dabei auch viel über unser Heimatdorf Unken.</p>
+                </div>
+
+                <div class="info-card">
+                    <h2>📚 Wie funktioniert sie?</h2>
+                    <p>Du kannst in der <strong>Zeitreise</strong> durch die Geschichte klicken, in <strong>Unser Unken</strong> mehr über dein Dorf lernen und im <strong>Quiz</strong> dein Wissen testen. Alle Infos sind kindgerecht und in einfacher Sprache erklärt.</p>
+                </div>
+
+                <div class="info-card">
+                    <h2>🤖 KI - Vorsicht und Respekt</h2>
+                    <p>In dieser App lernst du auch über künstliche Intelligenz (KI). KI ist ein schlaues Werkzeug, das uns helfen kann - aber sie macht auch Fehler. Deshalb ist es wichtig, dass wir Menschen immer nachdenken und überprüfen, was eine KI sagt.</p>
+                </div>
+
+                <div class="info-card">
+                    <h2>📖 Quellen</h2>
+                    <p>Die Inhalte basieren auf dem österreichischen Volksschul-Lehrplan und wurden aus verlässlichen Quellen zusammengestellt:</p>
+                    <ul>
+                        <li>Wikipedia (Deutsch)</li>
+                        <li>Salzburgwiki / Salzburger Nachrichten Wiki</li>
+                        <li>Gemeinde Unken (www.unken.at)</li>
+                        <li>Bundesministerium für Bildung (Lehrplan 2023)</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+            
