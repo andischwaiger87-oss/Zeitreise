@@ -80,589 +80,1121 @@ window.QUIZ_DATA = {
       "id": "q-001",
       "category": "kosmos-erde",
       "difficulty": 1,
-      "question": "Wie hieß der große Knall, bei dem das Universum entstanden ist?",
+      "question": "Wie lange ist der Urknall her?",
       "answers": [
-        "Der Urknall",
-        "Der Donner",
-        "Der Superknall",
-        "Der Weltschlag"
+        "13,8 Milliarden Jahre",
+        "850 Millionen Jahre",
+        "2,5 Milliarden Jahre",
+        "5 Millionen Jahre"
       ],
       "correct": 0,
-      "explanation": "Der Urknall (auch 'Big Bang' genannt) war vor ungefähr 13,8 Milliarden Jahren - so lange kannst du gar nicht zählen!"
+      "explanation": "Der Urknall fand vor etwa 13,8 Milliarden Jahren statt. Die anderen Zahlen beschreiben andere wichtige Ereignisse in der Erdgeschichte."
     },
     {
       "id": "q-002",
       "category": "kosmos-erde",
       "difficulty": 1,
-      "question": "Was ist die Sonne?",
+      "question": "Aus welchen Elementen besteht die Sonne hauptsächlich?",
       "answers": [
-        "Ein Planet",
-        "Ein Stern",
-        "Ein Mond",
-        "Eine Galaxie"
+        "Wasserstoff und Helium",
+        "Kohlenstoff und Sauerstoff",
+        "Eisen und Nickel",
+        "Silizium und Magnesium"
       ],
-      "correct": 1,
-      "explanation": "Die Sonne ist ein Stern - genauer gesagt unser nächster Stern. Sie ist so groß, dass eine Million Erden in sie hineinpassen würden!"
+      "correct": 0,
+      "explanation": "Die Sonne besteht zu etwa 75% aus Wasserstoff und 25% aus Helium. Die Kernfusion fängt diese Elemente zusammen!"
     },
     {
       "id": "q-003",
-      "category": "kosmos-erde",
+      "category": "kosmos-erte",
       "difficulty": 1,
-      "question": "Welche Tiere lebten vor langer Zeit auf der Erde und sind heute ausgestorben?",
+      "question": "In welcher geologischen Epoche lebten die Dinosaurier?",
       "answers": [
-        "Elefanten",
-        "Dinosaurier",
-        "Känguruhs",
-        "Pinguine"
+        "Mesozoikum",
+        "Paläozoikum",
+        "Känozoikum",
+        "Archaikum"
       ],
-      "correct": 1,
-      "explanation": "Dinosaurier lebten vor etwa 230 bis 66 Millionen Jahren. Dann schlug ein großer Asteroid auf der Erde ein und viele von ihnen starben aus."
+      "correct": 0,
+      "explanation": "Das Mesozoikum wird auch 'Zeitalter der Dinosaurier' genannt und dauerte von vor 252 bis vor 66 Millionen Jahren."
     },
     {
       "id": "q-004",
       "category": "kosmos-erde",
       "difficulty": 2,
-      "question": "Wie alt ist die Erde ungefähr?",
+      "question": "Welcher Asteroid traf die Erde vor 66 Millionen Jahren und führte zum Aussterben der Dinosaurier?",
       "answers": [
-        "1 Million Jahre",
-        "100 Millionen Jahre",
-        "4,5 Milliarden Jahre",
-        "100 Milliarden Jahre"
+        "Der Chicxulub-Asteroid",
+        "Der Tunguska-Meteorit",
+        "Der Pultusk-Meteorit",
+        "Der Canyon-Diablo-Meteorit"
       ],
-      "correct": 2,
-      "explanation": "Die Erde ist etwa 4,5 Milliarden Jahre alt - das sind 4.500.000.000 Jahre!"
+      "correct": 0,
+      "explanation": "Der Chicxulub-Asteroid traf auf die Halbinsel Yucatán in Mexiko. Der Einschlag war so gewaltig, dass ein langer Winter folgte."
     },
     {
       "id": "q-005",
       "category": "kosmos-erde",
       "difficulty": 2,
-      "question": "Was passierte, damit die Dinosaurier ausstarben?",
+      "question": "Wie heißt die Zeit, in der die ersten Lebensformen im Meer entstanden?",
       "answers": [
-        "Ein großer Sturm",
-        "Ein riesiger Asteroid traf die Erde",
-        "Eine Eiszeit kam plötzlich",
-        "Die Sonne ging aus"
-      ],
-      "correct": 1,
-      "explanation": "Vor etwa 66 Millionen Jahren traf ein riesiger Asteroid die Erde. Das veränderte das Klima so stark, dass die meisten Dinosaurier nicht überleben konnten."
-    },
-    {
-      "id": "q-101",
-      "category": "urzeit-steinzeit",
-      "difficulty": 1,
-      "question": "Woraus machten die Menschen in der Steinzeit ihre Werkzeuge?",
-      "answers": [
-        "Aus Plastik",
-        "Aus Stein, Holz und Knochen",
-        "Aus Eisen",
-        "Aus Gold"
-      ],
-      "correct": 1,
-      "explanation": "In der Steinzeit gab es noch kein Metall. Die Menschen machten ihre Werkzeuge aus Stein, Holz und Knochen - daher der Name!"
-    },
-    {
-      "id": "q-102",
-      "category": "urzeit-steinzeit",
-      "difficulty": 1,
-      "question": "Wo lebten viele Menschen in der Steinzeit?",
-      "answers": [
-        "In Hochhäusern",
-        "In Höhlen und einfachen Hütten",
-        "In Schlössern",
-        "Unter Wasser"
-      ],
-      "correct": 1,
-      "explanation": "Viele Menschen lebten in Höhlen, weil die sie vor Kälte, Regen und wilden Tieren schützten."
-    },
-    {
-      "id": "q-103",
-      "category": "urzeit-steinzeit",
-      "difficulty": 2,
-      "question": "Wie heißt der berühmte Mann, der vor über 5000 Jahren in den Alpen starb und 1991 gefunden wurde?",
-      "answers": [
-        "Ötzi",
-        "Asterix",
-        "Mozart",
-        "Herkules"
+        "Kambrium",
+        "Ordovizium",
+        "Silur",
+        "Devon"
       ],
       "correct": 0,
-      "explanation": "Ötzi ist die älteste Mumie der Welt - er lebte vor etwa 5300 Jahren! Wanderer haben ihn im Eis der Ötztaler Alpen gefunden."
+      "explanation": "Im Kambrium vor etwa 541 Millionen Jahren entstand eine große Vielfalt von Wassertieren - man nennt das die 'Kambrische Explosion'."
     },
     {
-      "id": "q-104",
+      "id": "q-006",
+      "category": "kosmos-erde",
+      "difficulty": 2,
+      "question": "Welche prähistorischen Meeresreptilien lebten zur gleichen Zeit wie die Dinosaurier?",
+      "answers": [
+        "Ichthyosaurier und Plesiosaurier",
+        "Trilobiten und Ammoniten",
+        "Archäopteryx und Quetzalcoatlus",
+        "Dung Beetles und Nautilus"
+      ],
+      "correct": 0,
+      "explanation": "Ichthyosaurier und Plesiosaurier waren große Meeresreptilien, die zusammen mit den Dinosauriern ausstarben."
+    },
+    {
+      "id": "q-007",
+      "category": "kosmos-erde",
+      "difficulty": 2,
+      "question": "Wann entstanden die ersten Pflanzen auf dem Land?",
+      "answers": [
+        "Im Silur vor etwa 430 Millionen Jahren",
+        "Im Devon vor etwa 380 Millionen Jahren",
+        "Im Karbon vor etwa 320 Millionen Jahren",
+        "Im Perm vor etwa 280 Millionen Jahren"
+      ],
+      "correct": 0,
+      "explanation": "Die ersten Pflanzen begannen, im Silur auf dem Land zu wachsen. Sie waren klein und wuchsen am Wasser."
+    },
+    {
+      "id": "q-008",
+      "category": "kosmos-erde",
+      "difficulty": 3,
+      "question": "Welches große Ereignis trennte die Kontinente Laurasia und Gondwana?",
+      "answers": [
+        "Die Aufspaltung des Superkontinents Pangäa",
+        "Die Entstehung der Mittelozeanischen Rücken",
+        "Die Kollision mit dem Chicxulub-Asteroiden",
+        "Die Eiszeiten im Pleistozän"
+      ],
+      "correct": 0,
+      "explanation": "Pangäa war ein riesiger Superkontinent, der sich vor etwa 200 Millionen Jahren zu teilen begann und die heutigen Kontinente bildete."
+    },
+    {
+      "id": "q-009",
+      "category": "kosmos-erde",
+      "difficulty": 3,
+      "question": "Welche Periode wird auch die 'Age of Fishes' genannt?",
+      "answers": [
+        "Das Devon",
+        "Das Ordovizium",
+        "Das Karbon",
+        "Das Perm"
+      ],
+      "correct": 0,
+      "explanation": "Das Devon vor etwa 420-360 Millionen Jahren war die Zeit, in der sich Fische stark entwickelten und diversifizierten."
+    },
+    {
+      "id": "q-010",
+      "category": "kosmos-erde",
+      "difficulty": 3,
+      "question": "Was sind Fossilien?",
+      "answers": [
+        "Versteinerte Überreste alter Lebensformen",
+        "Moderne Tiere, die in Höhlen leben",
+        "Gesteine mit besonderen Mustern",
+        "Mineralien, die im Wasser entstehen"
+      ],
+      "correct": 0,
+      "explanation": "Fossilien sind die versteinerten oder erhaltenen Überreste von Pflanzen und Tieren. Sie helfen uns, die Geschichte der Erde zu verstehen."
+    },
+    {
+      "id": "q-011",
+      "category": "urzeit-steinzeit",
+      "difficulty": 1,
+      "question": "Welcher Menschenahn war ein direkter Vorgänger des modernen Menschen?",
+      "answers": [
+        "Homo neanderthalensis",
+        "Homo floresiensis",
+        "Australopithecus",
+        "Paranthropus"
+      ],
+      "correct": 0,
+      "explanation": "Der Neandertaler war sehr ähnlich wie der moderne Mensch und lebte in Europa, bevor der Homo sapiens kam."
+    },
+    {
+      "id": "q-012",
+      "category": "urzeit-steinzeit",
+      "difficulty": 1,
+      "question": "Welche Tiere jagten Steinzeitmenschen mit Speeren?",
+      "answers": [
+        "Mammuts, Bisons und Rentiere",
+        "Löwen, Tiger und Elefanten",
+        "Hasen, Vögel und Fische",
+        "Affen, Nashörner und Zebras"
+      ],
+      "correct": 0,
+      "explanation": "Mammuts, Bisons und Rentiere waren die großen Jagdtiere der Eiszeit. Ihre Knochen zeigen die Spuren von Steinspitzen."
+    },
+    {
+      "id": "q-013",
       "category": "urzeit-steinzeit",
       "difficulty": 2,
-      "question": "Welche Erfindung veränderte das Leben der Menschen in der Steinzeit besonders?",
+      "question": "In welcher berühmten Höhle in Frankreich fanden Forscher die ältesten Höhlenmalereien?",
       "answers": [
-        "Das Handy",
-        "Das Feuer",
-        "Das Internet",
-        "Der Fernseher"
+        "Höhle von Chauvet",
+        "Höhle von Altamira",
+        "Höhle von Lascaux",
+        "Höhle von El Castillo"
       ],
-      "correct": 1,
-      "explanation": "Das Feuer war super wichtig! Damit konnten die Menschen sich wärmen, Essen kochen und wilde Tiere abschrecken."
+      "correct": 0,
+      "explanation": "Die Höhle von Chauvet enthält Malereien, die über 30.000 Jahre alt sind - die ältesten bekannten Kunstwerke!"
     },
     {
-      "id": "q-105",
+      "id": "q-014",
       "category": "urzeit-steinzeit",
       "difficulty": 2,
-      "question": "Was malten Steinzeitmenschen an die Höhlenwände?",
+      "question": "Wie lange vor unserer Zeit lebte Ötzi, der Mann aus dem Eis?",
       "answers": [
-        "Autos",
-        "Tiere und Jagdszenen",
-        "Flugzeuge",
-        "Smiley-Gesichter"
+        "Vor etwa 5.300 Jahren",
+        "Vor etwa 3.000 Jahren",
+        "Vor etwa 10.000 Jahren",
+        "Vor etwa 2.000 Jahren"
       ],
-      "correct": 1,
-      "explanation": "Sie malten vor allem Tiere wie Bisons, Pferde und Mammuts - vielleicht, um Glück bei der Jagd zu haben."
+      "correct": 0,
+      "explanation": "Ötzi lebte in der Jungsteinzeit und wurde 1991 im Eis der Ötztaler Alpen entdeckt - die älteste Leiche der Welt!"
     },
     {
-      "id": "q-201",
+      "id": "q-015",
+      "category": "urzeit-steinzeit",
+      "difficulty": 2,
+      "question": "Was war eine wichtige Erfindung für die Herstellung von Werkzeugen in der Steinzeit?",
+      "answers": [
+        "Das Schleiftechniken mit Stein",
+        "Die Bronze-Legierung",
+        "Die Drehscheibe",
+        "Die Eisenschmelze"
+      ],
+      "correct": 0,
+      "explanation": "Mit Schleiftechniken konnten Steinzeitmenschen bessere Werkzeuge mit schärferen Kanten machen."
+    },
+    {
+      "id": "q-016",
+      "category": "urzeit-steinzeit",
+      "difficulty": 2,
+      "question": "Wann begannen Menschen, sich selbst künstlerisch zu schmücken?",
+      "answers": [
+        "Vor etwa 100.000 Jahren",
+        "Vor etwa 50.000 Jahren",
+        "Vor etwa 10.000 Jahren",
+        "Vor etwa 5.000 Jahren"
+      ],
+      "correct": 1,
+      "explanation": "Archäologen fanden Muschelketten und Knochenanhänger, die vor etwa 50.000 Jahren hergestellt wurden."
+    },
+    {
+      "id": "q-017",
+      "category": "urzeit-steinzeit",
+      "difficulty": 2,
+      "question": "Welches Tier war während der letzten Eiszeit in Europa sehr verbreitet?",
+      "answers": [
+        "Das Mammut",
+        "Der Elefant",
+        "Das Nashorn",
+        "Der Löwe"
+      ],
+      "correct": 0,
+      "explanation": "Mammuts waren an die Kälte perfekt angepasst und lebten überall in der eiszeit-Europa. Ihre Überreste sind überall zu finden."
+    },
+    {
+      "id": "q-018",
+      "category": "urzeit-steinzeit",
+      "difficulty": 3,
+      "question": "Welche Funktion hatten Höhlenmalereien wahrscheinlich in der Steinzeit?",
+      "answers": [
+        "Jagdmagie und Unterricht für Jäger",
+        "Dekoration und Vergnügen",
+        "Religöse Rituale und Medizin",
+        "Geschichtsaufzeichnung und Kommunikation"
+      ],
+      "correct": 0,
+      "explanation": "Archäologen glauben, dass Höhlenmalereien der 'Jagdmagie' dienten - um Glück bei der Jagd zu bringen und Jagdtechniken zu unterrichten."
+    },
+    {
+      "id": "q-019",
+      "category": "urzeit-steinzeit",
+      "difficulty": 3,
+      "question": "Wann domestizierten Menschen zum ersten Mal Tiere?",
+      "answers": [
+        "Vor etwa 15.000 Jahren (Hunde)",
+        "Vor etwa 10.000 Jahren (Schafe und Ziegen)",
+        "Vor etwa 5.000 Jahren (Pferde)",
+        "Vor etwa 3.000 Jahren (Katzen)"
+      ],
+      "correct": 0,
+      "explanation": "Wölfe wurden vor etwa 15.000 Jahren zu Hunden domestiziert - sie waren die ersten domestizierten Tiere!"
+    },
+    {
+      "id": "q-020",
+      "category": "urzeit-steinzeit",
+      "difficulty": 3,
+      "question": "Was bewies, dass Neandertaler eine Kultur hatten?",
+      "answers": [
+        "Sie begruben ihre Toten mit Behutsamkeit und Grabbeigaben",
+        "Sie bauten Häuser und Dörfer",
+        "Sie fertigten Kunstwerke und Schmuck",
+        "Sie züchteten Pflanzen und Getreide"
+      ],
+      "correct": 0,
+      "explanation": "Archäologen fanden Neandertaler-Gräber mit sorgfältig angeordneten Knochen und Blüten - das zeigt eine emotionale Kultur."
+    },
+    {
+      "id": "q-021",
       "category": "antike",
       "difficulty": 1,
-      "question": "In welchem Land bauten die Menschen vor langer Zeit riesige Pyramiden?",
+      "question": "Welches der folgenden Bauwerke wurde zuerst gebaut?",
       "answers": [
-        "Österreich",
-        "Ägypten",
-        "China",
-        "Brasilien"
+        "Die Große Pyramide von Gizeh (2.600 v.Chr.)",
+        "Das Kolosseum (80 n.Chr.)",
+        "Das Parthenon (432 v.Chr.)",
+        "Die chinesische Mauer (200 v.Chr.)"
       ],
-      "correct": 1,
-      "explanation": "In Ägypten bauten die Pharaonen gewaltige Pyramiden als ihre Grabmäler. Die größte ist die Cheops-Pyramide."
+      "correct": 0,
+      "explanation": "Die Große Pyramide von Gizeh ist das älteste der sieben Weltwunder und wurde um 2.600 v.Chr. gebaut."
     },
     {
-      "id": "q-202",
+      "id": "q-022",
       "category": "antike",
       "difficulty": 1,
-      "question": "Wer waren die Pharaonen?",
+      "question": "Wer regierte im antiken Ägypten?",
       "answers": [
-        "Römische Soldaten",
-        "Könige in Ägypten",
-        "Griechische Götter",
-        "Keltische Krieger"
+        "Die Pharaonen",
+        "Die Kaiser",
+        "Die Könige",
+        "Die Sultane"
       ],
-      "correct": 1,
-      "explanation": "Die Pharaonen waren die Könige im alten Ägypten. Sie galten als so mächtig, dass man sie sogar für Götter hielt."
+      "correct": 0,
+      "explanation": "Die Pharaonen waren die Herrscher Ägyptens und galten als Götter. Sie regierten für Tausende von Jahren."
     },
     {
-      "id": "q-203",
+      "id": "q-023",
       "category": "antike",
       "difficulty": 2,
-      "question": "Welches Volk baute das riesige Kolosseum in Rom?",
+      "question": "Wie viele Menschen passen ungefähr ins Kolosseum?",
       "answers": [
-        "Die Kelten",
-        "Die Wikinger",
-        "Die Römer",
-        "Die Azteken"
+        "Etwa 50.000",
+        "Etwa 10.000",
+        "Etwa 100.000",
+        "Etwa 5.000"
       ],
-      "correct": 2,
-      "explanation": "Die Römer bauten das Kolosseum - ein riesiges Stadion für bis zu 50.000 Zuschauer!"
+      "correct": 0,
+      "explanation": "Das Kolosseum konnte etwa 50.000 Zuschauer fassen. Es war das größte Amphitheater der Römer!"
     },
     {
-      "id": "q-204",
+      "id": "q-024",
       "category": "antike",
       "difficulty": 2,
-      "question": "Welche berühmten Spiele erfanden die alten Griechen?",
+      "question": "Welches Volk erfand das Schriftsystem der Hieroglyphen?",
       "answers": [
-        "Fußball",
-        "Die Olympischen Spiele",
-        "Basketball",
-        "Eishockey"
+        "Die Ägypter",
+        "Die Sumerer",
+        "Die Phönizier",
+        "Die Griechen"
       ],
-      "correct": 1,
-      "explanation": "Die Olympischen Spiele gab es schon vor 2700 Jahren in Griechenland! Heute finden sie alle 4 Jahre statt."
+      "correct": 0,
+      "explanation": "Die Ägypter verwendeten Hieroglyphen - ein komplexes Schriftsystem mit Bildern und Zeichen."
     },
     {
-      "id": "q-205",
+      "id": "q-025",
       "category": "antike",
       "difficulty": 2,
-      "question": "Wer lebte in Österreich, bevor die Römer kamen?",
+      "question": "In welchen Ländern fanden die ersten Olympischen Spiele statt?",
       "answers": [
-        "Die Wikinger",
-        "Die Kelten",
-        "Die Azteken",
-        "Die Ägypter"
+        "In Griechenland, in der Stadt Olympia",
+        "In Rom, im Kolosseum",
+        "In Ägypten, in Gizeh",
+        "In Persien, in Babylon"
       ],
-      "correct": 1,
-      "explanation": "In Österreich lebten die Kelten - sie hatten sogar ein kleines Königreich namens 'Noricum'."
+      "correct": 0,
+      "explanation": "Die ersten Olympischen Spiele fanden vor etwa 2.800 Jahren in der Stadt Olympia in Griechenland statt."
     },
     {
-      "id": "q-301",
+      "id": "q-026",
+      "category": "antike",
+      "difficulty": 2,
+      "question": "Welcher berühmte Feldherr eroberte mit seinem Heer die Perserreich?",
+      "answers": [
+        "Alexander der Große",
+        "Julius Caesar",
+        "Augustus",
+        "Scipio Africanus"
+      ],
+      "correct": 0,
+      "explanation": "Alexander der Große eroberte im 4. Jahrhundert v.Chr. ein riesiges Imperium, das sich bis Indien erstreckte."
+    },
+    {
+      "id": "q-027",
+      "category": "antike",
+      "difficulty": 2,
+      "question": "Welche römische Kaiser fiel der Speer des Brutus zum Opfer?",
+      "answers": [
+        "Julius Caesar",
+        "Augustus",
+        "Nero",
+        "Marcus Aurelius"
+      ],
+      "correct": 0,
+      "explanation": "Julius Caesar wurde 44 v.Chr. von Senatoren wie Brutus ermordet - ein dramatisches Ende eines großen Machthabers."
+    },
+    {
+      "id": "q-028",
+      "category": "antike",
+      "difficulty": 3,
+      "question": "Wie hieß die prähistorische Hochkultur, die Göbekli Tepe baute?",
+      "answers": [
+        "Die Proto-Neolithiker",
+        "Die Natufien",
+        "Die Halaf-Kultur",
+        "Die Uruk-Kultur"
+      ],
+      "correct": 1,
+      "explanation": "Die Natufien bauten vor etwa 11.500 Jahren den Tempel Göbekli Tepe - eine der ältesten Religionsstätten der Welt."
+    },
+    {
+      "id": "q-029",
+      "category": "antike",
+      "difficulty": 3,
+      "question": "Welche Zivilisation war berühmt für ihre Keilschrift?",
+      "answers": [
+        "Die Sumerer",
+        "Die Ägypter",
+        "Die Griechen",
+        "Die Hethiter"
+      ],
+      "correct": 0,
+      "explanation": "Die Sumerer in Mesopotamien erfanden die Keilschrift - das erste bekannte Schriftsystem der Welt (ca. 3.400 v.Chr.)."
+    },
+    {
+      "id": "q-030",
+      "category": "antike",
+      "difficulty": 3,
+      "question": "Welche römische Straße war eine der wichtigsten und verband Rom mit Brindisi?",
+      "answers": [
+        "Die Via Appia",
+        "Die Via Flaminica",
+        "Die Via Aurelia",
+        "Die Via Salaria"
+      ],
+      "correct": 0,
+      "explanation": "Die Via Appia war eine der berühmtesten Straßen Roms und wurde 312 v.Chr. gebaut. Sie verband Rom mit dem Süden."
+    },
+    {
+      "id": "q-031",
       "category": "mittelalter",
       "difficulty": 1,
-      "question": "Was ist eine Burg?",
+      "question": "Wie hieß der mächtigste Kaiser des frühen Mittelalters?",
       "answers": [
-        "Ein modernes Hochhaus",
-        "Eine alte Festung mit Mauern und Türmen",
-        "Ein Schulgebäude",
-        "Ein Einkaufszentrum"
+        "Karl der Große",
+        "Otto der Große",
+        "Friedrich Barbarossa",
+        "Lothar I."
       ],
-      "correct": 1,
-      "explanation": "Burgen wurden im Mittelalter gebaut, um die Menschen vor Feinden zu schützen. Sie hatten dicke Mauern, Türme und manchmal sogar einen Wassergraben."
+      "correct": 0,
+      "explanation": "Karl der Große herrschte von 768-814 und schuf das Frankenreich. Er wurde in Rom zum Kaiser gekrönt!"
     },
     {
-      "id": "q-302",
+      "id": "q-032",
       "category": "mittelalter",
       "difficulty": 1,
-      "question": "Wer kämpfte auf einem Pferd mit Rüstung und Lanze?",
+      "question": "In welchem Jahrhundert war die Zeit der Kreuzzüge?",
       "answers": [
-        "Der Bauer",
-        "Der Ritter",
-        "Der Koch",
-        "Der Schüler"
+        "11. bis 13. Jahrhundert",
+        "8. bis 10. Jahrhundert",
+        "14. bis 16. Jahrhundert",
+        "6. bis 8. Jahrhundert"
       ],
-      "correct": 1,
-      "explanation": "Ritter waren Krieger auf Pferden mit Rüstungen. Sie galten im Mittelalter als die besten Kämpfer."
+      "correct": 0,
+      "explanation": "Die Kreuzzüge fanden vom 11. bis 13. Jahrhundert statt. Die Christen versuchten, Jerusalem zurückzuerobern."
     },
     {
-      "id": "q-303",
+      "id": "q-033",
       "category": "mittelalter",
       "difficulty": 2,
-      "question": "Wer ist Karl der Große?",
+      "question": "Was war das Feudalsystem?",
       "answers": [
-        "Ein berühmter Fußballspieler",
-        "Ein mächtiger Kaiser im Mittelalter",
-        "Ein Erfinder",
-        "Ein Pirat"
+        "Ein System von Königen, Adligen, Rittern und Bauern",
+        "Eine Handelsroute zwischen Ost und West",
+        "Ein religiöser Orden",
+        "Eine Waffe aus dem Mittelalter"
       ],
-      "correct": 1,
-      "explanation": "Karl der Große regierte vor über 1200 Jahren ein riesiges Reich. Er ließ sogar Schulen gründen, damit die Menschen lesen und schreiben lernen."
+      "correct": 0,
+      "explanation": "Das Feudalsystem war die Gesellschaftsordnung des Mittelalters. Der König gab Land an Adlige, die dafür Treue schuldeten."
     },
     {
-      "id": "q-304",
+      "id": "q-034",
       "category": "mittelalter",
       "difficulty": 2,
-      "question": "Welche furchtbare Krankheit breitete sich im Mittelalter in Europa aus?",
+      "question": "Welche Kirche wurde 1163 in Paris begonnen und ist weltberühmt?",
       "answers": [
-        "Schnupfen",
-        "Die Pest",
-        "Husten",
-        "Kopfweh"
+        "Notre-Dame de Chartres",
+        "Notre-Dame de Reims",
+        "Notre-Dame de Strasbourg",
+        "Sainte-Chapelle"
       ],
-      "correct": 1,
-      "explanation": "Die Pest war eine schreckliche Krankheit, an der im 14. Jahrhundert sehr viele Menschen starben."
+      "correct": 0,
+      "explanation": "Notre-Dame de Chartres ist eine der schönsten gotischen Kathedralen und wurde im 12. Jahrhundert gebaut."
     },
     {
-      "id": "q-305",
+      "id": "q-035",
       "category": "mittelalter",
       "difficulty": 2,
-      "question": "Welches wichtige Gebäude wurde früher in jedem Dorf gebaut - so auch in Unken?",
+      "question": "Wer waren die Minnesänger?",
       "answers": [
-        "Ein Kino",
-        "Eine Kirche",
-        "Ein Bahnhof",
-        "Ein Flughafen"
+        "Dichter und Sänger der Höfischen Liebe",
+        "Krieger und Soldaten",
+        "Mönche und Geistliche",
+        "Händler und Kaufleute"
       ],
-      "correct": 1,
-      "explanation": "Fast jedes Dorf hatte früher eine Kirche - sie war oft das wichtigste und schönste Gebäude im ganzen Ort."
+      "correct": 0,
+      "explanation": "Minnesänger waren Dichter und Musiker, die Lieder über Liebe, Ehre und Treue sangen - sehr beliebt bei Königen!"
     },
     {
-      "id": "q-401",
+      "id": "q-036",
+      "category": "mittelalter",
+      "difficulty": 2,
+      "question": "Welche Seuche tötete im 14. Jahrhundert Millionen Menschen?",
+      "answers": [
+        "Die Beulenpest",
+        "Der schwarze Husten",
+        "Die Pocken",
+        "Die Cholera"
+      ],
+      "correct": 0,
+      "explanation": "Die Beulenpest (Schwarzer Tod) tötete von 1347-1353 etwa 75-200 Millionen Menschen in Europa."
+    },
+    {
+      "id": "q-037",
+      "category": "mittelalter",
+      "difficulty": 2,
+      "question": "In welches Material wurde früher Blei gegossen, um Gewichte herzustellen?",
+      "answers": [
+        "Keramik und Holzformen",
+        "Stein und Holz",
+        "Bronze und Eisen",
+        "Kupfer und Zinn"
+      ],
+      "correct": 0,
+      "explanation": "Mittelalterliche Handwerker nutzten Keramik- und Holzformen, um Bleigussteile für Gewichte und Handelswaagen herzustellen."
+    },
+    {
+      "id": "q-038",
+      "category": "mittelalter",
+      "difficulty": 3,
+      "question": "Wann endete das Mittelalter in Europa allgemein?",
+      "answers": [
+        "Um 1500 mit der Renaissance",
+        "Um 1300 mit den Kreuzzügen",
+        "Um 1400 mit der Druckerpresse",
+        "Um 1600 mit der Aufklärung"
+      ],
+      "correct": 0,
+      "explanation": "Das Mittelalter endete um 1500 mit der Renaissance - einer Wiedergeburt der klassischen Kultur."
+    },
+    {
+      "id": "q-039",
+      "category": "mittelalter",
+      "difficulty": 3,
+      "question": "Welcher Orden baute die meisten Klöster im Mittelalter?",
+      "answers": [
+        "Die Benediktiner",
+        "Die Dominikaner",
+        "Die Franziskaner",
+        "Die Zisterzienser"
+      ],
+      "correct": 0,
+      "explanation": "Die Benediktiner gründeten ab dem 6. Jahrhundert hunderte von Klöstern und waren die wichtigsten Wissensbewahrer des Mittelalters."
+    },
+    {
+      "id": "q-040",
+      "category": "mittelalter",
+      "difficulty": 3,
+      "question": "Was war die Magna Carta?",
+      "answers": [
+        "Eine Urkunde, die die Rechte der Bürger schützte (1215)",
+        "Ein Kriegsvertrag zwischen England und Frankreich",
+        "Eine kirchliche Verordnung des Papstes",
+        "Ein Gesetz über den Handel"
+      ],
+      "correct": 0,
+      "explanation": "Die Magna Carta von 1215 war ein wichtiges Dokument, das die Rechte der Bürger gegen die Willkür des Königs schützte."
+    },
+    {
+      "id": "q-041",
       "category": "neuzeit",
       "difficulty": 1,
-      "question": "Wer hat 1492 Amerika für die Europäer entdeckt?",
+      "question": "In welchem Jahr segelte Christoph Kolumbus nach Amerika?",
       "answers": [
-        "Mozart",
-        "Christoph Kolumbus",
+        "1492",
+        "1410",
+        "1512",
+        "1580"
+      ],
+      "correct": 0,
+      "explanation": "1492 - das Jahr, in dem Kolumbus mit seinen drei Schiffen den Atlantik überquerte und Amerika entdeckte."
+    },
+    {
+      "id": "q-042",
+      "category": "neuzeit",
+      "difficulty": 1,
+      "question": "Wann wurde Wolfgang Amadeus Mozart geboren?",
+      "answers": [
+        "1756 in Salzburg",
+        "1770 in Salzburg",
+        "1735 in Wien",
+        "1750 in Linz"
+      ],
+      "correct": 0,
+      "explanation": "Mozart wurde am 27. Januar 1756 in Salzburg geboren - ganz in der Nähe von Unken!"
+    },
+    {
+      "id": "q-043",
+      "category": "neuzeit",
+      "difficulty": 2,
+      "question": "Welche Erfindung revolutionierte die Druckerei im 15. Jahrhundert?",
+      "answers": [
+        "Die Druckerpresse von Gutenberg",
+        "Die Papierherstellung",
+        "Die Tintenfabrik",
+        "Die Lithographie"
+      ],
+      "correct": 0,
+      "explanation": "Johannes Gutenberg erfand um 1450 die Druckerpresse mit beweglichen Lettern - ein Durchbruch für die Verbreitung von Wissen!"
+    },
+    {
+      "id": "q-044",
+      "category": "neuzeit",
+      "difficulty": 2,
+      "question": "Wer war die österreichische Kaiserin, die die Schulpflicht einführte?",
+      "answers": [
         "Maria Theresia",
-        "Napoleon"
+        "Kaiserin Elisabeth",
+        "Kaiserin Anna",
+        "Kaiserin Magdalena"
       ],
-      "correct": 1,
-      "explanation": "Christoph Kolumbus wollte eigentlich nach Indien segeln, kam aber aus Versehen in Amerika an!"
+      "correct": 0,
+      "explanation": "Maria Theresia führte 1774 die Schulpflicht ein - deswegen gehen heute alle Kinder zur Schule!"
     },
     {
-      "id": "q-402",
-      "category": "neuzeit",
-      "difficulty": 1,
-      "question": "Welcher berühmte Komponist wurde 1756 in Salzburg geboren?",
-      "answers": [
-        "Beethoven",
-        "Wolfgang Amadeus Mozart",
-        "Johann Strauß",
-        "Haydn"
-      ],
-      "correct": 1,
-      "explanation": "Mozart wurde in Salzburg geboren - ganz in der Nähe von Unken! Er komponierte schon mit 5 Jahren seine erste Musik."
-    },
-    {
-      "id": "q-403",
+      "id": "q-045",
       "category": "neuzeit",
       "difficulty": 2,
-      "question": "Welche österreichische Kaiserin führte vor etwa 250 Jahren die Schulpflicht ein?",
+      "question": "Welcher Kontinent wurde erst im 16. Jahrhundert von Europäern entdeckt?",
       "answers": [
-        "Sissi",
-        "Maria Theresia",
-        "Viktoria",
-        "Anna"
+        "Australien und Ozeanien",
+        "Afrika",
+        "Asien",
+        "Südamerika"
       ],
-      "correct": 1,
-      "explanation": "Maria Theresia hat 1774 bestimmt, dass alle Kinder zur Schule gehen müssen - deswegen gehst auch du heute zur Schule!"
+      "correct": 0,
+      "explanation": "Europäer erreichten Australien erst im 17. Jahrhundert (Amerika, Afrika und Asien waren schon früher bekannt)."
     },
     {
-      "id": "q-404",
+      "id": "q-046",
       "category": "neuzeit",
       "difficulty": 2,
-      "question": "Was wurde im 18. Jahrhundert erfunden und veränderte die ganze Welt?",
+      "question": "Welche Künstler der Renaissance malte die Sixtinische Kapelle?",
       "answers": [
-        "Das Handy",
-        "Die Dampfmaschine",
-        "Der Computer",
-        "Das Flugzeug"
-      ],
-      "correct": 1,
-      "explanation": "Die Dampfmaschine war der Beginn der Industrialisierung. Plötzlich konnten Maschinen Arbeit übernehmen, die vorher Menschen machen mussten."
-    },
-    {
-      "id": "q-405",
-      "category": "neuzeit",
-      "difficulty": 2,
-      "question": "Wer malte die berühmte 'Mona Lisa'?",
-      "answers": [
-        "Picasso",
+        "Michelangelo",
         "Leonardo da Vinci",
-        "Van Gogh",
-        "Michelangelo"
+        "Raphael",
+        "Donatello"
       ],
-      "correct": 1,
-      "explanation": "Leonardo da Vinci war ein Genie der Renaissance - er war Maler, Erfinder, Wissenschaftler und noch viel mehr!"
+      "correct": 0,
+      "explanation": "Michelangelo malte die berühmte Decke der Sixtinischen Kapelle (1508-1512) - ein Meisterwerk der Renaissance!"
     },
     {
-      "id": "q-501",
-      "category": "modern",
-      "difficulty": 1,
-      "question": "Wer baute die erste richtige elektrische Glühbirne?",
+      "id": "q-047",
+      "category": "neuzeit",
+      "difficulty": 2,
+      "question": "Wer war Galileo Galilei und was tat er?",
       "answers": [
-        "Albert Einstein",
-        "Thomas Edison",
-        "Steve Jobs",
-        "Isaac Newton"
+        "Ein Astronom und Physiker, der das Teleskop verbesserte",
+        "Ein Künstler, der die Davidskulptur schuf",
+        "Ein Philosoph, der die Schulpflicht forderte",
+        "Ein Entdecker, der neue Kontinente fand"
       ],
-      "correct": 1,
-      "explanation": "Thomas Edison erfand 1879 die erste brauchbare Glühbirne. Vorher gab es nur Kerzen und Petroleumlampen!"
+      "correct": 0,
+      "explanation": "Galileo Galilei (1564-1642) war ein Wissenschaftler, der Jupiters Monde entdeckte und den Mond kartographierte."
     },
     {
-      "id": "q-502",
+      "id": "q-048",
+      "category": "neuzeit",
+      "difficulty": 3,
+      "question": "Wann fand die Französische Revolution statt?",
+      "answers": [
+        "1789 bis 1799",
+        "1750 bis 1760",
+        "1810 bis 1820",
+        "1680 bis 1690"
+      ],
+      "correct": 0,
+      "explanation": "Die Französische Revolution (1789-1799) veränderte die Welt durch Freiheit, Gleichheit und Brüderlichkeit!"
+    },
+    {
+      "id": "q-049",
+      "category": "neuzeit",
+      "difficulty": 3,
+      "question": "Welche Säugetiere brachten europäische Eroberer nach Amerika?",
+      "answers": [
+        "Pferde, Kühe und Schweine",
+        "Elefanten, Kamele und Strauße",
+        "Schafe, Ziegen und Rentiere",
+        "Löwen, Tiger und Bären"
+      ],
+      "correct": 0,
+      "explanation": "Europäer brachten Pferde, Kühe und Schweine nach Amerika - was die Kulturen und Umwelt drastisch veränderte."
+    },
+    {
+      "id": "q-050",
+      "category": "neuzeit",
+      "difficulty": 3,
+      "question": "Was war das Neue am 'Neuen Zeitalter' nach dem Mittelalter?",
+      "answers": [
+        "Wiederentdeckung antiker Kulturen und wissenschaftliche Fortschritte",
+        "Erfindung der Elektrizität",
+        "Erste Eisenbahnen und Fabriken",
+        "Gründung von Universitäten"
+      ],
+      "correct": 0,
+      "explanation": "Die Neuzeit brachte die Renaissance mit Wiederentdeckung antiker Werke, die Reformation, und moderne Wissenschaft."
+    },
+    {
+      "id": "q-051",
       "category": "modern",
       "difficulty": 1,
-      "question": "Wer landete 1969 als erster Mensch auf dem Mond?",
+      "question": "In welchem Jahr kam die erste Glühbirne auf den Markt?",
       "answers": [
-        "Elon Musk",
+        "1879",
+        "1850",
+        "1920",
+        "1810"
+      ],
+      "correct": 0,
+      "explanation": "Thomas Edison perfektionierte die Glühbirne 1879 - vorher waren Kerzen und Gaslampen die einzigen Lichtquellen!"
+    },
+    {
+      "id": "q-052",
+      "category": "modern",
+      "difficulty": 1,
+      "question": "Wer war der erste Mensch auf dem Mond?",
+      "answers": [
         "Neil Armstrong",
-        "Juri Gagarin",
-        "Buzz Lightyear"
-      ],
-      "correct": 1,
-      "explanation": "Neil Armstrong war der erste Mensch auf dem Mond. Er sagte den berühmten Satz 'Ein kleiner Schritt für einen Menschen, ein großer Sprung für die Menschheit'."
-    },
-    {
-      "id": "q-503",
-      "category": "modern",
-      "difficulty": 2,
-      "question": "Was wurde 1989 in Berlin niedergerissen und veränderte Europa?",
-      "answers": [
-        "Die Berliner Mauer",
-        "Der Brandenburger Turm",
-        "Das Schloss",
-        "Der Fernsehturm"
+        "Buzz Aldrin",
+        "John Glenn",
+        "Alan Bean"
       ],
       "correct": 0,
-      "explanation": "Die Berliner Mauer trennte 28 Jahre lang Ost- und Westdeutschland. Als sie fiel, war das ein großer Freudentag für viele Menschen!"
+      "explanation": "Neil Armstrong betrat am 20. Juli 1969 als erster Mensch den Mond und sagte den berühmten Satz!"
     },
     {
-      "id": "q-504",
+      "id": "q-053",
       "category": "modern",
       "difficulty": 2,
-      "question": "Was ist künstliche Intelligenz (KI)?",
+      "question": "In welchem Jahr wurde die Berliner Mauer gebaut?",
       "answers": [
-        "Ein Roboter mit Gefühlen",
-        "Computerprogramme, die lernen und denken können",
-        "Ein neues Tier",
-        "Eine Rakete"
+        "1961",
+        "1945",
+        "1975",
+        "1989"
       ],
-      "correct": 1,
-      "explanation": "KI sind schlaue Computerprogramme, die aus vielen Beispielen lernen können. Sie können helfen, aber sie machen auch Fehler - deswegen müssen Menschen immer gut aufpassen!"
+      "correct": 0,
+      "explanation": "Die Berliner Mauer wurde 1961 gebaut und trennte West- und Ostdeutschland für 28 Jahre."
     },
     {
-      "id": "q-505",
+      "id": "q-054",
       "category": "modern",
       "difficulty": 2,
-      "question": "Wer hat das erste iPhone erfunden und vorgestellt?",
+      "question": "Wann fiel die Berliner Mauer?",
       "answers": [
-        "Bill Gates",
-        "Steve Jobs",
-        "Mark Zuckerberg",
-        "Elon Musk"
+        "1989",
+        "1961",
+        "1975",
+        "1999"
       ],
-      "correct": 1,
-      "explanation": "Steve Jobs stellte 2007 das erste iPhone vor. Das war der Beginn der Smartphones, wie wir sie heute kennen."
+      "correct": 0,
+      "explanation": "Am 9. November 1989 fiel die Berliner Mauer - ein Symbol des Endes des Kalten Krieges!"
     },
     {
-      "id": "q-601",
-      "category": "unken",
-      "difficulty": 1,
-      "question": "In welchem Bundesland liegt Unken?",
+      "id": "q-055",
+      "category": "modern",
+      "difficulty": 2,
+      "question": "Welche Erfindung veränderte die Kommunikation im 20. Jahrhundert am meisten?",
       "answers": [
-        "Tirol",
-        "Salzburg",
-        "Kärnten",
-        "Steiermark"
+        "Das Telefon und das Radio",
+        "Die Schreibmaschine",
+        "Der Fernseher",
+        "Das Teleskop"
       ],
-      "correct": 1,
-      "explanation": "Unken liegt im Salzburger Land, ganz im Norden vom Pinzgau."
+      "correct": 0,
+      "explanation": "Das Telefon (1876) und Radio (1890er) revolutionierten die Kommunikation und ermöglichten Ferngespräche."
     },
     {
-      "id": "q-602",
+      "id": "q-056",
+      "category": "modern",
+      "difficulty": 2,
+      "question": "Wann wurde das erste Motorflugzeug gebaut?",
+      "answers": [
+        "1903 von den Wright-Brüdern",
+        "1890 von Otto Lilienthal",
+        "1920 von Juan de la Cierva",
+        "1935 von Wernher von Braun"
+      ],
+      "correct": 0,
+      "explanation": "Die Wright-Brüder flogen 1903 mit ihrem Motorflugzeug - der Beginn der modernen Luftfahrt!"
+    },
+    {
+      "id": "q-057",
+      "category": "modern",
+      "difficulty": 2,
+      "question": "Wer entwickelte die erste Röntgenröhre?",
+      "answers": [
+        "Wilhelm Röntgen",
+        "Marie Curie",
+        "Ernest Rutherford",
+        "Niels Bohr"
+      ],
+      "correct": 0,
+      "explanation": "Wilhelm Röntgen entdeckte 1895 die Röntgenstrahlen - ein wichtiger Durchbruch für die Medizin!"
+    },
+    {
+      "id": "q-058",
+      "category": "modern",
+      "difficulty": 3,
+      "question": "Wann erfolgte der erste erfolgreiche Atombombe-Test?",
+      "answers": [
+        "16. Juli 1945",
+        "2. August 1945",
+        "15. August 1945",
+        "6. August 1945"
+      ],
+      "correct": 0,
+      "explanation": "Der erste Atombombe-Test 'Trinity' fand am 16. Juli 1945 in New Mexico statt - ein erschütternder Moment in der Geschichte."
+    },
+    {
+      "id": "q-059",
+      "category": "modern",
+      "difficulty": 3,
+      "question": "Welcher Schritt war der erste Quantensprung in der Computertechnik?",
+      "answers": [
+        "Der ENIAC-Computer (1946)",
+        "Die Halbleiter-Diode (1906)",
+        "Der Transistor (1947)",
+        "Das integrierte Schaltkreis-IC (1958)"
+      ],
+      "correct": 0,
+      "explanation": "Der ENIAC war einer der ersten elektronischen Computer (1946) und belegte ganze Räume!"
+    },
+    {
+      "id": "q-060",
+      "category": "modern",
+      "difficulty": 3,
+      "question": "Wann wurde das Internet der Öffentlichkeit zugänglich gemacht?",
+      "answers": [
+        "1991 mit dem World Wide Web",
+        "1969 mit ARPANET",
+        "1980 mit Usenet",
+        "2000 mit dem Dot-Com-Boom"
+      ],
+      "correct": 0,
+      "explanation": "1991 machte Tim Berners-Lee das World Wide Web öffentlich - der Startpunkt für das moderne Internet, wie wir es kennen."
+    },
+    {
+      "id": "q-061",
       "category": "unken",
       "difficulty": 1,
-      "question": "Welcher Fluss fließt durch Unken?",
+      "question": "In welchem Bundesland Österreichs liegt Unken?",
       "answers": [
-        "Die Donau",
+        "In Salzburg",
+        "In Tirol",
+        "In Kärnten",
+        "In Steiermark"
+      ],
+      "correct": 0,
+      "explanation": "Unken liegt im Salzburger Land, im Pinzgau - ganz in der Nähe der bayerischen Grenze."
+    },
+    {
+      "id": "q-062",
+      "category": "unken",
+      "difficulty": 1,
+      "question": "Welcher Fluss fließt direkt durch Unken?",
+      "answers": [
         "Die Saalach",
-        "Der Rhein",
-        "Die Salzach"
-      ],
-      "correct": 1,
-      "explanation": "Die Saalach fließt durch Unken - früher wurde sogar Holz auf ihr transportiert!"
-    },
-    {
-      "id": "q-603",
-      "category": "unken",
-      "difficulty": 2,
-      "question": "Wann wurde Unken zum ersten Mal in einer Urkunde erwähnt?",
-      "answers": [
-        "1190",
-        "1500",
-        "1800",
-        "1900"
+        "Die Salzach",
+        "Die Mühl",
+        "Der Saalachlauf"
       ],
       "correct": 0,
-      "explanation": "Schon 1190 wurde der Name 'Uncha' in einer alten Schrift erwähnt - das ist über 800 Jahre her!"
+      "explanation": "Die Saalach ist der Hauptfluss Unkens und bildet die Grenze zu Bayern. Früher transportierte man Holz auf ihr!"
     },
     {
-      "id": "q-604",
+      "id": "q-063",
       "category": "unken",
       "difficulty": 2,
-      "question": "Wie heißt die alte Festung in Unken, die heute ein Museum ist?",
+      "question": "Wann wurde Unken zum ersten Mal urkundlich erwähnt?",
       "answers": [
-        "Burg Unken",
-        "Schloss Saalach",
-        "Kniepass",
-        "Salzfestung"
+        "1190 als 'Uncha'",
+        "1120 als 'Unken'",
+        "1250 als 'Unkenstein'",
+        "1300 als 'Unkenberg'"
       ],
-      "correct": 2,
-      "explanation": "Der Kniepass wurde um 1642 gebaut, um die Grenze zu Bayern zu schützen. Heute kannst du dort ein Museum besuchen!"
+      "correct": 0,
+      "explanation": "Unken wurde 1190 in einer Urkunde erwähnt - das ist über 830 Jahre her!"
     },
     {
-      "id": "q-605",
+      "id": "q-064",
+      "category": "unken",
+      "difficulty": 2,
+      "question": "Wie heißt die alte Befestigung in Unken, die heute ein Museum ist?",
+      "answers": [
+        "Der Kniepass",
+        "Die Unkenburg",
+        "Das Saalach-Schloss",
+        "Die Grenzfestung"
+      ],
+      "correct": 0,
+      "explanation": "Der Kniepass wurde 1642 als Grenzfestung gegen Bayern gebaut und ist heute ein Museum."
+    },
+    {
+      "id": "q-065",
       "category": "unken",
       "difficulty": 2,
       "question": "Wie heißt die Pfarrkirche in Unken?",
       "answers": [
-        "St. Peter",
         "St. Nikolaus",
+        "St. Peter",
         "St. Maria",
-        "St. Rupert"
+        "St. Cäcilia"
       ],
-      "correct": 1,
-      "explanation": "Die Pfarrkirche in Unken heißt St. Nikolaus und wurde nach dem großen Brand von 1756 im Barock-Stil neu gebaut."
+      "correct": 0,
+      "explanation": "Die Pfarrkirche Unkens ist der hl. Nikolaus geweiht. Sie wurde nach dem großen Brand von 1756 neu erbaut."
     },
     {
-      "id": "q-606",
+      "id": "q-066",
       "category": "unken",
       "difficulty": 2,
-      "question": "Welches Unglück traf Unken im Jahr 1756?",
+      "question": "Welches Unglück zerstörte große Teile Unkens im Jahre 1756?",
       "answers": [
-        "Eine Überschwemmung",
         "Ein großer Brand",
+        "Eine Überschwemmung",
         "Ein Erdbeben",
         "Eine Lawine"
       ],
-      "correct": 1,
-      "explanation": "1756 brannten viele Häuser und die alte Kirche nieder. Aber die Unkener haben zusammengehalten und alles wieder aufgebaut."
+      "correct": 0,
+      "explanation": "Der Stadtbrand von 1756 zerstörte viele Häuser und die alte Kirche, aber Unken wurde mutig wieder aufgebaut."
     },
     {
-      "id": "q-607",
+      "id": "q-067",
       "category": "unken",
       "difficulty": 2,
-      "question": "Was haben Forscher im 'Abri von Unken' gefunden?",
+      "question": "Was ist der 'Abri von Unken'?",
       "answers": [
-        "Römische Münzen",
-        "Alte Feuerstellen und Werkzeuge aus Stein",
-        "Goldschätze",
-        "Ein altes Auto"
+        "Eine prähistorische Felshöhle mit 11.000 Jahre alten Spuren",
+        "Ein mittelalterliches Kloster",
+        "Eine römische Festung",
+        "Ein Bergwerk"
       ],
-      "correct": 1,
-      "explanation": "Im Abri von Unken leben schon vor 11.000 Jahren Menschen. Die Werkzeuge und Feuerstellen beweisen das!"
+      "correct": 0,
+      "explanation": "Der Abri von Unken ist eine Felshöhle, in der Steinzeitmenschen vor 11.000 Jahren lebten. Archäologen fanden dort Werkzeuge und Feuerstellen."
     },
     {
-      "id": "q-701",
+      "id": "q-068",
+      "category": "unken",
+      "difficulty": 2,
+      "question": "Welcher Berg oder Pass ist ein berühmter geografischer Punkt bei Unken?",
+      "answers": [
+        "Der Kniepass und die Berge um die Saalach",
+        "Der Hochkonig",
+        "Der Untersberg",
+        "Die Kitzsteinhorn"
+      ],
+      "correct": 0,
+      "explanation": "Der Kniepass ist ein wichtiger Pass in den Alpen und liegt nahe bei Unken, an der Grenze zu Bayern."
+    },
+    {
+      "id": "q-069",
+      "category": "unken",
+      "difficulty": 3,
+      "question": "Welcher historische Grenzfluss trennte lange Zeit Unken von Bayern?",
+      "answers": [
+        "Die Saalach",
+        "Die Salzach",
+        "Die Taferlklause",
+        "Der Staubbach"
+      ],
+      "correct": 0,
+      "explanation": "Die Saalach war über Jahrhunderte die Grenze zwischen dem Salzburger Land und Bayern. Sie hat tiefe Schluchten geschaffen."
+    },
+    {
+      "id": "q-070",
+      "category": "unken",
+      "difficulty": 3,
+      "question": "Welche Kultur und welches Handwerk waren historisch in Unken wichtig?",
+      "answers": [
+        "Waldwirtschaft, Holztransport und Sägemühlen",
+        "Salzabbau und Salzhandel",
+        "Weinbau und Obstanbau",
+        "Bergbau und Erzverarbeitung"
+      ],
+      "correct": 0,
+      "explanation": "Die Saalach ermöglichte den Transport von Holz aus den Wäldern - ein wichtiger Wirtschaftsfaktor Unkens über Jahrhunderte."
+    },
+    {
+      "id": "q-071",
       "category": "oesterreich",
       "difficulty": 1,
-      "question": "Wie heißt die Hauptstadt von Österreich?",
+      "question": "Wie heißt die Hauptstadt Österreichs?",
       "answers": [
-        "Salzburg",
         "Wien",
+        "Salzburg",
         "Graz",
         "Linz"
       ],
-      "correct": 1,
-      "explanation": "Wien ist seit über 1000 Jahren eine wichtige Stadt und die Hauptstadt Österreichs."
+      "correct": 0,
+      "explanation": "Wien ist seit über 2.000 Jahren eine bedeutende Stadt und Österreichs Hauptstadt."
     },
     {
-      "id": "q-702",
+      "id": "q-072",
       "category": "oesterreich",
       "difficulty": 1,
-      "question": "Welche Farben hat die österreichische Flagge?",
+      "question": "Welche Farben hat die Flagge Österreichs?",
       "answers": [
         "Rot-Weiß-Rot",
         "Schwarz-Rot-Gold",
-        "Blau-Weiß-Rot",
-        "Grün-Weiß-Rot"
+        "Blau-Weiß-Blau",
+        "Grün-Weiß-Grün"
       ],
       "correct": 0,
-      "explanation": "Die österreichische Flagge ist rot-weiß-rot. Sie ist eine der ältesten Flaggen der Welt!"
+      "explanation": "Die österreichische Flagge ist rot-weiß-rot und ist eine der ältesten Flaggen der Welt (seit 1191)!"
     },
     {
-      "id": "q-703",
+      "id": "q-073",
       "category": "oesterreich",
       "difficulty": 2,
-      "question": "In welchem Jahr wurde Österreich wieder ganz frei - nach dem Staatsvertrag?",
+      "question": "Wann wurde Österreich durch den Staatsvertrag wieder frei?",
       "answers": [
-        "1945",
         "1955",
+        "1945",
         "1965",
         "1975"
       ],
-      "correct": 1,
-      "explanation": "1955 wurde der Staatsvertrag unterschrieben. Österreich war wieder ein freies, neutrales Land - das feiern wir jedes Jahr am 26. Oktober!"
+      "correct": 0,
+      "explanation": "Am 15. Mai 1955 unterzeichnete Österreich den Staatsvertrag und wurde wieder ein freies, neutrales Land."
     },
     {
-      "id": "q-704",
+      "id": "q-074",
       "category": "oesterreich",
       "difficulty": 2,
-      "question": "Wie heißt unser Geld in Österreich?",
+      "question": "Welche Währung verwendet Österreich heute?",
       "answers": [
-        "Schilling",
         "Euro",
-        "Dollar",
-        "Franken"
+        "Schilling",
+        "Kronen",
+        "Dukaten"
       ],
-      "correct": 1,
-      "explanation": "Seit 2002 bezahlen wir in Österreich mit Euro. Davor hatten wir den Schilling."
+      "correct": 0,
+      "explanation": "Seit 2002 zahlt Österreich mit Euro. Davor war der Schilling die Währung."
     },
     {
-      "id": "q-705",
+      "id": "q-075",
       "category": "oesterreich",
       "difficulty": 2,
-      "question": "Wie heißt die höchste Familie, die über 600 Jahre über Österreich herrschte?",
+      "question": "Welche berühmte Kaiserin führte die Schulpflicht in Österreich ein?",
       "answers": [
-        "Die Mozarts",
-        "Die Habsburger",
-        "Die Strauß",
-        "Die Wittelsbacher"
+        "Maria Theresia",
+        "Kaiserin Elisabeth",
+        "Kaiserin Anna",
+        "Maria Josepha"
       ],
-      "correct": 1,
-      "explanation": "Die Habsburger waren Kaiser und Könige - sogar Maria Theresia und Sissi gehörten dazu!"
+      "correct": 0,
+      "explanation": "Maria Theresia (1717-1780) führte 1774 die Schulpflicht ein - ein großer Fortschritt für die Bildung!"
+    },
+    {
+      "id": "q-076",
+      "category": "oesterreich",
+      "difficulty": 2,
+      "question": "Wie lange herrschte die Dynastie der Habsburger über Österreich?",
+      "answers": [
+        "Über 640 Jahre (1282-1918)",
+        "Über 300 Jahre (1600-1900)",
+        "Über 500 Jahre (1400-1900)",
+        "Über 400 Jahre (1500-1900)"
+      ],
+      "correct": 0,
+      "explanation": "Die Habsburger herrschten von 1282 bis 1918 - eine der längsten Dynastien der europäischen Geschichte!"
+    },
+    {
+      "id": "q-077",
+      "category": "oesterreich",
+      "difficulty": 3,
+      "question": "Welcher österreichische Kaiser war ein großer Reformer des 18. Jahrhunderts?",
+      "answers": [
+        "Joseph II.",
+        "Leopold I.",
+        "Leopold II.",
+        "Franz I."
+      ],
+      "correct": 0,
+      "explanation": "Kaiser Joseph II. (1741-1790) führte Reformen ein wie die Toleranzedikte und die Abschaffung der Leibeigenschaft."
+    },
+    {
+      "id": "q-078",
+      "category": "oesterreich",
+      "difficulty": 3,
+      "question": "Welche historische Region war lange Zeit Teil Österreichs und ist heute unabhängig?",
+      "answers": [
+        "Ungarn, Tschechien, Polen, Kroatien",
+        "Deutschland, Italien, Frankreich",
+        "Russland, Rumänien, Serbien",
+        "Schweiz, Belgien, Niederlande"
+      ],
+      "correct": 0,
+      "explanation": "Das Austro-Ungarische Reich (1867-1918) umfasste Ungarn, Tschechien, Kroatien und andere Länder, die heute unabhängig sind."
+    },
+    {
+      "id": "q-079",
+      "category": "oesterreich",
+      "difficulty": 3,
+      "question": "Welcher Fluss ist der längste Fluss Österreichs?",
+      "answers": [
+        "Die Donau",
+        "Die Salzach",
+        "Der Inn",
+        "Die Mur"
+      ],
+      "correct": 0,
+      "explanation": "Die Donau fließt 2.857 km durch zehn Länder und ist der längste Fluss Europas."
+    },
+    {
+      "id": "q-080",
+      "category": "oesterreich",
+      "difficulty": 3,
+      "question": "Welches berühmte Musikfestival findet jedes Jahr in Salzburg statt?",
+      "answers": [
+        "Die Salzburger Festspiele",
+        "Das Glockenspielfest",
+        "Das Mozartfest",
+        "Das Alpenkonzert"
+      ],
+      "correct": 0,
+      "explanation": "Die Salzburger Festspiele seit 1920 sind eines der ältesten und renommiertesten Musikfestivals der Welt!"
     }
   ]
 };
