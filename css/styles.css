@@ -685,7 +685,7 @@ h1, h2, h3, h4 {
     opacity: 1;
 }
 
-/* Universe overlay - stars + orbits + constellations */
+/* Universe overlay - stars layer 1 (big bright stars) */
 .hero::before {
     content: "";
     position: absolute;
@@ -693,31 +693,36 @@ h1, h2, h3, h4 {
     width: 200%;
     height: 200%;
     background:
-        radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,0.8) 0%, transparent 100%),
-        radial-gradient(1.5px 1.5px at 25% 60%, rgba(255,255,255,0.6) 0%, transparent 100%),
-        radial-gradient(1px 1px at 40% 15%, rgba(255,255,255,0.7) 0%, transparent 100%),
-        radial-gradient(2px 2px at 55% 75%, rgba(255,255,255,0.5) 0%, transparent 100%),
-        radial-gradient(1px 1px at 70% 35%, rgba(255,255,255,0.8) 0%, transparent 100%),
-        radial-gradient(1.5px 1.5px at 85% 55%, rgba(255,255,255,0.6) 0%, transparent 100%),
-        radial-gradient(1px 1px at 15% 80%, rgba(255,255,255,0.5) 0%, transparent 100%),
-        radial-gradient(1px 1px at 60% 45%, rgba(255,255,255,0.7) 0%, transparent 100%),
-        radial-gradient(2px 2px at 90% 10%, rgba(255,255,255,0.4) 0%, transparent 100%),
-        radial-gradient(1px 1px at 35% 90%, rgba(255,255,255,0.6) 0%, transparent 100%),
-        radial-gradient(1.5px 1.5px at 5% 45%, rgba(255,255,255,0.5) 0%, transparent 100%),
-        radial-gradient(1px 1px at 75% 85%, rgba(255,255,255,0.7) 0%, transparent 100%),
-        radial-gradient(1px 1px at 50% 25%, rgba(255,255,255,0.6) 0%, transparent 100%),
-        radial-gradient(2px 2px at 20% 40%, rgba(255,255,255,0.3) 0%, transparent 100%),
-        radial-gradient(1px 1px at 95% 70%, rgba(255,255,255,0.5) 0%, transparent 100%);
-    animation: hero-drift 60s linear infinite;
+        radial-gradient(3px 3px at 8% 15%, rgba(255,255,255,1) 0%, transparent 100%),
+        radial-gradient(2.5px 2.5px at 22% 55%, rgba(255,255,255,0.95) 0%, transparent 100%),
+        radial-gradient(3px 3px at 38% 12%, rgba(255,255,255,1) 0%, transparent 100%),
+        radial-gradient(4px 4px at 52% 72%, rgba(255,255,255,0.9) 0%, transparent 100%),
+        radial-gradient(2px 2px at 68% 30%, rgba(255,255,255,1) 0%, transparent 100%),
+        radial-gradient(3px 3px at 82% 50%, rgba(255,255,255,0.95) 0%, transparent 100%),
+        radial-gradient(2.5px 2.5px at 12% 78%, rgba(255,255,255,0.85) 0%, transparent 100%),
+        radial-gradient(2px 2px at 58% 42%, rgba(255,255,255,1) 0%, transparent 100%),
+        radial-gradient(3.5px 3.5px at 88% 8%, rgba(255,255,255,0.8) 0%, transparent 100%),
+        radial-gradient(2px 2px at 32% 88%, rgba(255,255,255,0.9) 0%, transparent 100%),
+        radial-gradient(3px 3px at 3% 40%, rgba(255,255,255,0.85) 0%, transparent 100%),
+        radial-gradient(2.5px 2.5px at 73% 82%, rgba(255,255,255,1) 0%, transparent 100%),
+        radial-gradient(2px 2px at 48% 22%, rgba(255,255,255,0.9) 0%, transparent 100%),
+        radial-gradient(4px 4px at 18% 35%, rgba(253,224,71,0.7) 0%, transparent 100%),
+        radial-gradient(3.5px 3.5px at 78% 65%, rgba(251,146,60,0.6) 0%, transparent 100%),
+        radial-gradient(3px 3px at 93% 68%, rgba(255,255,255,0.85) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 15% 48%, rgba(255,255,255,0.7) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 45% 62%, rgba(255,255,255,0.7) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 65% 18%, rgba(255,255,255,0.65) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 95% 38%, rgba(255,255,255,0.7) 0%, transparent 100%);
+    animation: hero-drift 80s linear infinite;
     pointer-events: none;
 }
 
-/* Orbits + planet/ring graphic */
+/* Orbits + planets + constellations */
 .hero::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Cg opacity='0.1' fill='none' stroke='white'%3E%3Cellipse cx='400' cy='250' rx='200' ry='100' stroke-width='0.7' stroke-dasharray='6 8'/%3E%3Cellipse cx='400' cy='250' rx='300' ry='150' stroke-width='0.5' stroke-dasharray='4 10'/%3E%3Cellipse cx='400' cy='250' rx='120' ry='60' stroke-width='0.6' stroke-dasharray='8 6'/%3E%3Ccircle cx='400' cy='250' r='14' fill='rgba(255,255,255,0.12)' stroke='rgba(255,255,255,0.2)' stroke-width='1'/%3E%3Ccircle cx='520' cy='200' r='4' fill='rgba(255,255,255,0.15)'/%3E%3Ccircle cx='280' cy='300' r='3' fill='rgba(255,255,255,0.12)'/%3E%3Ccircle cx='600' cy='250' r='5' fill='rgba(255,255,255,0.1)'/%3E%3Cpath d='M605 250 A8 3 30 1 1 605 250.01' stroke='rgba(255,255,255,0.08)' stroke-width='1.5'/%3E%3Ccircle cx='170' cy='220' r='2.5' fill='rgba(255,255,255,0.1)'/%3E%3Ccircle cx='680' cy='130' r='2' fill='rgba(255,255,255,0.08)'/%3E%3Cpath d='M100 100 L115 108 L130 95 L145 110 L160 102' stroke='rgba(255,255,255,0.06)' stroke-width='0.5'/%3E%3Cpath d='M650 350 L665 340 L680 355 L695 345' stroke='rgba(255,255,255,0.06)' stroke-width='0.5'/%3E%3C/g%3E%3C/svg%3E");
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Cg fill='none' stroke='white'%3E%3Cellipse cx='400' cy='250' rx='200' ry='100' stroke-width='1' stroke-dasharray='6 8' opacity='0.2'/%3E%3Cellipse cx='400' cy='250' rx='300' ry='150' stroke-width='0.8' stroke-dasharray='4 10' opacity='0.15'/%3E%3Cellipse cx='400' cy='250' rx='120' ry='60' stroke-width='1' stroke-dasharray='8 6' opacity='0.22'/%3E%3Ccircle cx='400' cy='250' r='18' fill='rgba(255,255,255,0.2)' stroke='rgba(255,255,255,0.35)' stroke-width='1.5'/%3E%3Ccircle cx='400' cy='250' r='6' fill='rgba(253,224,71,0.3)'/%3E%3Ccircle cx='530' cy='195' r='6' fill='rgba(96,165,250,0.35)'/%3E%3Ccircle cx='270' cy='305' r='5' fill='rgba(251,146,60,0.3)'/%3E%3Ccircle cx='610' cy='245' r='8' fill='rgba(192,132,100,0.25)' stroke='rgba(255,255,255,0.15)' stroke-width='0.8'/%3E%3Cellipse cx='610' cy='245' rx='14' ry='4' stroke='rgba(255,255,255,0.2)' stroke-width='1' transform='rotate(-20 610 245)'/%3E%3Ccircle cx='160' cy='210' r='4' fill='rgba(239,68,68,0.25)'/%3E%3Ccircle cx='690' cy='120' r='3.5' fill='rgba(168,85,247,0.3)'/%3E%3Cpath d='M80 90 L100 100 L120 85 L150 105 L170 92' stroke='rgba(255,255,255,0.15)' stroke-width='0.8'/%3E%3Ccircle cx='80' cy='90' r='2' fill='rgba(255,255,255,0.35)'/%3E%3Ccircle cx='100' cy='100' r='2' fill='rgba(255,255,255,0.3)'/%3E%3Ccircle cx='120' cy='85' r='2.5' fill='rgba(255,255,255,0.35)'/%3E%3Ccircle cx='150' cy='105' r='2' fill='rgba(255,255,255,0.3)'/%3E%3Ccircle cx='170' cy='92' r='2' fill='rgba(255,255,255,0.3)'/%3E%3Cpath d='M640 340 L660 330 L685 350 L705 338' stroke='rgba(255,255,255,0.15)' stroke-width='0.8'/%3E%3Ccircle cx='640' cy='340' r='2' fill='rgba(255,255,255,0.3)'/%3E%3Ccircle cx='660' cy='330' r='2.5' fill='rgba(255,255,255,0.35)'/%3E%3Ccircle cx='685' cy='350' r='2' fill='rgba(255,255,255,0.3)'/%3E%3Ccircle cx='705' cy='338' r='2' fill='rgba(255,255,255,0.3)'/%3E%3Cpath d='M320 400 L350 385 L380 405' stroke='rgba(255,255,255,0.12)' stroke-width='0.7'/%3E%3Ccircle cx='320' cy='400' r='1.5' fill='rgba(255,255,255,0.25)'/%3E%3Ccircle cx='350' cy='385' r='2' fill='rgba(255,255,255,0.3)'/%3E%3Ccircle cx='380' cy='405' r='1.5' fill='rgba(255,255,255,0.25)'/%3E%3C/g%3E%3C/svg%3E");
     background-size: cover;
     background-position: center;
     pointer-events: none;
@@ -732,6 +737,27 @@ h1, h2, h3, h4 {
 @keyframes hero-rotate {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
+}
+
+/* Twinkling star effect via additional element */
+.hero-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(2px 2px at 25% 30%, rgba(255,255,255,0.9) 0%, transparent 100%),
+        radial-gradient(2.5px 2.5px at 60% 20%, rgba(255,255,255,0.85) 0%, transparent 100%),
+        radial-gradient(2px 2px at 80% 45%, rgba(255,255,255,0.9) 0%, transparent 100%),
+        radial-gradient(3px 3px at 40% 70%, rgba(253,224,71,0.6) 0%, transparent 100%),
+        radial-gradient(2px 2px at 15% 60%, rgba(255,255,255,0.8) 0%, transparent 100%),
+        radial-gradient(2.5px 2.5px at 90% 75%, rgba(255,255,255,0.85) 0%, transparent 100%);
+    animation: twinkle 4s ease-in-out infinite alternate;
+}
+
+@keyframes twinkle {
+    0% { opacity: 0.4; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
 }
 
 .hero-content {
@@ -2105,36 +2131,298 @@ h1, h2, h3, h4 {
 
 /* ---- RESPONSIVE: MOBILE ---- */
 @media (max-width: 600px) {
-    .app-main { padding: var(--space-lg) var(--space-sm); }
+    :root {
+        --header-height: 56px;
+        --bottom-nav-height: 64px;
+    }
 
-    .nav-label { display: none; }
-    .nav-btn { padding: 8px; }
-    .nav-icon { font-size: 1.2rem; }
-    .nav-icon svg { width: 22px; height: 22px; }
+    /* ---- BOTTOM TAB BAR ---- */
+    .app-header {
+        border-bottom: none;
+        box-shadow: none;
+    }
+
+    .app-header::after {
+        display: none;
+    }
+
+    .header-inner {
+        height: var(--header-height);
+        padding: 0 var(--space-md);
+        flex-wrap: nowrap;
+    }
+
+    .logo-btn { order: 1; }
+    .audio-toggle { order: 2; margin-left: auto; }
     .logo-subtitle { display: none; }
 
-    .hero { padding: var(--space-xl) var(--space-md); border-radius: var(--radius-xl); }
-    .hero-actions { flex-direction: column; }
-    .hero-actions button { width: 100%; justify-content: center; }
+    /* Move nav to bottom */
+    .main-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 200;
+        height: var(--bottom-nav-height);
+        background: var(--surface-glass);
+        backdrop-filter: blur(24px) saturate(180%);
+        -webkit-backdrop-filter: blur(24px) saturate(180%);
+        border-top: 1px solid var(--surface-glass-border);
+        box-shadow: 0 -2px 20px rgba(15, 23, 42, 0.06);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        gap: 0;
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+    }
 
-    .home-cards { grid-template-columns: 1fr; }
+    .nav-btn {
+        flex-direction: column;
+        gap: 2px;
+        padding: 6px 0;
+        min-width: 56px;
+        min-height: 48px;
+        border-radius: var(--radius-md);
+        font-size: 0.65rem;
+        justify-content: center;
+        align-items: center;
+    }
 
-    .timeline-card { padding: var(--space-md) var(--space-lg); }
-    .timeline-card-title { font-size: 1.1rem; }
+    .nav-label {
+        display: block;
+        font-size: 0.62rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+    }
 
-    .modal-content { max-height: 94vh; border-radius: var(--radius-xl); }
-    .modal-image { border-radius: var(--radius-xl) var(--radius-xl) 0 0; }
-    .modal-body-content { padding: var(--space-lg); }
+    .nav-icon {
+        font-size: 1.1rem;
+    }
 
-    .quiz-game { padding: var(--space-md); }
-    .quiz-question { font-size: 1.1rem; padding: var(--space-lg); }
-    .quiz-answer-btn { padding: var(--space-md); font-size: 0.93rem; }
+    .nav-icon svg {
+        width: 24px;
+        height: 24px;
+        stroke-width: 2.2;
+    }
+
+    .nav-btn.active {
+        background: var(--accent-pale);
+        color: var(--accent);
+        box-shadow: none;
+    }
+
+    .nav-btn.active .nav-icon svg {
+        stroke-width: 2.5;
+    }
+
+    /* Add bottom padding for content behind nav */
+    body {
+        padding-bottom: var(--bottom-nav-height);
+    }
+
+    .app-main {
+        padding: var(--space-md) var(--space-sm);
+        padding-bottom: calc(var(--bottom-nav-height) + var(--space-lg));
+    }
+
+    .app-footer {
+        padding-bottom: calc(var(--bottom-nav-height) + var(--space-lg));
+    }
+
+    /* ---- HERO MOBILE ---- */
+    .hero {
+        padding: var(--space-xl) var(--space-md);
+        border-radius: var(--radius-xl);
+        margin-bottom: var(--space-xl);
+    }
+
+    .hero-emoji { font-size: 2.5rem; }
+
+    .hero-title {
+        font-size: 1.8rem;
+        letter-spacing: -0.03em;
+    }
+
+    .hero-subtitle { font-size: 0.95rem; }
+    .hero-welcome { font-size: 0.9rem; }
+
+    .hero-actions {
+        flex-direction: column;
+        gap: var(--space-sm);
+    }
+
+    .hero-actions button {
+        width: 100%;
+        justify-content: center;
+        padding: 14px 24px;
+    }
+
+    /* ---- HOME CARDS MOBILE ---- */
+    .home-cards {
+        grid-template-columns: 1fr;
+        gap: var(--space-md);
+    }
+
+    .home-card {
+        padding: var(--space-lg);
+        border-radius: var(--radius-lg);
+    }
+
+    .home-card-icon { font-size: 2.2rem; }
+    .home-card h2 { font-size: 1.3rem; }
+
+    .home-stats {
+        grid-template-columns: repeat(2, 1fr);
+        padding: var(--space-md);
+        gap: var(--space-sm);
+        margin-bottom: var(--space-xl);
+    }
+
+    .stat-number { font-size: 2rem; }
+    .stat-label { font-size: 0.65rem; }
+
+    /* ---- VIEW HEADERS MOBILE ---- */
+    .view-header {
+        margin-bottom: var(--space-xl);
+        padding: var(--space-sm) 0;
+    }
+
+    .view-header h1 { font-size: 1.6rem; }
+    .view-header p { font-size: 0.92rem; }
+
+    /* ---- TIMELINE MOBILE ---- */
+    .timeline-slider-bar {
+        top: var(--header-height);
+        padding: var(--space-sm) var(--space-sm);
+    }
+
+    .slider-label { font-size: 0.65rem; }
+    .slider-current { font-size: 0.75rem; }
+    .slider-current-date { font-size: 0.82rem; }
+    .slider-hint { display: none; }
+    .slider-epoch-labels { display: none; }
+
+    .timeline-card {
+        padding: var(--space-md);
+        border-radius: var(--radius-md);
+    }
+
+    .timeline-card-title { font-size: 1.05rem; }
+    .timeline-card-date { font-size: 0.72rem; }
+    .timeline-card-short { font-size: 0.85rem; }
+    .timeline-dot { width: 38px; height: 38px; font-size: 1rem; }
+
+    .epoch-filter {
+        gap: 6px;
+        padding: var(--space-xs);
+        margin-bottom: var(--space-lg);
+    }
+
+    .epoch-chip {
+        font-size: 0.74rem;
+        padding: 6px 12px;
+    }
+
+    /* ---- MODAL MOBILE ---- */
+    .modal { padding: 0; }
+
+    .modal-content {
+        max-height: 100vh;
+        height: 100vh;
+        border-radius: 0;
+        animation: modal-in-mobile 0.3s ease;
+    }
+
+    @keyframes modal-in-mobile {
+        from { opacity: 0; transform: translateY(100%); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .modal-image {
+        border-radius: 0;
+        aspect-ratio: 16 / 10;
+    }
+
+    .modal-body-content { padding: var(--space-lg) var(--space-md); }
+    .modal-description { font-size: 0.98rem; }
+
+    .modal-description::first-letter {
+        font-size: 2.5rem;
+    }
+
+    .modal-close {
+        top: var(--space-sm);
+        right: var(--space-sm);
+        width: 36px;
+        height: 36px;
+    }
+
+    .modal-image-caption h2 { font-size: 1.3rem; }
+
+    /* ---- QUIZ MOBILE ---- */
+    .quiz-game {
+        padding: var(--space-md);
+        border-radius: var(--radius-lg);
+    }
+
+    .quiz-question {
+        font-size: 1.08rem;
+        padding: var(--space-lg);
+        border-radius: var(--radius-md);
+    }
+
+    .quiz-answer-btn {
+        padding: 14px var(--space-md);
+        font-size: 0.93rem;
+        border-radius: var(--radius-md);
+        min-height: 52px;
+    }
+
+    .quiz-answer-letter {
+        width: 34px;
+        height: 34px;
+        font-size: 0.85rem;
+    }
+
     .quiz-categories { grid-template-columns: 1fr; }
 
-    .epoch-filter { gap: 6px; padding: var(--space-xs); }
-    .epoch-chip { font-size: 0.76rem; padding: 6px 10px; }
+    .quiz-category-card {
+        padding: var(--space-lg);
+        border-radius: var(--radius-lg);
+    }
 
-    .slider-epoch-labels { display: none; }
+    .quiz-score {
+        padding: 6px 14px;
+        font-size: 0.85rem;
+    }
+
+    #quizNextBtn {
+        padding: 14px;
+        font-size: 0.95rem;
+    }
+
+    /* ---- UNKEN MOBILE ---- */
+    .unken-section {
+        padding: var(--space-lg);
+        border-radius: var(--radius-lg);
+    }
+
+    .unken-section-title { font-size: 1.3rem; }
+    .unken-section-icon { width: 44px; height: 44px; font-size: 1.4rem; }
+
+    .unken-event {
+        padding: var(--space-md);
+        border-radius: var(--radius-sm);
+    }
+
+    /* ---- INFO MOBILE ---- */
+    .info-card {
+        padding: var(--space-lg);
+        border-radius: var(--radius-lg);
+    }
+
+    .info-card h2 { font-size: 1.2rem; }
 }
 
 /* ---- ACCESSIBILITY ---- */
