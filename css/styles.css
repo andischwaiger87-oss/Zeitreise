@@ -1055,6 +1055,9 @@ h1, h2, h3, h4 {
     padding: var(--space-md);
 }
 
+/* Hide scroll hint on desktop */
+.epoch-filter-hint { display: none; }
+
 .epoch-chip {
     display: inline-flex;
     align-items: center;
@@ -2302,7 +2305,11 @@ h1, h2, h3, h4 {
         padding-top: var(--space-xs);
     }
 
-    /* Epoch filter: horizontal scroll, contained width */
+    /* Epoch filter: horizontal scroll with fade-out hint */
+    .epoch-filter-wrap {
+        position: relative;
+    }
+
     .epoch-filter {
         flex-wrap: nowrap;
         overflow-x: auto;
@@ -2323,20 +2330,44 @@ h1, h2, h3, h4 {
         flex-shrink: 0;
     }
 
+    .epoch-chip:first-child {
+        margin-left: 2px;
+    }
+
     .epoch-chip:last-child {
-        margin-right: var(--space-xl);
+        margin-right: 40px;
     }
 
     .epoch-chip-icon { font-size: 0.82rem; }
 
-    /* Slider bar: sticky at top, clean z-index */
-    .timeline-slider-bar {
+    /* Fade + arrow overlay to signal scrollability */
+    .epoch-filter-hint {
+        position: absolute;
         top: 0;
-        z-index: 60;
+        right: 0;
+        bottom: 0;
+        width: 48px;
+        background: linear-gradient(to right, transparent, var(--bg-primary) 70%);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 4px;
+        pointer-events: none;
+        color: var(--text-muted);
+        font-size: 1.1rem;
+    }
+
+    /* Slider bar: FIXED at top on mobile (sticky breaks with overflow-x:hidden) */
+    .timeline-slider-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
         padding: 6px var(--space-md) 8px;
-        margin-left: calc(-1 * var(--space-sm));
-        margin-right: calc(-1 * var(--space-sm));
-        width: calc(100% + 2 * var(--space-sm));
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
     }
 
     .slider-label { font-size: 0.62rem; }
@@ -2348,9 +2379,9 @@ h1, h2, h3, h4 {
     .slider-epoch-marker::before { width: 10px; height: 10px; }
     .slider-thumb { width: 22px; height: 22px; }
 
-    /* Timeline: simple list without line/dots on mobile */
+    /* Space for fixed slider at top */
     .timeline-container {
-        padding: var(--space-md) 0;
+        padding-top: 72px;
     }
 
     .timeline-line { display: none; }

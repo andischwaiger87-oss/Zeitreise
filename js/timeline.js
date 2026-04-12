@@ -29,6 +29,19 @@ const Timeline = {
         });
         container.innerHTML = html;
         this.updateChipColors();
+
+        // Hide scroll hint after first scroll
+        const hint = document.querySelector('.epoch-filter-hint');
+        if (hint) {
+            container.addEventListener('scroll', function onScroll() {
+                if (container.scrollLeft > 20) {
+                    hint.style.opacity = '0';
+                    hint.style.transition = 'opacity 0.3s ease';
+                    container.removeEventListener('scroll', onScroll);
+                }
+            }, { passive: true });
+        }
+
         container.querySelectorAll('.epoch-chip').forEach(chip => {
             chip.addEventListener('click', () => {
                 container.querySelectorAll('.epoch-chip').forEach(c => c.classList.remove('active'));
