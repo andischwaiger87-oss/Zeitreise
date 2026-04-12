@@ -85,10 +85,13 @@ const App = {
             target.classList.add('active');
         }
 
-        // Update nav
+        // Update nav (both desktop & mobile)
         document.querySelectorAll('.nav-btn').forEach(btn => {
             btn.classList.toggle('active', btn.dataset.view === viewName);
         });
+
+        // Hide header on sub-views (mobile)
+        document.body.classList.toggle('hide-header', viewName !== 'home');
 
         this.currentView = viewName;
         window.location.hash = viewName === 'home' ? '' : '#' + viewName;
