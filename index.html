@@ -270,4 +270,43 @@
                 </div>
 
                 <div class="info-card">
-            
+                    <h2>👩‍🏫 Für Lehrer:innen und Eltern</h2>
+                    <p>Diese App ist für Kinder zwischen 6 und 10 Jahren gedacht und deckt zentrale Bereiche des Sachunterrichts ab: Zeit und Vergangenheit, Heimat und Gemeinschaft, Natur und Kultur.</p>
+                </div>
+
+                <div class="info-card info-card-credit">
+                    <h2>❤️ Mit Liebe gemacht</h2>
+                    <p>Diese App wurde speziell für die <strong>Volksschule Unken</strong> in Salzburg entwickelt. Viel Spaß beim Entdecken!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- MODAL for event details -->
+    <div id="eventModal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Schließen">✕</button>
+            <div id="modalBody">
+                <!-- filled by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="app-footer">
+        <p>© 2026 Volksschule Unken · Eine Lern-App zum Entdecken der Geschichte</p>
+    </footer>
+
+    <!-- DATA (injected as window globals so it works from file://) -->
+    <script src="data/timeline-data.js"></script>
+    <script src="data/unken-data.js"></script>
+    <script src="data/quiz-data.js"></script>
+
+    <!-- SCRIPTS -->
+    <script src="js/app.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/unken.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>
