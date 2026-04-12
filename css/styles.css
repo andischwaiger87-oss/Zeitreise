@@ -66,18 +66,18 @@
     --border-medium: rgba(99, 102, 241, 0.15);
     --border-strong: rgba(99, 102, 241, 0.25);
 
-    /* Epoch colors (vivid, modern) */
-    --epoch-kosmos: #312E81;
-    --epoch-erde: #7C3AED;
-    --epoch-mensch: #C026D3;
-    --epoch-steinzeit: #D97706;
-    --epoch-hochkulturen: #EA580C;
-    --epoch-antike: #DC2626;
-    --epoch-mittelalter: #78350F;
-    --epoch-neuzeit: #2563EB;
-    --epoch-industrie: #475569;
-    --epoch-20jh: #0D9488;
-    --epoch-digital: #059669;
+    /* Epoch colors — matched to timeline-data.js */
+    --epoch-kosmos: #1a1a4e;
+    --epoch-erde: #0f5f3f;
+    --epoch-mensch: #8b4513;
+    --epoch-steinzeit: #6b4e3d;
+    --epoch-hochkulturen: #b8860b;
+    --epoch-antike: #7b2c2c;
+    --epoch-mittelalter: #4b0082;
+    --epoch-neuzeit: #1e6091;
+    --epoch-industrie: #4a4a4a;
+    --epoch-20jh: #c0392b;
+    --epoch-digital: #00838f;
 
     /* Spacing */
     --space-xs: 0.25rem;

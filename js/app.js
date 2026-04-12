@@ -320,6 +320,3 @@ const App = {
 
 // Boot
 document.addEventListener('DOMContentLoaded', () => App.init());
-
-// Boot
-document.addEventListener('DOMContentLoaded', () => App.init());
