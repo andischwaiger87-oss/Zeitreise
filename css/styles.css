@@ -14,7 +14,6 @@
 }
 
 html {
-    overflow-x: hidden;
     max-width: 100%;
 }
 
@@ -140,7 +139,6 @@ body {
     color: var(--text-primary);
     background: var(--bg-primary);
     min-height: 100vh;
-    overflow-x: hidden;
     font-feature-settings: "kern", "liga", "calt";
 }
 
@@ -2381,7 +2379,7 @@ h1, h2, h3, h4 {
 
     /* Space for fixed slider at top */
     .timeline-container {
-        padding-top: 72px;
+        padding-top: 84px;
     }
 
     .timeline-line { display: none; }
