@@ -2337,8 +2337,8 @@ h1, h2, h3, h4 {
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
         justify-content: flex-start;
-        gap: 6px;
-        padding: 6px 0;
+        gap: 8px;
+        padding: 8px 0;
         margin: 0 0 var(--space-sm) 0;
         width: 100%;
     }
@@ -2346,8 +2346,9 @@ h1, h2, h3, h4 {
     .epoch-filter::-webkit-scrollbar { display: none; }
 
     .epoch-chip {
-        font-size: 0.72rem;
-        padding: 5px 10px;
+        font-size: 0.82rem;
+        padding: 10px 14px;
+        min-height: 40px;
         flex-shrink: 0;
     }
 
