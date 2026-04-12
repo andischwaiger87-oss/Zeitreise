@@ -178,8 +178,8 @@ const App = {
             `<span class="modal-keyword">${k}</span>`
         ).join('');
 
-        // Image: use event.image if provided, otherwise a placeholder
-        const imageUrl = event.image || this.buildPlaceholderImage(event, epochData);
+        // Image: use event.image if provided, otherwise try assets/images/{id}.webp
+        const imageUrl = event.image || `assets/images/${event.id}.webp`;
         const imageAlt = event.imageAlt || event.title;
         const imageCaption = event.imageCaption || `${event.date} \u00b7 ${event.title}`;
 
@@ -190,7 +190,7 @@ const App = {
                 <h2 id="modalTitle">${event.title}</h2>
             </div>
             <figure class="modal-image">
-                <img src="${imageUrl}" alt="${this.escapeAttr(imageAlt)}" loading="lazy" onerror="this.parentElement.classList.add('modal-image-error');">
+                <img src="${imageUrl}" alt="${this.escapeAttr(imageAlt)}" loading="lazy" data-event-id="${event.id}" data-epoch-id="${event.epoch}" onerror="App.handleImageError(this)">
                 <figcaption class="modal-image-caption">${imageCaption}</figcaption>
             </figure>
             <div class="modal-body-content">
@@ -282,6 +282,20 @@ const App = {
             <text x="400" y="400" font-size="12" fill="rgba(235,217,163,0.7)" text-anchor="middle" font-family="Georgia, serif" letter-spacing="4">${epochName.toUpperCase()}</text>
         </svg>`;
         return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+    },
+
+    handleImageError(img) {
+        if (img.dataset.fallback) {
+            // Already tried fallback, hide image
+            img.parentElement.classList.add('modal-image-error');
+            return;
+        }
+        img.dataset.fallback = '1';
+        const eventId = img.dataset.eventId;
+        const epochId = img.dataset.epochId;
+        const event = this.data.timeline.events.find(e => e.id === eventId);
+        const epoch = this.data.timeline.epochs.find(e => e.id === epochId);
+        img.src = this.buildPlaceholderImage(event || {}, epoch || {});
     },
 
     escapeAttr(s) {
