@@ -74,13 +74,13 @@ const Timeline = {
         container.innerHTML = events.map((event, idx) => {
             const epoch = this.epochMap[event.epoch] || {};
             const delay = Math.min(idx * 0.03, 0.8);
-            return '<article class="timeline-event" data-event-id="' + event.id + '" data-index="' + idx + '" style="animation-delay: ' + delay + 's;">'
+            return '<article class="timeline-event" data-event-id="' + event.id + '" data-index="' + idx + '" style="animation-delay: ' + delay + 's; --epoch-color: ' + (epoch.color || '#6B1F1F') + ';">'
                 + '<div class="timeline-dot" style="background: ' + (epoch.color || '#6B1F1F') + ';">' + (epoch.emoji || '\u2022') + '</div>'
-                + '<div class="timeline-card" style="border-left-color: ' + (epoch.color || '#6B1F1F') + ';">'
-                + '<div class="timeline-card-date" style="color: ' + (epoch.color || '#6B1F1F') + ';">' + event.date + '</div>'
+                + '<div class="timeline-card">'
+                + '<div class="timeline-card-date">' + event.date + '</div>'
                 + '<h3 class="timeline-card-title">' + event.title + '</h3>'
                 + '<p class="timeline-card-short">' + (event.short || '') + '</p>'
-                + '<div class="timeline-card-more">Mehr erfahren &rarr;</div>'
+                + '<div class="timeline-card-more">Mehr erfahren</div>'
                 + '</div></article>';
         }).join('');
         container.querySelectorAll('.timeline-event').forEach(el => {
