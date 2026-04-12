@@ -31,7 +31,7 @@
                 </div>
             </button>
 
-            <nav class="main-nav" role="navigation" aria-label="Hauptnavigation">
+            <nav class="main-nav desktop-nav" role="navigation" aria-label="Hauptnavigation">
                 <button class="nav-btn active" data-view="home">
                     <span class="nav-icon"><svg viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1h-2z" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
                     <span class="nav-label">Start</span>
@@ -53,10 +53,32 @@
                     <span class="nav-label">Info</span>
                 </button>
             </nav>
-
-            <!-- Audio nur in den Einträgen verfügbar -->
         </div>
     </header>
+
+    <!-- MOBILE BOTTOM NAV (separate from header for proper fixed positioning) -->
+    <nav class="main-nav mobile-nav" role="navigation" aria-label="Mobile Navigation">
+        <button class="nav-btn active" data-view="home">
+            <span class="nav-icon"><svg viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1h-2z" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <span class="nav-label">Start</span>
+        </button>
+        <button class="nav-btn" data-view="timeline">
+            <span class="nav-icon"><svg viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <span class="nav-label">Zeitreise</span>
+        </button>
+        <button class="nav-btn" data-view="unken">
+            <span class="nav-icon"><svg viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <span class="nav-label">Unken</span>
+        </button>
+        <button class="nav-btn" data-view="quiz">
+            <span class="nav-icon"><svg viewBox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <span class="nav-label">Quiz</span>
+        </button>
+        <button class="nav-btn" data-view="info">
+            <span class="nav-icon"><svg viewBox="0 0 24 24"><path d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <span class="nav-label">Info</span>
+        </button>
+    </nav>
 
     <!-- MAIN -->
     <main id="app" class="app-main" role="main">

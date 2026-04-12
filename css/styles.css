@@ -348,6 +348,57 @@ h1, h2, h3, h4 {
     justify-content: center;
 }
 
+/* Mobile bottom nav: hidden by default, shown on small screens */
+.mobile-nav {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    height: 64px;
+    background: var(--surface-glass);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border-top: 1px solid var(--surface-glass-border);
+    box-shadow: 0 -2px 20px rgba(15, 23, 42, 0.06);
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.mobile-nav .nav-btn {
+    flex-direction: column;
+    gap: 2px;
+    padding: 6px 0;
+    min-width: 56px;
+    min-height: 48px;
+    border-radius: var(--radius-md);
+    font-size: 0.65rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-nav .nav-label {
+    display: block;
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.mobile-nav .nav-icon svg {
+    width: 24px;
+    height: 24px;
+    stroke-width: 2.2;
+}
+
+.mobile-nav .nav-btn.active {
+    background: var(--accent-pale);
+    color: var(--accent);
+    box-shadow: none;
+}
+
 .nav-btn {
     display: flex;
     align-items: center;
@@ -2131,64 +2182,13 @@ h1, h2, h3, h4 {
     .audio-toggle { order: 2; margin-left: auto; }
     .logo-subtitle { display: none; }
 
-    /* Move nav to bottom */
-    .main-nav {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: 200;
-        height: var(--bottom-nav-height);
-        background: var(--surface-glass);
-        backdrop-filter: blur(24px) saturate(180%);
-        -webkit-backdrop-filter: blur(24px) saturate(180%);
-        border-top: 1px solid var(--surface-glass-border);
-        box-shadow: 0 -2px 20px rgba(15, 23, 42, 0.06);
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 0;
-        gap: 0;
-        padding-bottom: env(safe-area-inset-bottom, 0px);
+    /* Hide desktop nav, show mobile bottom nav */
+    .desktop-nav {
+        display: none !important;
     }
 
-    .nav-btn {
-        flex-direction: column;
-        gap: 2px;
-        padding: 6px 0;
-        min-width: 56px;
-        min-height: 48px;
-        border-radius: var(--radius-md);
-        font-size: 0.65rem;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .nav-label {
-        display: block;
-        font-size: 0.62rem;
-        font-weight: 600;
-        letter-spacing: 0.02em;
-    }
-
-    .nav-icon {
-        font-size: 1.1rem;
-    }
-
-    .nav-icon svg {
-        width: 24px;
-        height: 24px;
-        stroke-width: 2.2;
-    }
-
-    .nav-btn.active {
-        background: var(--accent-pale);
-        color: var(--accent);
-        box-shadow: none;
-    }
-
-    .nav-btn.active .nav-icon svg {
-        stroke-width: 2.5;
+    .mobile-nav {
+        display: flex !important;
     }
 
     /* Add bottom padding for content behind nav */
