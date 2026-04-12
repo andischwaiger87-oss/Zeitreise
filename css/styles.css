@@ -2259,45 +2259,62 @@ h1, h2, h3, h4 {
 
     /* ---- VIEW HEADERS MOBILE ---- */
     .view-header {
-        margin-bottom: var(--space-xl);
-        padding: var(--space-sm) 0;
+        margin-bottom: var(--space-md);
+        padding: var(--space-xs) 0;
     }
 
-    .view-header h1 { font-size: 1.6rem; }
-    .view-header p { font-size: 0.92rem; }
+    .view-header h1 { font-size: 1.3rem; }
+    .view-header p { font-size: 0.82rem; margin-top: 2px; }
 
     /* ---- TIMELINE MOBILE ---- */
-    .timeline-slider-bar {
-        top: var(--header-height);
-        padding: var(--space-sm) var(--space-sm);
+
+    /* Epoch filter: horizontal scroll strip */
+    .epoch-filter {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        justify-content: flex-start;
+        gap: 6px;
+        padding: 4px var(--space-sm);
+        margin-bottom: var(--space-sm);
     }
 
-    .slider-label { font-size: 0.65rem; }
-    .slider-current { font-size: 0.75rem; }
-    .slider-current-date { font-size: 0.82rem; }
+    .epoch-filter::-webkit-scrollbar { display: none; }
+
+    .epoch-chip {
+        font-size: 0.72rem;
+        padding: 5px 10px;
+        flex-shrink: 0;
+    }
+
+    .epoch-chip-icon { font-size: 0.82rem; }
+
+    /* Slider bar: compact */
+    .timeline-slider-bar {
+        top: var(--header-height);
+        padding: 4px var(--space-sm) 6px;
+    }
+
+    .slider-label { font-size: 0.6rem; }
+    .slider-current { font-size: 0.7rem; }
+    .slider-current-date { font-size: 0.75rem; }
     .slider-hint { display: none; }
     .slider-epoch-labels { display: none; }
+    .slider-track { height: 36px; margin-top: 2px; }
 
+    /* Timeline cards: compact */
     .timeline-card {
-        padding: var(--space-md);
+        padding: var(--space-sm) var(--space-md);
         border-radius: var(--radius-md);
     }
 
-    .timeline-card-title { font-size: 1.05rem; }
-    .timeline-card-date { font-size: 0.72rem; }
-    .timeline-card-short { font-size: 0.85rem; }
-    .timeline-dot { width: 38px; height: 38px; font-size: 1rem; }
-
-    .epoch-filter {
-        gap: 6px;
-        padding: var(--space-xs);
-        margin-bottom: var(--space-lg);
-    }
-
-    .epoch-chip {
-        font-size: 0.74rem;
-        padding: 6px 12px;
-    }
+    .timeline-card-title { font-size: 0.95rem; }
+    .timeline-card-date { font-size: 0.68rem; }
+    .timeline-card-short { font-size: 0.82rem; }
+    .timeline-card-more { font-size: 0.75rem; }
+    .timeline-dot { width: 32px; height: 32px; font-size: 0.85rem; }
+    .timeline-event { gap: var(--space-sm); margin-bottom: var(--space-md); }
 
     /* ---- MODAL MOBILE ---- */
     .modal { padding: 0; }
