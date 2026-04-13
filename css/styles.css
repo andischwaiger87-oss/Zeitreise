@@ -18,57 +18,57 @@ html {
 }
 
 :root {
-    /* ---- MODERN PALETTE ---- */
-    /* Backgrounds */
-    --bg-primary: #F8FAFF;
-    --bg-secondary: #EEF2FF;
-    --bg-tertiary: #E0E7FF;
-    --bg-dark: #0F172A;
+    /* ---- WARM EARTH-TONE PALETTE ---- */
+    /* Backgrounds — warm parchment/sand tones */
+    --bg-primary: #FBF8F3;
+    --bg-secondary: #F5EDE0;
+    --bg-tertiary: #EDE3D3;
+    --bg-dark: #2C1810;
 
-    /* Text */
-    --text-primary: #0F172A;
-    --text-secondary: #334155;
-    --text-tertiary: #64748B;
-    --text-muted: #94A3B8;
+    /* Text — warm dark browns */
+    --text-primary: #2C1810;
+    --text-secondary: #4A3728;
+    --text-tertiary: #7A6A5E;
+    --text-muted: #A69888;
     --text-inverse: #FFFFFF;
 
-    /* Accent - Vibrant Blue */
-    --accent: #6366F1;
-    --accent-dark: #4F46E5;
-    --accent-light: #818CF8;
-    --accent-pale: #E0E7FF;
-    --accent-glow: rgba(99, 102, 241, 0.25);
+    /* Accent — Warm Gold/Amber */
+    --accent: #B8860B;
+    --accent-dark: #9A7209;
+    --accent-light: #D4A017;
+    --accent-pale: #FDF5E6;
+    --accent-glow: rgba(184, 134, 11, 0.25);
 
-    /* Secondary - Warm Orange */
-    --orange: #F97316;
-    --orange-dark: #EA580C;
-    --orange-light: #FB923C;
-    --orange-pale: #FFF7ED;
+    /* Secondary — Terracotta/Warm Orange */
+    --orange: #C4652A;
+    --orange-dark: #A8541E;
+    --orange-light: #D8844A;
+    --orange-pale: #FFF3EB;
 
-    /* Success - Green */
-    --green: #22C55E;
-    --green-dark: #16A34A;
-    --green-light: #86EFAC;
-    --green-pale: #F0FDF4;
+    /* Success — Forest Green */
+    --green: #3D8B37;
+    --green-dark: #2E7D32;
+    --green-light: #66BB6A;
+    --green-pale: #F1F8E9;
 
-    /* Pink / Fun accent */
-    --pink: #EC4899;
-    --pink-light: #F472B6;
-    --pink-pale: #FDF2F8;
+    /* Warm accent — Sienna */
+    --pink: #C0622B;
+    --pink-light: #D4845A;
+    --pink-pale: #FFF0E6;
 
     /* Error */
-    --red: #EF4444;
-    --red-light: #FCA5A5;
-    --red-pale: #FEF2F2;
+    --red: #C0392B;
+    --red-light: #E57373;
+    --red-pale: #FDE8E5;
 
     /* Surfaces */
     --surface: #FFFFFF;
-    --surface-raised: #FFFFFF;
-    --surface-glass: rgba(255, 255, 255, 0.72);
-    --surface-glass-border: rgba(255, 255, 255, 0.4);
-    --border-soft: rgba(99, 102, 241, 0.08);
-    --border-medium: rgba(99, 102, 241, 0.15);
-    --border-strong: rgba(99, 102, 241, 0.25);
+    --surface-raised: #FFFEFA;
+    --surface-glass: rgba(255, 253, 247, 0.82);
+    --surface-glass-border: rgba(184, 134, 11, 0.12);
+    --border-soft: rgba(139, 90, 43, 0.08);
+    --border-medium: rgba(139, 90, 43, 0.15);
+    --border-strong: rgba(139, 90, 43, 0.25);
 
     /* Epoch colors — matched to timeline-data.js */
     --epoch-kosmos: #1a1a4e;
@@ -100,13 +100,13 @@ html {
     --radius-2xl: 36px;
     --radius-full: 999px;
 
-    /* Shadows - modern, cool-tinted */
-    --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.04), 0 1px 2px rgba(15, 23, 42, 0.03);
-    --shadow-md: 0 4px 16px rgba(15, 23, 42, 0.06), 0 2px 6px rgba(15, 23, 42, 0.04);
-    --shadow-lg: 0 12px 40px rgba(15, 23, 42, 0.08), 0 4px 12px rgba(15, 23, 42, 0.05);
-    --shadow-xl: 0 24px 60px rgba(15, 23, 42, 0.1), 0 12px 24px rgba(15, 23, 42, 0.06);
+    /* Shadows - warm-tinted */
+    --shadow-sm: 0 1px 3px rgba(44, 24, 16, 0.05), 0 1px 2px rgba(44, 24, 16, 0.03);
+    --shadow-md: 0 4px 16px rgba(44, 24, 16, 0.07), 0 2px 6px rgba(44, 24, 16, 0.04);
+    --shadow-lg: 0 12px 40px rgba(44, 24, 16, 0.09), 0 4px 12px rgba(44, 24, 16, 0.05);
+    --shadow-xl: 0 24px 60px rgba(44, 24, 16, 0.12), 0 12px 24px rgba(44, 24, 16, 0.07);
     --shadow-glow: 0 0 0 1px var(--accent), 0 4px 24px var(--accent-glow);
-    --shadow-card: 0 1px 3px rgba(15, 23, 42, 0.04), 0 6px 24px rgba(99, 102, 241, 0.06);
+    --shadow-card: 0 1px 3px rgba(44, 24, 16, 0.05), 0 6px 24px rgba(184, 134, 11, 0.07);
 
     /* Transitions */
     --transition-fast: 0.15s ease;
@@ -148,9 +148,9 @@ body::before {
     position: fixed;
     inset: 0;
     background:
-        radial-gradient(ellipse at 20% 0%, rgba(99, 102, 241, 0.08) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 100%, rgba(249, 115, 22, 0.06) 0%, transparent 50%),
-        radial-gradient(ellipse at 50% 50%, rgba(236, 72, 153, 0.04) 0%, transparent 60%);
+        radial-gradient(ellipse at 20% 0%, rgba(184, 134, 11, 0.06) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 100%, rgba(139, 90, 43, 0.05) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 50%, rgba(196, 101, 42, 0.03) 0%, transparent 60%);
     pointer-events: none;
     z-index: -1;
 }
@@ -185,7 +185,7 @@ h1, h2, h3, h4 {
 .loading-screen {
     position: fixed;
     inset: 0;
-    background: linear-gradient(135deg, #312E81 0%, #6366F1 40%, #EC4899 100%);
+    background: linear-gradient(135deg, #2C1810 0%, #5C3A1E 40%, #B8860B 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -221,7 +221,7 @@ h1, h2, h3, h4 {
     font-weight: 800;
     margin-bottom: var(--space-xs);
     letter-spacing: -0.03em;
-    background: linear-gradient(135deg, #fff 0%, #E0E7FF 50%, #FDE68A 100%);
+    background: linear-gradient(135deg, #fff 0%, #FDF5E6 50%, #FDE68A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -248,7 +248,7 @@ h1, h2, h3, h4 {
 .loading-bar-fill {
     width: 0%;
     height: 100%;
-    background: linear-gradient(90deg, #FDE68A, #FB923C, #EC4899);
+    background: linear-gradient(90deg, #FDE68A, #D4A017, #C4652A);
     border-radius: var(--radius-full);
     animation: loading-fill 1.8s ease-out forwards;
     box-shadow: 0 0 20px rgba(251, 146, 60, 0.5);
@@ -278,7 +278,7 @@ h1, h2, h3, h4 {
     left: 0;
     right: 0;
     height: 2px;
-    background: linear-gradient(90deg, var(--accent), var(--pink), var(--orange), var(--green), var(--accent));
+    background: linear-gradient(90deg, var(--accent), var(--orange), var(--green), var(--accent-light), var(--accent));
     background-size: 200% 100%;
     animation: rainbow-shift 8s linear infinite;
     opacity: 0.6;
@@ -328,7 +328,7 @@ h1, h2, h3, h4 {
     font-family: var(--font-display);
     font-size: 1.35rem;
     font-weight: 800;
-    background: linear-gradient(135deg, var(--accent), var(--pink));
+    background: linear-gradient(135deg, var(--accent), var(--orange));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -726,9 +726,8 @@ h1, h2, h3, h4 {
     color: var(--text-inverse);
     text-align: center;
     box-shadow: var(--shadow-xl);
-    background: #1a1a2e;
+    background: #2C1810;
     min-height: 360px;
-    --hero-overlay-opacity: 0.55; /* Overlay-Stärke: 0 = kein Overlay, 1 = komplett schwarz */
 }
 
 .hero-image {
@@ -745,7 +744,8 @@ h1, h2, h3, h4 {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, var(--hero-overlay-opacity, 0.4));
+    background:
+        radial-gradient(ellipse at center 60%, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.1) 100%);
     z-index: 1;
     pointer-events: none;
 }
@@ -880,11 +880,11 @@ h1, h2, h3, h4 {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, var(--accent), var(--pink));
+    background: linear-gradient(90deg, var(--accent), var(--orange));
     border-radius: var(--radius-xl) var(--radius-xl) 0 0;
 }
 
-.home-card-unken::before { background: linear-gradient(90deg, #059669, #22C55E); }
+.home-card-unken::before { background: linear-gradient(90deg, var(--green-dark), var(--green)); }
 .home-card-quiz::before { background: linear-gradient(90deg, var(--orange), #FBBF24); }
 
 .home-card:hover {
@@ -974,7 +974,7 @@ h1, h2, h3, h4 {
     font-family: var(--font-display);
     font-size: 2.5rem;
     font-weight: 800;
-    background: linear-gradient(135deg, var(--accent), var(--pink));
+    background: linear-gradient(135deg, var(--accent), var(--orange));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1567,7 +1567,7 @@ h1, h2, h3, h4 {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, #059669, #22C55E, #34D399);
+    background: linear-gradient(90deg, var(--green-dark), var(--green), var(--green-light));
     border-radius: var(--radius-xl) var(--radius-xl) 0 0;
 }
 
@@ -1680,7 +1680,7 @@ h1, h2, h3, h4 {
     font-family: var(--font-display);
     font-size: 0.78rem;
     font-weight: 700;
-    color: #059669;
+    color: var(--green-dark);
     text-transform: uppercase;
     letter-spacing: 0.04em;
 }
@@ -1810,7 +1810,7 @@ h1, h2, h3, h4 {
 
 .quiz-progress-fill {
     height: 100%;
-    background: linear-gradient(90deg, var(--accent), var(--pink));
+    background: linear-gradient(90deg, var(--accent), var(--orange));
     border-radius: var(--radius-full);
     transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     width: 0%;
@@ -2006,7 +2006,7 @@ h1, h2, h3, h4 {
 }
 
 .quiz-result-score strong {
-    background: linear-gradient(135deg, var(--accent), var(--pink));
+    background: linear-gradient(135deg, var(--accent), var(--orange));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
