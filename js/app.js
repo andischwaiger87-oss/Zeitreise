@@ -194,7 +194,7 @@ const App = {
             </div>
             <figure class="modal-image">
                 <img src="${imageUrl}" alt="${this.escapeAttr(imageAlt)}" loading="lazy" data-event-id="${event.id}" data-epoch-id="${event.epoch}" onerror="App.handleImageError(this)">
-                <figcaption class="modal-image-caption">${imageCaption}</figcaption>
+                <!-- caption removed -->
             </figure>
             <div class="modal-body-content">
                 <div class="modal-audio">

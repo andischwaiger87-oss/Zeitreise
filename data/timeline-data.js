@@ -531,26 +531,6 @@ window.TIMELINE_DATA = {
       ]
     },
     {
-      "id": "evt-022",
-      "epoch": "erde",
-      "date": "Vor 2,5 Millionen Jahren",
-      "dateNumeric": -2500000,
-      "title": "Die Eiszeiten beginnen",
-      "short": "Kälte formt Landschaften",
-      "description": "Die Erde wurde immer wieder kälter. Riesige Eisgletscher bedeckten weite Teile der Erde und zogen sich dann wieder zurück. In diesen Eiszeiten lebten Mammuts, Wollnashörner und Höhlenbären.",
-      "funFact": "Die Alpen wurden in der Eiszeit von Gletschern zu den Tälern geformt, die wir heute kennen – auch rund um Unken!",
-      "keywords": [
-        "Eiszeit",
-        "Mammut"
-      ],
-      "sources": [
-        {
-          "title": "Wikipedia: Pleistozän",
-          "url": "https://de.wikipedia.org/wiki/Pleistoz%C3%A4n"
-        }
-      ]
-    },
-    {
       "id": "evt-023",
       "epoch": "mensch",
       "date": "Vor 6 Millionen Jahren",
@@ -567,6 +547,26 @@ window.TIMELINE_DATA = {
         {
           "title": "Wikipedia: Hominidae",
           "url": "https://de.wikipedia.org/wiki/Menschenartige"
+        }
+      ]
+    },
+    {
+      "id": "evt-022",
+      "epoch": "erde",
+      "date": "Vor 2,5 Millionen Jahren",
+      "dateNumeric": -2500000,
+      "title": "Die Eiszeiten beginnen",
+      "short": "Kälte formt Landschaften",
+      "description": "Die Erde wurde immer wieder kälter. Riesige Eisgletscher bedeckten weite Teile der Erde und zogen sich dann wieder zurück. In diesen Eiszeiten lebten Mammuts, Wollnashörner und Höhlenbären.",
+      "funFact": "Die Alpen wurden in der Eiszeit von Gletschern zu den Tälern geformt, die wir heute kennen – auch rund um Unken!",
+      "keywords": [
+        "Eiszeit",
+        "Mammut"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Pleistozän",
+          "url": "https://de.wikipedia.org/wiki/Pleistoz%C3%A4n"
         }
       ]
     },
@@ -790,6 +790,25 @@ window.TIMELINE_DATA = {
       ]
     },
     {
+      "id": "evt-036",
+      "epoch": "steinzeit",
+      "date": "Vor 11.500 Jahren",
+      "dateNumeric": -11500,
+      "title": "Göbekli Tepe – der älteste Tempel",
+      "short": "Steinzeit-Baumeister",
+      "description": "In der heutigen Türkei bauten Menschen riesige Steinsäulen mit Bildern von Tieren. Göbekli Tepe ist etwa 6000 Jahre älter als die ägyptischen Pyramiden und zeigt, dass die Menschen damals schon sehr geschickt waren.",
+      "funFact": "Die Säulen sind so schwer, dass niemand genau weiß, wie die Menschen sie damals bewegen konnten.",
+      "keywords": [
+        "Göbekli Tepe"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Göbekli Tepe",
+          "url": "https://de.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+        }
+      ]
+    },
+    {
       "id": "evt-035",
       "epoch": "steinzeit",
       "date": "Vor 11.000 Jahren",
@@ -806,25 +825,6 @@ window.TIMELINE_DATA = {
         {
           "title": "Wikipedia: Neolithische Revolution",
           "url": "https://de.wikipedia.org/wiki/Neolithische_Revolution"
-        }
-      ]
-    },
-    {
-      "id": "evt-036",
-      "epoch": "steinzeit",
-      "date": "Vor 11.500 Jahren",
-      "dateNumeric": -11500,
-      "title": "Göbekli Tepe – der älteste Tempel",
-      "short": "Steinzeit-Baumeister",
-      "description": "In der heutigen Türkei bauten Menschen riesige Steinsäulen mit Bildern von Tieren. Göbekli Tepe ist etwa 6000 Jahre älter als die ägyptischen Pyramiden und zeigt, dass die Menschen damals schon sehr geschickt waren.",
-      "funFact": "Die Säulen sind so schwer, dass niemand genau weiß, wie die Menschen sie damals bewegen konnten.",
-      "keywords": [
-        "Göbekli Tepe"
-      ],
-      "sources": [
-        {
-          "title": "Wikipedia: Göbekli Tepe",
-          "url": "https://de.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
         }
       ]
     },
@@ -908,26 +908,6 @@ window.TIMELINE_DATA = {
       ]
     },
     {
-      "id": "evt-041",
-      "epoch": "steinzeit",
-      "date": "Um 3.300 v. Chr.",
-      "dateNumeric": -3300,
-      "title": "Die Bronzezeit beginnt",
-      "short": "Neues Metall für Werkzeuge",
-      "description": "Die Menschen entdeckten, dass man Kupfer mit Zinn mischen kann – daraus wird Bronze. Mit diesem neuen Metall konnten sie viel bessere Werkzeuge, Waffen und Schmuck herstellen.",
-      "funFact": "Auch Ötzi hatte schon eine Axt aus reinem Kupfer dabei.",
-      "keywords": [
-        "Bronze",
-        "Metall"
-      ],
-      "sources": [
-        {
-          "title": "Wikipedia: Bronzezeit",
-          "url": "https://de.wikipedia.org/wiki/Bronzezeit"
-        }
-      ]
-    },
-    {
       "id": "evt-042",
       "epoch": "hochkulturen",
       "date": "Um 3.500 v. Chr.",
@@ -944,6 +924,26 @@ window.TIMELINE_DATA = {
         {
           "title": "Wikipedia: Sumer",
           "url": "https://de.wikipedia.org/wiki/Sumer"
+        }
+      ]
+    },
+    {
+      "id": "evt-041",
+      "epoch": "steinzeit",
+      "date": "Um 3.300 v. Chr.",
+      "dateNumeric": -3300,
+      "title": "Die Bronzezeit beginnt",
+      "short": "Neues Metall für Werkzeuge",
+      "description": "Die Menschen entdeckten, dass man Kupfer mit Zinn mischen kann – daraus wird Bronze. Mit diesem neuen Metall konnten sie viel bessere Werkzeuge, Waffen und Schmuck herstellen.",
+      "funFact": "Auch Ötzi hatte schon eine Axt aus reinem Kupfer dabei.",
+      "keywords": [
+        "Bronze",
+        "Metall"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Bronzezeit",
+          "url": "https://de.wikipedia.org/wiki/Bronzezeit"
         }
       ]
     },
@@ -1729,6 +1729,25 @@ window.TIMELINE_DATA = {
       ]
     },
     {
+      "id": "evt-083",
+      "epoch": "mittelalter",
+      "date": "1347 n. Chr.",
+      "dateNumeric": 1347,
+      "title": "Die Pest kommt nach Europa",
+      "short": "Eine furchtbare Krankheit",
+      "description": "Aus Asien brachte ein Schiff eine gefährliche Krankheit nach Europa: die Pest, auch 'Schwarzer Tod' genannt. Sie verbreitete sich in wenigen Jahren und etwa jeder dritte Mensch in Europa starb daran.",
+      "funFact": "Die Pest wurde durch Flöhe auf Ratten übertragen – das wusste damals noch niemand.",
+      "keywords": [
+        "Pest"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Schwarzer Tod",
+          "url": "https://de.wikipedia.org/wiki/Schwarzer_Tod"
+        }
+      ]
+    },
+    {
       "id": "evt-082",
       "epoch": "mittelalter",
       "date": "Um 1350 n. Chr.",
@@ -1746,25 +1765,6 @@ window.TIMELINE_DATA = {
         {
           "title": "Wikipedia: Festung Kniepass",
           "url": "https://de.wikipedia.org/wiki/Festung_Kniepass"
-        }
-      ]
-    },
-    {
-      "id": "evt-083",
-      "epoch": "mittelalter",
-      "date": "1347 n. Chr.",
-      "dateNumeric": 1347,
-      "title": "Die Pest kommt nach Europa",
-      "short": "Eine furchtbare Krankheit",
-      "description": "Aus Asien brachte ein Schiff eine gefährliche Krankheit nach Europa: die Pest, auch 'Schwarzer Tod' genannt. Sie verbreitete sich in wenigen Jahren und etwa jeder dritte Mensch in Europa starb daran.",
-      "funFact": "Die Pest wurde durch Flöhe auf Ratten übertragen – das wusste damals noch niemand.",
-      "keywords": [
-        "Pest"
-      ],
-      "sources": [
-        {
-          "title": "Wikipedia: Schwarzer Tod",
-          "url": "https://de.wikipedia.org/wiki/Schwarzer_Tod"
         }
       ]
     },
@@ -2050,25 +2050,6 @@ window.TIMELINE_DATA = {
       ]
     },
     {
-      "id": "evt-098",
-      "epoch": "neuzeit",
-      "date": "1789 n. Chr.",
-      "dateNumeric": 1789,
-      "title": "Die Französische Revolution",
-      "short": "Das Volk steht auf",
-      "description": "Das französische Volk war unzufrieden mit dem König und dem Adel. Am 14. Juli stürmten Menschen in Paris die Bastille, ein altes Gefängnis. Die Revolution führte zu neuen Ideen: Freiheit, Gleichheit, Brüderlichkeit für alle.",
-      "funFact": "Der 14. Juli ist bis heute der wichtigste Feiertag Frankreichs.",
-      "keywords": [
-        "Französische Revolution"
-      ],
-      "sources": [
-        {
-          "title": "Wikipedia: Französische Revolution",
-          "url": "https://de.wikipedia.org/wiki/Franz%C3%B6sische_Revolution"
-        }
-      ]
-    },
-    {
       "id": "evt-099",
       "epoch": "industrie",
       "date": "1769 n. Chr.",
@@ -2085,6 +2066,25 @@ window.TIMELINE_DATA = {
         {
           "title": "Wikipedia: James Watt",
           "url": "https://de.wikipedia.org/wiki/James_Watt"
+        }
+      ]
+    },
+    {
+      "id": "evt-098",
+      "epoch": "neuzeit",
+      "date": "1789 n. Chr.",
+      "dateNumeric": 1789,
+      "title": "Die Französische Revolution",
+      "short": "Das Volk steht auf",
+      "description": "Das französische Volk war unzufrieden mit dem König und dem Adel. Am 14. Juli stürmten Menschen in Paris die Bastille, ein altes Gefängnis. Die Revolution führte zu neuen Ideen: Freiheit, Gleichheit, Brüderlichkeit für alle.",
+      "funFact": "Der 14. Juli ist bis heute der wichtigste Feiertag Frankreichs.",
+      "keywords": [
+        "Französische Revolution"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Französische Revolution",
+          "url": "https://de.wikipedia.org/wiki/Franz%C3%B6sische_Revolution"
         }
       ]
     },
@@ -2662,25 +2662,6 @@ window.TIMELINE_DATA = {
       ]
     },
     {
-      "id": "evt-129",
-      "epoch": "20jh",
-      "date": "1991 n. Chr.",
-      "dateNumeric": 1991,
-      "title": "Ötzi wird gefunden",
-      "short": "Ein Steinzeit-Mann in den Alpen",
-      "description": "Wanderer fanden im Ötztal in den Alpen die Mumie eines Mannes, der vor 5.300 Jahren gelebt hatte. Seine Kleidung, seine Waffen und sogar sein Essen waren noch erhalten. Er wurde Ötzi genannt.",
-      "funFact": "Ötzi ist die älteste Feuchtmumie Europas und wird in einem speziellen Kühlraum im Museum in Bozen aufbewahrt.",
-      "keywords": [
-        "Ötzi"
-      ],
-      "sources": [
-        {
-          "title": "Wikipedia: Ötzi",
-          "url": "https://de.wikipedia.org/wiki/%C3%96tzi"
-        }
-      ]
-    },
-    {
       "id": "evt-130",
       "epoch": "digital",
       "date": "1989 n. Chr.",
@@ -2697,6 +2678,25 @@ window.TIMELINE_DATA = {
         {
           "title": "Wikipedia: World Wide Web",
           "url": "https://de.wikipedia.org/wiki/World_Wide_Web"
+        }
+      ]
+    },
+    {
+      "id": "evt-129",
+      "epoch": "20jh",
+      "date": "1991 n. Chr.",
+      "dateNumeric": 1991,
+      "title": "Ötzi wird gefunden",
+      "short": "Ein Steinzeit-Mann in den Alpen",
+      "description": "Wanderer fanden im Ötztal in den Alpen die Mumie eines Mannes, der vor 5.300 Jahren gelebt hatte. Seine Kleidung, seine Waffen und sogar sein Essen waren noch erhalten. Er wurde Ötzi genannt.",
+      "funFact": "Ötzi ist die älteste Feuchtmumie Europas und wird in einem speziellen Kühlraum im Museum in Bozen aufbewahrt.",
+      "keywords": [
+        "Ötzi"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Ötzi",
+          "url": "https://de.wikipedia.org/wiki/%C3%96tzi"
         }
       ]
     },
