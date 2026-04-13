@@ -908,6 +908,26 @@ window.TIMELINE_DATA = {
       ]
     },
     {
+      "id": "evt-041",
+      "epoch": "steinzeit",
+      "date": "Um 3.500 v. Chr.",
+      "dateNumeric": -3501,
+      "title": "Die Bronzezeit beginnt",
+      "short": "Neues Metall für Werkzeuge",
+      "description": "Die Menschen entdeckten, dass man Kupfer mit Zinn mischen kann – daraus wird Bronze. Mit diesem neuen Metall konnten sie viel bessere Werkzeuge, Waffen und Schmuck herstellen.",
+      "funFact": "Auch Ötzi hatte schon eine Axt aus reinem Kupfer dabei.",
+      "keywords": [
+        "Bronze",
+        "Metall"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Bronzezeit",
+          "url": "https://de.wikipedia.org/wiki/Bronzezeit"
+        }
+      ]
+    },
+    {
       "id": "evt-042",
       "epoch": "hochkulturen",
       "date": "Um 3.500 v. Chr.",
@@ -924,26 +944,6 @@ window.TIMELINE_DATA = {
         {
           "title": "Wikipedia: Sumer",
           "url": "https://de.wikipedia.org/wiki/Sumer"
-        }
-      ]
-    },
-    {
-      "id": "evt-041",
-      "epoch": "steinzeit",
-      "date": "Um 3.300 v. Chr.",
-      "dateNumeric": -3300,
-      "title": "Die Bronzezeit beginnt",
-      "short": "Neues Metall für Werkzeuge",
-      "description": "Die Menschen entdeckten, dass man Kupfer mit Zinn mischen kann – daraus wird Bronze. Mit diesem neuen Metall konnten sie viel bessere Werkzeuge, Waffen und Schmuck herstellen.",
-      "funFact": "Auch Ötzi hatte schon eine Axt aus reinem Kupfer dabei.",
-      "keywords": [
-        "Bronze",
-        "Metall"
-      ],
-      "sources": [
-        {
-          "title": "Wikipedia: Bronzezeit",
-          "url": "https://de.wikipedia.org/wiki/Bronzezeit"
         }
       ]
     },
