@@ -551,26 +551,6 @@ window.TIMELINE_DATA = {
       ]
     },
     {
-      "id": "evt-022",
-      "epoch": "erde",
-      "date": "Vor 2,5 Millionen Jahren",
-      "dateNumeric": -2500000,
-      "title": "Die Eiszeiten beginnen",
-      "short": "Kälte formt Landschaften",
-      "description": "Die Erde wurde immer wieder kälter. Riesige Eisgletscher bedeckten weite Teile der Erde und zogen sich dann wieder zurück. In diesen Eiszeiten lebten Mammuts, Wollnashörner und Höhlenbären.",
-      "funFact": "Die Alpen wurden in der Eiszeit von Gletschern zu den Tälern geformt, die wir heute kennen – auch rund um Unken!",
-      "keywords": [
-        "Eiszeit",
-        "Mammut"
-      ],
-      "sources": [
-        {
-          "title": "Wikipedia: Pleistozän",
-          "url": "https://de.wikipedia.org/wiki/Pleistoz%C3%A4n"
-        }
-      ]
-    },
-    {
       "id": "evt-024",
       "epoch": "mensch",
       "date": "Vor 3,2 Millionen Jahren",
@@ -587,6 +567,26 @@ window.TIMELINE_DATA = {
         {
           "title": "Wikipedia: Lucy",
           "url": "https://de.wikipedia.org/wiki/Lucy_(Australopithecus)"
+        }
+      ]
+    },
+    {
+      "id": "evt-022",
+      "epoch": "erde",
+      "date": "Vor 2,5 Millionen Jahren",
+      "dateNumeric": -2500000,
+      "title": "Die Eiszeiten beginnen",
+      "short": "Kälte formt Landschaften",
+      "description": "Die Erde wurde immer wieder kälter. Riesige Eisgletscher bedeckten weite Teile der Erde und zogen sich dann wieder zurück. In diesen Eiszeiten lebten Mammuts, Wollnashörner und Höhlenbären.",
+      "funFact": "Die Alpen wurden in der Eiszeit von Gletschern zu den Tälern geformt, die wir heute kennen – auch rund um Unken!",
+      "keywords": [
+        "Eiszeit",
+        "Mammut"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Pleistozän",
+          "url": "https://de.wikipedia.org/wiki/Pleistoz%C3%A4n"
         }
       ]
     },
@@ -768,6 +768,25 @@ window.TIMELINE_DATA = {
       ]
     },
     {
+      "id": "evt-036",
+      "epoch": "steinzeit",
+      "date": "Vor 11.500 Jahren",
+      "dateNumeric": -11500,
+      "title": "Göbekli Tepe – der älteste Tempel",
+      "short": "Steinzeit-Baumeister",
+      "description": "In der heutigen Türkei bauten Menschen riesige Steinsäulen mit Bildern von Tieren. Göbekli Tepe ist etwa 6000 Jahre älter als die ägyptischen Pyramiden und zeigt, dass die Menschen damals schon sehr geschickt waren.",
+      "funFact": "Die Säulen sind so schwer, dass niemand genau weiß, wie die Menschen sie damals bewegen konnten.",
+      "keywords": [
+        "Göbekli Tepe"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Göbekli Tepe",
+          "url": "https://de.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+        }
+      ]
+    },
+    {
       "id": "evt-034",
       "epoch": "steinzeit",
       "date": "Vor 11.000 Jahren",
@@ -786,25 +805,6 @@ window.TIMELINE_DATA = {
         {
           "title": "Salzburgwiki: Abri von Unken",
           "url": "https://www.sn.at/wiki/Abri_von_Unken"
-        }
-      ]
-    },
-    {
-      "id": "evt-036",
-      "epoch": "steinzeit",
-      "date": "Vor 11.500 Jahren",
-      "dateNumeric": -11500,
-      "title": "Göbekli Tepe – der älteste Tempel",
-      "short": "Steinzeit-Baumeister",
-      "description": "In der heutigen Türkei bauten Menschen riesige Steinsäulen mit Bildern von Tieren. Göbekli Tepe ist etwa 6000 Jahre älter als die ägyptischen Pyramiden und zeigt, dass die Menschen damals schon sehr geschickt waren.",
-      "funFact": "Die Säulen sind so schwer, dass niemand genau weiß, wie die Menschen sie damals bewegen konnten.",
-      "keywords": [
-        "Göbekli Tepe"
-      ],
-      "sources": [
-        {
-          "title": "Wikipedia: Göbekli Tepe",
-          "url": "https://de.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
         }
       ]
     },
