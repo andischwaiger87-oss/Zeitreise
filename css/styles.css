@@ -727,6 +727,7 @@ h1, h2, h3, h4 {
     text-align: center;
     box-shadow: var(--shadow-xl);
     background: #1a1a2e;
+    min-height: 360px;
 }
 
 .hero-image {
@@ -736,6 +737,7 @@ h1, h2, h3, h4 {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    z-index: 0;
 }
 
 .hero-content {
@@ -2118,7 +2120,7 @@ h1, h2, h3, h4 {
         padding: var(--space-sm) var(--space-md);
     }
 
-    .hero { padding: var(--space-2xl) var(--space-lg); }
+    .hero { min-height: 300px; }
 
     .timeline-line { left: 28px; }
     .timeline-event,
