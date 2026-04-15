@@ -767,6 +767,7 @@ h1, h2, h3, h4 {
     line-height: 1.08;
     color: var(--text-inverse);
     text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+    letter-spacing:0.001em;
 }
 
 .hero-subtitle {
