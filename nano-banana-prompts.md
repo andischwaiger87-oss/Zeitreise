@@ -294,26 +294,35 @@ Warm, detailed storybook illustration for children aged 6-10. Hand-painted child
 **evt-086 — Kolumbus entdeckt Amerika**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. Three wooden sailing ships approaching a lush tropical island with palm trees and white beaches. Sailors on deck point excitedly at the new land. Colorful parrots fly overhead. The ocean is deep blue-green. A moment of discovery and wonder.
 
+
 **evt-087 — Leonardo da Vinci – Künstler und Erfinder**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A Renaissance workshop full of inventions: a wooden flying machine model hangs from the ceiling, sketches of anatomy and machines cover the walls, paintbrushes and an easel with a painting stand nearby. A bearded artist works at his desk. Warm candlelight.
+
 
 **evt-088 — Martin Luther und die Reformation**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A monk in a brown robe standing before a large wooden church door, holding a rolled parchment. People gather to watch. A medieval German town with half-timbered houses in the background. Autumn leaves fall. Dramatic afternoon light.
 
+
 **evt-089 — Kopernikus und die Sonne**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. An astronomer in a Renaissance study looking up at a model of the solar system where the sun is in the center and planets orbit around it. The night sky is visible through a large window. Stars twinkle. A moment of revolutionary understanding.
+
 
 **evt-090 — Galileo blickt durchs Fernrohr**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A scientist looking through a long brass telescope from a balcony in an Italian city at night. The moon is large and detailed in the sky, showing craters. Jupiter and its moons are visible. Stars and a deep blue night sky. Awe and discovery.
 
+
 **evt-091 — Der Dreißigjährige Krieg**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A European landscape divided: on one side, a peaceful village with a church; on the other, soldiers marching with flags and cannons. A dove flies between the two halves symbolizing hope for peace. Muted warm tones, serious but hopeful.
+
 
 **evt-092 — Die Festung Kniepass bei Unken**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A small stone fortress built into a narrow Alpine mountain pass near the village of Unken. Guards in period clothing watch the road. Mountains rise steeply on both sides. A rushing mountain stream passes below. Green forests and dramatic rocky cliffs.
 
+
+
 **evt-093 — Newton erklärt die Schwerkraft**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A scientist sitting under a large apple tree in an English garden. A red apple falls from the tree toward his head. He looks up with a surprised, delighted expression. Mathematical orbital paths are subtly shown in the sky above. Warm green and golden garden scene.
+
 
 **evt-094 — Maria Theresia wird Kaiserin**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A confident young woman in an elegant royal dress standing in a grand Baroque palace hall. Crystal chandeliers, gilded walls, and marble floors. She holds documents and looks determined. The palace gardens are visible through tall windows. Regal gold and cream tones.
@@ -340,11 +349,16 @@ Warm, detailed storybook illustration for children aged 6-10. Hand-painted child
 **evt-100 — Napoleon wird Kaiser**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A short but commanding military leader in a blue and white uniform with a distinctive bicorn hat, standing before an army with colorful flags. A grand French palace is in the background. Dramatic clouds and golden light.
 
+
+
 **evt-101 — Die erste Lokomotive**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. An early steam locomotive puffing white smoke as it pulls coal wagons along iron tracks through green English countryside. People line the tracks, waving and cheering in amazement. The locomotive is small and charming. Warm green and grey tones.
 
+
+
 **evt-102 — Salzburg wird österreichisch**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. The Salzburg skyline with the Hohensalzburg Fortress on the hill and church domes below. An Austrian flag is being raised. People celebrate in the old town streets. The Salzach River flows through the city. Alps in the background. Warm festive atmosphere.
+
 
 **evt-103 — Die Gemeinde Unken entsteht**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A small Alpine village with a church, a town hall, and wooden farmhouses. Villagers gather in the village square. Green meadows with cows, surrounding mountains with pine forests. A milestone marker stands at the village entrance. Warm, peaceful community scene.
@@ -355,8 +369,10 @@ Warm, detailed storybook illustration for children aged 6-10. Hand-painted child
 **evt-105 — Das Telefon wird erfunden**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. Two people in a Victorian-era room speaking into early telephone devices connected by a wire. One speaks excitedly, the other listens with amazement. The room has wooden furniture and gas lamps. A magical moment of connection across distance.
 
+
 **evt-106 — Die elektrische Glühbirne**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A glass light bulb glowing warmly in a dark laboratory, illuminating the face of a delighted inventor. The room transitions from darkness to golden light. Tools and experiments fill the workshop. The bulb is the radiant centerpiece. Dramatic light-dark contrast.
+
 
 **evt-107 — Das erste Auto**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A funny-looking early three-wheeled automobile puttering down a country road. The driver wears goggles and a top hat. People and horses along the road look surprised. The car is small and charming with big spoked wheels. Green countryside and a sunny day.
@@ -372,10 +388,24 @@ Warm, detailed storybook illustration for children aged 6-10. Hand-painted child
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
 ## EPOCHE 10: 20. Jahrhundert (evt-111 bis evt-129)
 
 **evt-111 — Der Erste Weltkrieg beginnt**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A peaceful European summer landscape that transitions to a darker, greyer scene with soldiers marching away from their villages. Families wave goodbye. Poppies grow in the fields. The mood is somber but respectful, not violent. Warm fading into cool grey.
+
+
+
 
 **evt-112 — Österreich wird Republik**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. Citizens celebrating in front of the Austrian Parliament building in Vienna. A red-white-red Austrian flag flies from the building. People of all ages gather joyfully. The Parliament's classical Greek-style facade with Athena statue is prominent. Hopeful autumn light.
@@ -383,20 +413,28 @@ Warm, detailed storybook illustration for children aged 6-10. Hand-painted child
 **evt-113 — Frauenwahlrecht in Österreich**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. Women in early 20th-century clothing proudly casting ballots into a voting box for the first time. They look determined and happy. A polling station in a public building. Other women cheer and embrace. An empowering, joyful moment.
 
+
 **evt-114 — Fleming entdeckt das Penicillin**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A scientist looking through a microscope at a petri dish where a fuzzy blue-green mold grows, creating a clear ring where bacteria cannot survive. A laboratory with glass bottles and test tubes. A moment of accidental but world-changing discovery. Warm lab light.
+
 
 **evt-115 — Die Weltwirtschaftskrise**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A 1930s city street with a long line of people waiting patiently outside a soup kitchen. The buildings are grey, but a community volunteer serves warm food with a kind smile. The mood shows hardship but also human kindness and solidarity. Muted warm tones.
 
+
+
 **evt-116 — Österreich wird von Nazi-Deutschland besetzt**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A quiet Austrian city street with worried-looking citizens. Dark clouds gather over the rooftops. Some people hold hands or comfort each other. A contrast between the beautiful Austrian architecture and the heavy, dark atmosphere. Somber greys and muted colors. Respectful and serious.
+
+
 
 **evt-117 — Der Zweite Weltkrieg beginnt**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A European city with boarded-up windows. Families prepare to leave, carrying suitcases. Children hold teddy bears. Dark storm clouds roll in from one side. The scene is serious and respectful, showing the human impact. Muted warm tones with dark clouds.
 
+
 **evt-118 — Das Ende des Zweiten Weltkriegs**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. People celebrating in a European city square, hugging and waving flags. A dove of peace flies overhead. Flowers are thrown in the air. The sun breaks through clouds, symbolizing hope and relief. Warm golden light returns after the dark years. Joyful and hopeful.
+
 
 **evt-119 — Die Vereinten Nationen**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. Representatives from many countries sitting around a large round table, shaking hands and talking. Each person wears clothing from their culture. A large round emblem with olive branches hangs above. A globe stands in the center. Warm, diverse, and hopeful atmosphere.
@@ -404,11 +442,17 @@ Warm, detailed storybook illustration for children aged 6-10. Hand-painted child
 **evt-120 — Die Struktur der DNA**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A beautiful glowing double helix DNA spiral twisting upward through a laboratory. Scientists look up at it in awe. The helix is made of colorful connected shapes — blues, reds, yellows, and greens. Soft light radiates from the structure. Magical and scientific.
 
+
 **evt-121 — Der Österreichische Staatsvertrag**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A diplomat standing on a balcony of a grand Viennese palace, holding up a signed document. A crowd below cheers. The Austrian flag waves proudly. The Belvedere Palace is recognizable. A brilliant sunny day. Joy and freedom.
 
+
 **evt-122 — Sputnik – der erste Satellit**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A small shiny silver sphere with four antennas orbiting high above the blue and green Earth. Stars and the blackness of space surround it. Below, people look up at the night sky in wonder, pointing at a moving light. A new era begins. Deep blue and silver.
+
+
+
+
 
 **evt-123 — Gagarin fliegt ins All**
 Warm, detailed storybook illustration for children aged 6-10. Hand-painted children's book style with soft textures, gentle outlines, warm lighting, and a sense of wonder. No text, no letters, no words in the image. 16:9 aspect ratio. A cosmonaut in an orange spacesuit inside a small round spacecraft, looking through a window at the beautiful blue Earth below. Stars surround the spacecraft. The Earth's curve is visible with oceans, continents, and clouds. Awe and wonder in space.
