@@ -89,6 +89,9 @@ const Timeline = {
         if (window.DEEPDIVE_DINOS) {
             ['evt-017', 'evt-018', 'evt-019', 'evt-020'].forEach(function(id) { deepDiveMap[id] = 'deepdive-dinos'; });
         }
+        if (window.DEEPDIVE_MITTELALTER) {
+            ['evt-071', 'evt-072', 'evt-073', 'evt-074', 'evt-075', 'evt-076', 'evt-077', 'evt-078', 'evt-079', 'evt-080', 'evt-081', 'evt-082', 'evt-083', 'evt-084', 'evt-085'].forEach(function(id) { deepDiveMap[id] = 'deepdive-mittelalter'; });
+        }
 
         container.innerHTML = events.map((event, idx) => {
             const epoch = this.epochMap[event.epoch] || {};

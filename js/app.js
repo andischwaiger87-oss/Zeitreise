@@ -187,14 +187,21 @@ const App = {
         const imageCaption = event.imageCaption || `${event.date} \u00b7 ${event.title}`;
 
         // Check if this event has a DeepDive
-        const deepDiveEvents = { 'evt-017': 'deepdive-dinos', 'evt-018': 'deepdive-dinos', 'evt-019': 'deepdive-dinos', 'evt-020': 'deepdive-dinos' };
-        const deepDiveId = deepDiveEvents[event.id] || null;
+        const deepDiveConfig = {
+            'deepdive-dinos': { emoji: '🦕', title: 'DeepDive: Die Welt der Dinosaurier', hint: 'Tauche tiefer ein — 30 spannende Einträge über Trias, Jura und Kreide!', events: ['evt-017', 'evt-018', 'evt-019', 'evt-020'] },
+            'deepdive-mittelalter': { emoji: '🏰', title: 'DeepDive: Das Mittelalter', hint: 'Tauche tiefer ein — 30 spannende Einträge über Ritter, Burgen und große Entdeckungen!', events: ['evt-071', 'evt-072', 'evt-073', 'evt-074', 'evt-075', 'evt-076', 'evt-077', 'evt-078', 'evt-079', 'evt-080', 'evt-081', 'evt-082', 'evt-083', 'evt-084', 'evt-085'] }
+        };
+        let deepDiveId = null;
+        let deepDiveMeta = null;
+        for (const [ddId, dd] of Object.entries(deepDiveConfig)) {
+            if (dd.events.includes(event.id)) { deepDiveId = ddId; deepDiveMeta = dd; break; }
+        }
         const deepDiveHtml = deepDiveId ? `
             <div class="modal-deepdive-cta">
                 <button class="modal-deepdive-btn" onclick="App.closeModal(); DeepDive.open('${deepDiveId}');">
-                    🦕 DeepDive: Die Welt der Dinosaurier
+                    ${deepDiveMeta.emoji} ${deepDiveMeta.title}
                 </button>
-                <p class="modal-deepdive-hint">Tauche tiefer ein — 30 spannende Einträge über Trias, Jura und Kreide!</p>
+                <p class="modal-deepdive-hint">${deepDiveMeta.hint}</p>
             </div>
         ` : '';
 
