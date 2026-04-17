@@ -84,10 +84,20 @@ const Timeline = {
             container.innerHTML = '<p style="text-align:center; padding: 3rem; color: var(--ink-muted); font-family: var(--font-display); font-style: italic;">Keine Ereignisse in dieser Epoche.</p>';
             return;
         }
+        // Check which events have DeepDives
+        var deepDiveMap = {};
+        if (window.DEEPDIVE_DINOS) {
+            ['evt-017', 'evt-018', 'evt-019', 'evt-020'].forEach(function(id) { deepDiveMap[id] = 'deepdive-dinos'; });
+        }
+
         container.innerHTML = events.map((event, idx) => {
             const epoch = this.epochMap[event.epoch] || {};
             const delay = Math.min(idx * 0.03, 0.8);
             var imgSrc = event.image || 'assets/images/' + event.id + '.webp';
+            var hasDeepDive = deepDiveMap[event.id] || false;
+            var deepDiveBtn = hasDeepDive
+                ? '<button class="timeline-card-deepdive" data-deepdive="' + hasDeepDive + '" onclick="event.stopPropagation(); DeepDive.open(\'' + hasDeepDive + '\')">🔍 DeepDive</button>'
+                : '';
             return '<article class="timeline-event" data-event-id="' + event.id + '" data-index="' + idx + '" style="animation-delay: ' + delay + 's; --epoch-color: ' + (epoch.color || '#6B1F1F') + ';">'
                 + '<div class="timeline-dot" style="background: ' + (epoch.color || '#6B1F1F') + ';">' + (epoch.emoji || '\u2022') + '</div>'
                 + '<div class="timeline-card">'
@@ -96,7 +106,10 @@ const Timeline = {
                 + '<div class="timeline-card-date">' + event.date + '</div>'
                 + '<h3 class="timeline-card-title">' + event.title + '</h3>'
                 + '<p class="timeline-card-short">' + (event.short || '') + '</p>'
+                + '<div class="timeline-card-actions">'
                 + '<div class="timeline-card-more">Mehr erfahren</div>'
+                + deepDiveBtn
+                + '</div>'
                 + '</div>'
                 + '</div></article>';
         }).join('');

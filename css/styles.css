@@ -2088,6 +2088,120 @@ h1, h2, h3, h4 {
     color: var(--text-secondary);
 }
 
+/* ---- DEEPDIVE ---- */
+.deepdive-back {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--surface-glass);
+    border: 1px solid var(--border-medium);
+    border-radius: var(--radius-full);
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    cursor: pointer;
+    margin-bottom: var(--space-lg);
+    transition: all var(--transition-base);
+}
+
+.deepdive-back:hover {
+    background: var(--surface);
+    box-shadow: var(--shadow-md);
+}
+
+.deepdive-hero {
+    border-radius: var(--radius-2xl);
+    padding: var(--space-2xl) var(--space-xl);
+    color: var(--text-inverse);
+    text-align: center;
+    box-shadow: var(--shadow-lg);
+    margin-bottom: var(--space-xl);
+}
+
+.deepdive-hero-icon {
+    font-size: 3.5rem;
+    margin-bottom: var(--space-md);
+}
+
+.deepdive-hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 800;
+    margin-bottom: var(--space-sm);
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+}
+
+.deepdive-hero-subtitle {
+    font-size: clamp(0.95rem, 2vw, 1.15rem);
+    font-weight: 500;
+    opacity: 0.9;
+    margin-bottom: var(--space-md);
+}
+
+.deepdive-hero-range {
+    display: inline-block;
+    padding: 6px 16px;
+    background: rgba(255,255,255,0.2);
+    border-radius: var(--radius-full);
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: var(--space-md);
+}
+
+.deepdive-hero-intro {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.85;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.deepdive-periods {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: var(--space-2xl);
+    padding: var(--space-md);
+}
+
+.deepdive-timeline {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+}
+
+/* DeepDive button on timeline cards */
+.timeline-card-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    margin-top: var(--space-sm);
+}
+
+.timeline-card-deepdive {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 14px;
+    background: linear-gradient(135deg, var(--green-dark), var(--green));
+    color: var(--text-inverse);
+    border: none;
+    border-radius: var(--radius-full);
+    font-size: 0.78rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    white-space: nowrap;
+}
+
+.timeline-card-deepdive:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(46, 125, 50, 0.3);
+}
+
 /* ---- FOOTER ---- */
 .app-footer {
     max-width: var(--max-width);

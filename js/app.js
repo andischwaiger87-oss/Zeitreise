@@ -100,7 +100,7 @@ const App = {
 
     handleHash() {
         const hash = window.location.hash.replace('#', '');
-        if (hash && ['home', 'timeline', 'unken', 'quiz', 'info'].includes(hash)) {
+        if (hash && ['home', 'timeline', 'unken', 'quiz', 'info', 'deepdive'].includes(hash)) {
             this.showView(hash);
         }
     },

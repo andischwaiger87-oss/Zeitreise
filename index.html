@@ -194,6 +194,22 @@
             </div>
         </section>
 
+        <!-- DEEPDIVE VIEW -->
+        <section id="view-deepdive" class="view view-deepdive" aria-label="DeepDive" hidden>
+            <div class="deepdive-header" id="deepdiveHeader">
+                <button class="deepdive-back" onclick="DeepDive.close()">← Zurück zur Zeitreise</button>
+                <div class="deepdive-hero" id="deepdiveHero">
+                    <!-- filled by JS -->
+                </div>
+            </div>
+            <div class="deepdive-periods" id="deepdivePeriods">
+                <!-- period filter chips -->
+            </div>
+            <div class="deepdive-timeline" id="deepdiveTimeline">
+                <!-- filled by JS -->
+            </div>
+        </section>
+
         <!-- UNKEN VIEW -->
         <section id="view-unken" class="view view-unken" aria-label="Unken" hidden>
             <div class="view-header unken-header">
@@ -320,10 +336,12 @@
     <script src="data/timeline-data.js"></script>
     <script src="data/unken-data.js"></script>
     <script src="data/quiz-data.js"></script>
+    <script src="data/deepdive-dinos.js"></script>
 
     <!-- SCRIPTS -->
     <script src="js/app.js"></script>
     <script src="js/timeline.js"></script>
+    <script src="js/deepdive.js"></script>
     <script src="js/unken.js"></script>
     <script src="js/quiz.js"></script>
 </body>
