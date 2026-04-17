@@ -186,6 +186,18 @@ const App = {
         const imageAlt = event.imageAlt || event.title;
         const imageCaption = event.imageCaption || `${event.date} \u00b7 ${event.title}`;
 
+        // Check if this event has a DeepDive
+        const deepDiveEvents = { 'evt-017': 'deepdive-dinos', 'evt-018': 'deepdive-dinos', 'evt-019': 'deepdive-dinos', 'evt-020': 'deepdive-dinos' };
+        const deepDiveId = deepDiveEvents[event.id] || null;
+        const deepDiveHtml = deepDiveId ? `
+            <div class="modal-deepdive-cta">
+                <button class="modal-deepdive-btn" onclick="App.closeModal(); DeepDive.open('${deepDiveId}');">
+                    🦕 DeepDive: Die Welt der Dinosaurier
+                </button>
+                <p class="modal-deepdive-hint">Tauche tiefer ein — 30 spannende Einträge über Trias, Jura und Kreide!</p>
+            </div>
+        ` : '';
+
         body.innerHTML = `
             <div class="modal-header" style="background: linear-gradient(135deg, ${epochData.color}, ${this.lighten(epochData.color, 20)});">
                 <div class="modal-icon">${event.icon || epochData.emoji || '\u23F3'}</div>
@@ -197,6 +209,7 @@ const App = {
                 <!-- caption removed -->
             </figure>
             <div class="modal-body-content">
+                ${deepDiveHtml}
                 <div class="modal-audio">
                     <button class="modal-audio-btn" onclick="App.playAudio('${event.id}')" aria-label="Vorlesen">
                         \u{1F50A}

@@ -2173,6 +2173,44 @@ h1, h2, h3, h4 {
     padding: 0 var(--space-lg);
 }
 
+/* DeepDive CTA in modal */
+.modal-deepdive-cta {
+    background: linear-gradient(135deg, #E8F5E9, #FFF8E1);
+    border: 2px solid var(--green-dark);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    text-align: center;
+    margin-bottom: var(--space-xl);
+}
+
+.modal-deepdive-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: 14px 28px;
+    background: linear-gradient(135deg, var(--green-dark), var(--green));
+    color: var(--text-inverse);
+    border: none;
+    border-radius: var(--radius-full);
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    box-shadow: 0 4px 16px rgba(46, 125, 50, 0.3);
+}
+
+.modal-deepdive-btn:hover {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(46, 125, 50, 0.4);
+}
+
+.modal-deepdive-hint {
+    font-size: 0.82rem;
+    color: var(--text-tertiary);
+    margin-top: var(--space-sm);
+}
+
 /* DeepDive button on timeline cards */
 .timeline-card-actions {
     display: flex;
