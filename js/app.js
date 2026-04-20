@@ -189,7 +189,8 @@ const App = {
         // Check if this event has a DeepDive
         const deepDiveConfig = {
             'deepdive-dinos': { emoji: '🦕', title: 'DeepDive: Die Welt der Dinosaurier', hint: 'Tauche tiefer ein — 30 spannende Einträge über Trias, Jura und Kreide!', events: ['evt-017', 'evt-018', 'evt-019', 'evt-020'] },
-            'deepdive-mittelalter': { emoji: '🏰', title: 'DeepDive: Das Mittelalter', hint: 'Tauche tiefer ein — 30 spannende Einträge über Ritter, Burgen und große Entdeckungen!', events: ['evt-071', 'evt-072', 'evt-073', 'evt-074', 'evt-075', 'evt-076', 'evt-077', 'evt-078', 'evt-079', 'evt-080', 'evt-081', 'evt-082', 'evt-083', 'evt-084', 'evt-085'] }
+            'deepdive-mittelalter': { emoji: '🏰', title: 'DeepDive: Das Mittelalter', hint: 'Tauche tiefer ein — 30 spannende Einträge über Ritter, Burgen und große Entdeckungen!', events: ['evt-071', 'evt-072', 'evt-073', 'evt-074', 'evt-075', 'evt-076', 'evt-077', 'evt-078', 'evt-079', 'evt-080', 'evt-081', 'evt-082', 'evt-083', 'evt-084', 'evt-085'] },
+            'deepdive-ww2': { emoji: '🕊️', title: 'DeepDive: Der Zweite Weltkrieg', hint: 'Erinnern, Verstehen, Nie wieder — 15 wichtige Einträge über die dunkelste Zeit der Geschichte.', events: ['evt-116', 'evt-117', 'evt-118', 'evt-119'] }
         };
         let deepDiveId = null;
         let deepDiveMeta = null;

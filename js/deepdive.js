@@ -8,7 +8,8 @@ const DeepDive = {
     open(deepdiveId) {
         var dataMap = {
             'deepdive-dinos': window.DEEPDIVE_DINOS,
-            'deepdive-mittelalter': window.DEEPDIVE_MITTELALTER
+            'deepdive-mittelalter': window.DEEPDIVE_MITTELALTER,
+            'deepdive-ww2': window.DEEPDIVE_WW2
         };
         var data = dataMap[deepdiveId];
         if (!data) return;

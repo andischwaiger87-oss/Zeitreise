@@ -92,6 +92,9 @@ const Timeline = {
         if (window.DEEPDIVE_MITTELALTER) {
             ['evt-071', 'evt-072', 'evt-073', 'evt-074', 'evt-075', 'evt-076', 'evt-077', 'evt-078', 'evt-079', 'evt-080', 'evt-081', 'evt-082', 'evt-083', 'evt-084', 'evt-085'].forEach(function(id) { deepDiveMap[id] = 'deepdive-mittelalter'; });
         }
+        if (window.DEEPDIVE_WW2) {
+            ['evt-116', 'evt-117', 'evt-118', 'evt-119'].forEach(function(id) { deepDiveMap[id] = 'deepdive-ww2'; });
+        }
 
         container.innerHTML = events.map((event, idx) => {
             const epoch = this.epochMap[event.epoch] || {};
