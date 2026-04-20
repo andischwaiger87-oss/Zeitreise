@@ -38,7 +38,7 @@ window.DEEPDIVE_WW2 = {
       title: "Die Bücherverbrennungen",
       short: "Die Nationalsozialisten verbrennen tausende Bücher — Wissen und freies Denken werden bekämpft.",
       description: "Im Mai 1933 verbrannten Nationalsozialisten in vielen deutschen Städten öffentlich Bücher. Es waren Werke von jüdischen, politischen und kritischen Autoren — Menschen, deren Gedanken den Nazis nicht passten. Berühmte Schriftsteller wie Erich Kästner mussten zusehen, wie ihre Bücher im Feuer landeten. Die Bücherverbrennungen zeigten: Die Nazis wollten nicht nur die Macht über den Staat, sondern auch über das Denken der Menschen. Wer Bücher verbrennt, will verhindern, dass Menschen frei denken und die Wahrheit erfahren.",
-      funFact: "Wusstest du? Der deutsche Dichter Heinrich Heine schrieb schon 1820: „Dort, wo man Bücher verbrennt, verbrennt man am Ende auch Menschen." Über hundert Jahre später wurde diese schreckliche Vorhersage wahr.",
+      funFact: "Wusstest du? Der deutsche Dichter Heinrich Heine schrieb schon 1820: „Dort, wo man Bücher verbrennt, verbrennt man am Ende auch Menschen.“ Über hundert Jahre später wurde diese schreckliche Vorhersage wahr.",
       keywords: ["Bücherverbrennung", "Zensur", "Meinungsfreiheit", "Propaganda"],
       sources: [
         { title: "Bücherverbrennung 1933 — Wikipedia", url: "https://de.wikipedia.org/wiki/B%C3%BCcherverbrennung_1933_in_Deutschland" }
@@ -51,7 +51,7 @@ window.DEEPDIVE_WW2 = {
       dateNumeric: 1935,
       title: "Die Nürnberger Gesetze — Juden werden ausgegrenzt",
       short: "Neue Gesetze nehmen jüdischen Menschen ihre Rechte weg.",
-      description: "1935 beschlossen die Nationalsozialisten die sogenannten Nürnberger Gesetze. Diese Gesetze bestimmten, dass jüdische Menschen keine deutschen Staatsbürger mehr sein durften. Sie durften nicht mehr wählen, bestimmte Berufe nicht ausüben und wurden aus dem öffentlichen Leben ausgeschlossen. Jüdische Kinder durften nicht mehr in dieselben Schulen gehen wie andere Kinder. Diese Gesetze waren zutiefst ungerecht — sie teilten Menschen in „wertvoll" und „wertlos" ein, nur aufgrund ihrer Herkunft oder Religion. Das war der Beginn einer immer schlimmeren Verfolgung.",
+      description: "1935 beschlossen die Nationalsozialisten die sogenannten Nürnberger Gesetze. Diese Gesetze bestimmten, dass jüdische Menschen keine deutschen Staatsbürger mehr sein durften. Sie durften nicht mehr wählen, bestimmte Berufe nicht ausüben und wurden aus dem öffentlichen Leben ausgeschlossen. Jüdische Kinder durften nicht mehr in dieselben Schulen gehen wie andere Kinder. Diese Gesetze waren zutiefst ungerecht — sie teilten Menschen in „wertvoll“ und „wertlos“ ein, nur aufgrund ihrer Herkunft oder Religion. Das war der Beginn einer immer schlimmeren Verfolgung.",
       funFact: "Wusstest du? Vor den Nürnberger Gesetzen lebten Juden seit über 1.700 Jahren in Deutschland. Sie waren Nachbarn, Lehrer, Ärzte und Freunde — bis der Staat sie plötzlich zu Fremden erklärte.",
       keywords: ["Nürnberger Gesetze", "Antisemitismus", "Ausgrenzung", "Menschenrechte"],
       sources: [
@@ -64,7 +64,7 @@ window.DEEPDIVE_WW2 = {
       period: "machtergreifung",
       date: "12. März 1938",
       dateNumeric: 1938,
-      title: "Der „Anschluss" Österreichs",
+      title: "Der „Anschluss“ Österreichs",
       short: "Nazi-Deutschland besetzt Österreich — auch unser Land wird Teil der Diktatur.",
       description: "Am 12. März 1938 marschierten deutsche Soldaten in Österreich ein. Hitler, der selbst aus Österreich stammte, gliederte das Land in das Deutsche Reich ein. Viele Menschen jubelten — aber viele andere hatten Angst, besonders jüdische Österreicherinnen und Österreicher. Sofort begannen auch hier Verfolgung und Gewalt. Jüdische Geschäfte wurden zerstört, Menschen wurden auf offener Straße gedemütigt und geschlagen. Österreich war kein eigenes Land mehr, sondern Teil der nationalsozialistischen Diktatur. Nach dem Krieg dauerte es bis 1955, bis Österreich wieder frei und unabhängig wurde.",
       funFact: "Wusstest du? In Unken und im ganzen Saalachtal veränderte der Anschluss das tägliche Leben. Vereine wurden verboten oder gleichgeschaltet, und Menschen, die anderer Meinung waren, mussten mit Bestrafung rechnen.",
@@ -79,10 +79,10 @@ window.DEEPDIVE_WW2 = {
       period: "machtergreifung",
       date: "9. November 1938",
       dateNumeric: 1938.8,
-      title: "Die Novemberpogrome — Die „Reichskristallnacht"",
+      title: "Die Novemberpogrome — Die „Reichskristallnacht“",
       short: "In einer Nacht des Terrors werden Synagogen angezündet und jüdische Geschäfte zerstört.",
-      description: "In der Nacht vom 9. auf den 10. November 1938 organisierte das NS-Regime gewalttätige Angriffe auf jüdische Menschen in ganz Deutschland und Österreich. Synagogen — die Gotteshäuser der Juden — wurden angezündet, über 7.000 jüdische Geschäfte zerstört und geplündert. Mindestens 400 Menschen wurden ermordet, etwa 30.000 jüdische Männer wurden in Konzentrationslager verschleppt. Die Polizei griff nicht ein — im Gegenteil, der Staat hatte die Gewalt geplant. Diese Nacht zeigte der ganzen Welt, dass die Nazis vor nichts zurückschreckten. Der verharmlosende Name „Kristallnacht" bezieht sich auf die zerbrochenen Glasscherben — heute sprechen wir von Novemberpogromen.",
-      funFact: "Wusstest du? Ein Pogrom ist ein gewalttätiger Angriff auf eine Volksgruppe. Das Wort kommt aus dem Russischen und bedeutet „Verwüstung". Die Novemberpogrome waren ein Wendepunkt: Danach wurde die Verfolgung der Juden immer brutaler.",
+      description: "In der Nacht vom 9. auf den 10. November 1938 organisierte das NS-Regime gewalttätige Angriffe auf jüdische Menschen in ganz Deutschland und Österreich. Synagogen — die Gotteshäuser der Juden — wurden angezündet, über 7.000 jüdische Geschäfte zerstört und geplündert. Mindestens 400 Menschen wurden ermordet, etwa 30.000 jüdische Männer wurden in Konzentrationslager verschleppt. Die Polizei griff nicht ein — im Gegenteil, der Staat hatte die Gewalt geplant. Diese Nacht zeigte der ganzen Welt, dass die Nazis vor nichts zurückschreckten. Der verharmlosende Name „Kristallnacht“ bezieht sich auf die zerbrochenen Glasscherben — heute sprechen wir von Novemberpogromen.",
+      funFact: "Wusstest du? Ein Pogrom ist ein gewalttätiger Angriff auf eine Volksgruppe. Das Wort kommt aus dem Russischen und bedeutet „Verwüstung“. Die Novemberpogrome waren ein Wendepunkt: Danach wurde die Verfolgung der Juden immer brutaler.",
       keywords: ["Novemberpogrome", "Synagoge", "Verfolgung", "Gewalt"],
       sources: [
         { title: "Novemberpogrome 1938 — Wikipedia", url: "https://de.wikipedia.org/wiki/Novemberpogrome_1938" },
@@ -111,8 +111,8 @@ window.DEEPDIVE_WW2 = {
       dateNumeric: 1939.5,
       title: "Der Holocaust — Der Völkermord an den Juden",
       short: "Die Nationalsozialisten ermorden systematisch 6 Millionen jüdische Menschen.",
-      description: "Der Holocaust ist das dunkelste Kapitel der Menschheitsgeschichte. Die Nationalsozialisten beschlossen, alle jüdischen Menschen in Europa zu ermorden. Sie nannten es die „Endlösung". Jüdische Familien — Großeltern, Eltern, Kinder, Babys — wurden aus ihren Häusern geholt, in Züge gepfercht und in Vernichtungslager gebracht. Dort wurden sie in Gaskammern ermordet. Insgesamt töteten die Nazis 6 Millionen Juden — darunter anderthalb Millionen Kinder. Auch Sinti und Roma, Menschen mit Behinderungen, Homosexuelle und politische Gegner wurden systematisch verfolgt und ermordet. Dieses Verbrechen darf niemals vergessen werden.",
-      funFact: "Wusstest du? Das Wort „Holocaust" kommt aus dem Griechischen und bedeutet „vollständig verbrannt". Auf Hebräisch heißt es „Shoah" — das bedeutet „die Katastrophe". Jedes Jahr am 27. Januar erinnert der Holocaust-Gedenktag an die Opfer.",
+      description: "Der Holocaust ist das dunkelste Kapitel der Menschheitsgeschichte. Die Nationalsozialisten beschlossen, alle jüdischen Menschen in Europa zu ermorden. Sie nannten es die „Endlösung“. Jüdische Familien — Großeltern, Eltern, Kinder, Babys — wurden aus ihren Häusern geholt, in Züge gepfercht und in Vernichtungslager gebracht. Dort wurden sie in Gaskammern ermordet. Insgesamt töteten die Nazis 6 Millionen Juden — darunter anderthalb Millionen Kinder. Auch Sinti und Roma, Menschen mit Behinderungen, Homosexuelle und politische Gegner wurden systematisch verfolgt und ermordet. Dieses Verbrechen darf niemals vergessen werden.",
+      funFact: "Wusstest du? Das Wort „Holocaust“ kommt aus dem Griechischen und bedeutet „vollständig verbrannt“. Auf Hebräisch heißt es „Shoah“ — das bedeutet „die Katastrophe“. Jedes Jahr am 27. Januar erinnert der Holocaust-Gedenktag an die Opfer.",
       keywords: ["Holocaust", "Shoah", "Völkermord", "Gedenken"],
       sources: [
         { title: "Holocaust — Wikipedia", url: "https://de.wikipedia.org/wiki/Holocaust" },
@@ -158,7 +158,7 @@ window.DEEPDIVE_WW2 = {
       dateNumeric: 1941,
       title: "Kinder im Krieg",
       short: "Millionen Kinder verloren ihre Kindheit, ihre Familien und oft ihr Leben.",
-      description: "Der Krieg traf Kinder besonders hart. Jüdische Kinder wurden von ihren Familien getrennt und in Lager gebracht. Manche wurden von mutigen Menschen versteckt — wie Anne Frank, die sich mit ihrer Familie in Amsterdam in einem Hinterhaus versteckte und dort ihr berühmtes Tagebuch schrieb. In den Städten mussten Kinder bei Bombenangriffen in Keller flüchten. Viele wurden als „Kinderlandverschickung" aufs Land geschickt, weit weg von ihren Eltern. Kinder verloren ihre Väter, Brüder und Mütter im Krieg. Anderthalb Millionen jüdische Kinder wurden im Holocaust ermordet. Sie hatten keine Chance auf ein Leben — nur weil sie als Juden geboren wurden.",
+      description: "Der Krieg traf Kinder besonders hart. Jüdische Kinder wurden von ihren Familien getrennt und in Lager gebracht. Manche wurden von mutigen Menschen versteckt — wie Anne Frank, die sich mit ihrer Familie in Amsterdam in einem Hinterhaus versteckte und dort ihr berühmtes Tagebuch schrieb. In den Städten mussten Kinder bei Bombenangriffen in Keller flüchten. Viele wurden als „Kinderlandverschickung“ aufs Land geschickt, weit weg von ihren Eltern. Kinder verloren ihre Väter, Brüder und Mütter im Krieg. Anderthalb Millionen jüdische Kinder wurden im Holocaust ermordet. Sie hatten keine Chance auf ein Leben — nur weil sie als Juden geboren wurden.",
       funFact: "Wusstest du? Anne Franks Tagebuch wurde nach dem Krieg von ihrem Vater veröffentlicht. Heute ist es in über 70 Sprachen übersetzt und eines der meistgelesenen Bücher der Welt. Es zeigt, wie ein ganz normales Mädchen den Terror der Nazis erlebte.",
       keywords: ["Anne Frank", "Kindheit", "Tagebuch", "Verfolgung"],
       sources: [
@@ -203,7 +203,7 @@ window.DEEPDIVE_WW2 = {
       title: "Kriegsende in Europa",
       short: "Deutschland kapituliert — der Krieg in Europa ist zu Ende.",
       description: "Am 8. Mai 1945 kapitulierte Deutschland bedingungslos. Der Krieg in Europa war vorbei. Die Menschen feierten das Ende des Schreckens, aber die Freude war von tiefer Trauer überschattet. Ganz Europa lag in Trümmern. Millionen Menschen waren tot, verwundet, vertrieben oder traumatisiert. Viele Städte waren durch Bomben zerstört, auch in Österreich. Die Überlebenden der Konzentrationslager mussten einen Weg zurück ins Leben finden — viele hatten ihre gesamte Familie verloren. Der 8. Mai wird heute als Tag der Befreiung gefeiert — als Erinnerung daran, dass Frieden keine Selbstverständlichkeit ist.",
-      funFact: "Wusstest du? In Österreich wird der 8. Mai nicht als Feiertag begangen, aber in vielen Ländern ist er ein wichtiger Gedenktag. In Frankreich heißt er „Jour de la Victoire" (Tag des Sieges).",
+      funFact: "Wusstest du? In Österreich wird der 8. Mai nicht als Feiertag begangen, aber in vielen Ländern ist er ein wichtiger Gedenktag. In Frankreich heißt er „Jour de la Victoire“ (Tag des Sieges).",
       keywords: ["Kapitulation", "Kriegsende", "Befreiung", "Frieden"],
       sources: [
         { title: "Tag der Befreiung — Wikipedia", url: "https://de.wikipedia.org/wiki/Tag_der_Befreiung" }
@@ -216,7 +216,7 @@ window.DEEPDIVE_WW2 = {
       dateNumeric: 1945.8,
       title: "Die Nürnberger Prozesse",
       short: "Zum ersten Mal werden Kriegsverbrecher vor ein internationales Gericht gestellt.",
-      description: "Nach dem Krieg wurden die Anführer des NS-Regimes vor Gericht gestellt. In Nürnberg — der Stadt, in der einst die rassistischen Gesetze beschlossen wurden — mussten sich die Hauptverantwortlichen für ihre Verbrechen verantworten. Zum ersten Mal in der Geschichte gab es ein internationales Gericht für Kriegsverbrechen und Verbrechen gegen die Menschlichkeit. Zwölf Angeklagte wurden zum Tod verurteilt, andere zu Gefängnisstrafen. Die Nürnberger Prozesse setzten ein wichtiges Zeichen: Auch mächtige Anführer stehen nicht über dem Gesetz. Niemand darf sich damit herausreden, nur „Befehle befolgt" zu haben.",
+      description: "Nach dem Krieg wurden die Anführer des NS-Regimes vor Gericht gestellt. In Nürnberg — der Stadt, in der einst die rassistischen Gesetze beschlossen wurden — mussten sich die Hauptverantwortlichen für ihre Verbrechen verantworten. Zum ersten Mal in der Geschichte gab es ein internationales Gericht für Kriegsverbrechen und Verbrechen gegen die Menschlichkeit. Zwölf Angeklagte wurden zum Tod verurteilt, andere zu Gefängnisstrafen. Die Nürnberger Prozesse setzten ein wichtiges Zeichen: Auch mächtige Anführer stehen nicht über dem Gesetz. Niemand darf sich damit herausreden, nur „Befehle befolgt“ zu haben.",
       funFact: "Wusstest du? Die Nürnberger Prozesse legten den Grundstein für den Internationalen Strafgerichtshof in Den Haag, der bis heute Kriegsverbrecher auf der ganzen Welt vor Gericht stellt.",
       keywords: ["Nürnberger Prozesse", "Gerechtigkeit", "Kriegsverbrechen", "Verantwortung"],
       sources: [
@@ -230,8 +230,8 @@ window.DEEPDIVE_WW2 = {
       dateNumeric: 1945.9,
       title: "Erinnern und Nie wieder",
       short: "Warum wir uns erinnern müssen — und was jeder Einzelne tun kann.",
-      description: "Die Erinnerung an den Holocaust und den Zweiten Weltkrieg ist eine Verantwortung, die uns alle betrifft. In ganz Österreich und Europa gibt es Gedenkstätten, Denkmäler und „Stolpersteine" — kleine Messingtafeln im Boden, die an ermordete Menschen erinnern. Zeitzeugen — Menschen, die den Krieg selbst erlebt haben — erzählen ihre Geschichten, damit wir aus der Vergangenheit lernen. Es gibt immer weniger Zeitzeugen, deshalb ist es so wichtig, dass wir ihre Geschichten weitererzählen. „Nie wieder" bedeutet: aufmerksam sein, wenn Menschen ausgegrenzt werden. Laut sprechen, wenn Unrecht geschieht. Und jeden Menschen mit Würde und Respekt behandeln — egal woher er kommt, wie er aussieht oder woran er glaubt.",
-      funFact: "Wusstest du? „Stolpersteine" sind das größte dezentrale Mahnmal der Welt. Der Künstler Gunter Demnig hat über 100.000 dieser kleinen Gedenksteine in ganz Europa verlegt — jeder einzelne erinnert an einen Menschen, der von den Nazis verfolgt und ermordet wurde.",
+      description: "Die Erinnerung an den Holocaust und den Zweiten Weltkrieg ist eine Verantwortung, die uns alle betrifft. In ganz Österreich und Europa gibt es Gedenkstätten, Denkmäler und „Stolpersteine“ — kleine Messingtafeln im Boden, die an ermordete Menschen erinnern. Zeitzeugen — Menschen, die den Krieg selbst erlebt haben — erzählen ihre Geschichten, damit wir aus der Vergangenheit lernen. Es gibt immer weniger Zeitzeugen, deshalb ist es so wichtig, dass wir ihre Geschichten weitererzählen. „Nie wieder“ bedeutet: aufmerksam sein, wenn Menschen ausgegrenzt werden. Laut sprechen, wenn Unrecht geschieht. Und jeden Menschen mit Würde und Respekt behandeln — egal woher er kommt, wie er aussieht oder woran er glaubt.",
+      funFact: "Wusstest du? „Stolpersteine“ sind das größte dezentrale Mahnmal der Welt. Der Künstler Gunter Demnig hat über 100.000 dieser kleinen Gedenksteine in ganz Europa verlegt — jeder einzelne erinnert an einen Menschen, der von den Nazis verfolgt und ermordet wurde.",
       keywords: ["Gedenken", "Stolpersteine", "Zeitzeugen", "Nie wieder"],
       sources: [
         { title: "Stolpersteine — Wikipedia", url: "https://de.wikipedia.org/wiki/Stolpersteine" },

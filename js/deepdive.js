@@ -19,10 +19,14 @@ const DeepDive = {
         this.periodMap = {};
         data.periods.forEach(p => { this.periodMap[p.id] = p; });
 
-        // Hide all views, show deepdive
-        document.querySelectorAll('.view').forEach(v => v.hidden = true);
-        var ddView = document.getElementById('view-deepdive');
-        if (ddView) ddView.hidden = false;
+        // Use App.showView for proper view state management (nav, hash, header)
+        if (typeof App !== 'undefined' && App.showView) {
+            App.showView('deepdive');
+        } else {
+            document.querySelectorAll('.view').forEach(v => v.hidden = true);
+            var ddView = document.getElementById('view-deepdive');
+            if (ddView) ddView.hidden = false;
+        }
 
         this.renderHero();
         this.renderPeriodFilter();
