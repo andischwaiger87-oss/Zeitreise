@@ -2171,6 +2171,9 @@ h1, h2, h3, h4 {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xl);
 }
 
 /* DeepDive CTA in modal */
@@ -2510,6 +2513,7 @@ h1, h2, h3, h4 {
     .timeline-line { display: none; }
 
     .timeline-list { gap: var(--space-md); }
+    .deepdive-timeline { gap: var(--space-md); }
 
     .timeline-event,
     .timeline-event:nth-child(odd) {
@@ -2547,8 +2551,8 @@ h1, h2, h3, h4 {
     .modal { padding: 0; }
 
     .modal-content {
-        max-height: 100vh;
-        height: 100vh;
+        max-height: 100dvh;
+        height: 100dvh;
         border-radius: 0;
         animation: modal-in-mobile 0.3s ease;
     }
@@ -2571,10 +2575,16 @@ h1, h2, h3, h4 {
     }
 
     .modal-close {
-        top: var(--space-sm);
+        position: sticky;
+        top: calc(var(--space-sm) + env(safe-area-inset-top, 0px));
         right: var(--space-sm);
-        width: 36px;
-        height: 36px;
+        width: 44px;
+        height: 44px;
+        margin-left: auto;
+        margin-right: var(--space-sm);
+        margin-top: var(--space-sm);
+        margin-bottom: calc(-44px - var(--space-sm));
+        flex-shrink: 0;
     }
 
     .modal-image-caption h2 { font-size: 1.3rem; }
